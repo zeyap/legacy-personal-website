@@ -11,3 +11,5 @@
   <div class="cover-meta">{{ page.cover_meta | markdownify }}</div>
 </div>
 {% endif %}
+
+{% if page.layout=='page' %}{% include cover-image.html %}{% endif %}
