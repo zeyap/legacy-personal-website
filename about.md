@@ -1,19 +1,12 @@
 ---
 layout: page
 title: About
+navlevel: header
+#navtitle: Awesome Title # optional, specifies the text to display on navigation item
+position: 3
 permalink: /about/
 ---
 
-Psychology major & Digital Media minor @ ZJU
 
-* research on Human-Computer Interaction & Cognitive Psychology topics
-
-* code in MATLAB & C/C++
-
-[CV](https://github.com/zeyap/zeyap.github.io/raw/master/cv.pdf)
-
-20170701
-{% include icon-github.html username="zeyap" %} /
-[Zeya Peng](https://github.com/zeyap)
-
+[Resume](https://github.com/zeyap/zeyap.github.io/raw/master/resume.pdf)
 
