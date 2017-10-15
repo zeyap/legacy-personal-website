@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+{% include site-nav.html %}
+
+{% include header.html %}
+
+<ul class="portfolio-list">
+{% for rule in page.filter %}
+{% assign posts = site.posts %}
+{% if rule.by_tag %}
+{% assign posts = posts | where_exp: "post", "post.tags contains rule.by_tag" %}
+{% endif %}
+{% if rule.by_expression %}
+{% assign posts = posts | where_exp: "post", rule.by_expression %}
+{% endif %}
+{% for post in posts %}
+{% assign posts = posts | append: " " | append: post.path %}
+{% endfor %}
+{% endfor %}
+{% if posts %}
+{% assign posts = posts | split: " " | sort | uniq %}
+{% assign posts = site.posts | where_exp: "post", "posts contains post.path" %}
+{% else %}
+{% assign posts = site.posts %}
+{% endif %}
+{% for post in posts %}
+    {% if post.category == 'portfoliowork' %}
+        {% include post-list-item.html %}
+    {% endif %}
+{% endfor %}
+</ul>

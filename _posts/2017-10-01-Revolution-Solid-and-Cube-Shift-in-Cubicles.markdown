@@ -2,7 +2,7 @@
 layout: post
 title: "Revolution Solid and Cube Shift in Cubicles"
 date:   2017-10-01 12:50:00 +0800
-categories: other
+category: portfoliowork
 ---
 
 # Revolution Solid

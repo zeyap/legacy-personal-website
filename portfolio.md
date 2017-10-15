@@ -1,5 +1,5 @@
 ---
-layout: post-list
+layout: portfolio-list
 
 title: Portfolio
 navlevel: header
