@@ -3,7 +3,7 @@ layout: post
 title: "Cubicles"
 date:   2017-10-01 12:50:00 +0800
 category: portfoliowork
-coverpic: "cubicles.png"
+coverpic: "/assets/images/coverpics/cubicles.png"
 description: "Minigame collections training engineering freshmen's visuospatial skills"
 ---
 
@@ -22,6 +22,6 @@ The player will view a 3D grid with 3 (or more) cubes that shift for a few steps
 
 The game measures memory aspect of spatial abilities. It taps into two strong indicators of spatial abilities, working memory span and short-term memory (Miyake, et al., 2001), by requiring students to direct their attention to the image on the cubes regardless of the distraction of shifting movement, and to retain memory of previous configurations of the cube. The gameplay resembles the n-back tasks by Wayne Kirchner and Dot Memory task that taps into STM (participants briefly view a 2D grid with dots shown in sequence inside of it, after the dots disappear they indicate the dot locations in an answer grid).
  
-![Aaron Swartz](https://github.com/zeyap/zeyap.github.io/raw/master/tutorial.png)
+![Aaron Swartz](/assets/images/tutorial.png)
 
 `Miyake, A., Friedman, N. P., Rettinger, D. A., Shah, P., & Hegarty, M. (2001). How are visuospatial working memory, executive functions and spatial abilities related? a latent variable analysis. Journal of Experimental Psychology General, 130(4), 621-40.`

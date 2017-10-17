@@ -7,7 +7,7 @@
     {% endif %}
     {% if post.coverpic %}
     <div class="post-cover-wrapper">
-        <img src="https://github.com/zeyap/zeyap.github.io/raw/master/coverpics/ {{ post.coverpic }}" alt="" />
+        <img src="{{ post.coverpic| relative_url }}" alt="" />
     </div>
     {% endif %}
     <div class="post-item-meta">
