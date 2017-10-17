@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Revolution Solid and Cube Shift in Cubicles"
+title: "Cubicles"
 date:   2017-10-01 12:50:00 +0800
 category: portfoliowork
+coverpic: "cubicles.png"
+description: "Minigame collections training engineering freshmen's visuospatial skills"
 ---
 
 # Revolution Solid
