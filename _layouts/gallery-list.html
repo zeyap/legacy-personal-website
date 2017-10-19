@@ -2,11 +2,7 @@
 layout: default
 ---
 
-{% include site-nav.html %}
-
-{% include header.html %}
-
-<ul class="post-list">
+<div class="gallery">
     {% for rule in page.filter %}
     {% assign posts = site.posts %}
     {% if rule.by_tag %}
@@ -30,7 +26,7 @@ layout: default
     {% endif %}
     {% for post in posts %}
     {% if post.category == 'portfoliowork' %}
-    {% include post-list-item-with-coverpic.html %}
+    {% include gallery-list-item.html %}
     {% endif %}
     {% endfor %}
-</ul>
+</div>

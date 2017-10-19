@@ -9,7 +9,7 @@ description: "Maya modeling coursework"
 
 A 3D model made in Maya as the final project for the course "Fundamentals of Modeling". 
 Its archetype is <em>Southern Song Imperial Street (南宋御街)</em> located in downtown Hangzhou.
- 
+
 ![Aaron Swartz](/assets/images/model_archetype.png)
 
 ![image@2x](/assets/images/model_overview.jpg){:.retina2x}

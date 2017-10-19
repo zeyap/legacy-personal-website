@@ -5,11 +5,20 @@ layout: blank
 <body>
 
   <main class="page-content" aria-label="Content">
-    <div class="wrapper">
-      {{ content }}
-    </div>
-    {% include retina-image.html %}
-  </main>
+      <div class="wrapper">
+          {% include site-nav.html %}
+          {% include header.html %}
+      </div>
+
+      {% if page.layout=='gallery-list' %}
+      <div class="wrapper-gallery">
+       {% else %}
+      <div class="wrapper">
+       {% endif %}
+        {{ content }}
+      </div>
+      {% include retina-image.html %}
+ </main>
 
   {% include footer.html %}
 

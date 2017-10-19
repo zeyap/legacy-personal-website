@@ -232,6 +232,25 @@ article {
   color: #fff;
 }
 
+//gallery
+
+.gallery div.item .item-inner {
+}
+
+.gallery div.item .item-title {
+  font-size: 1.4em;
+}
+
+.gallery div.item .item-description {
+  font-size: 0.875em;
+}
+
+.gallery div.item .item-meta {
+  font-variant-caps: all-petite-caps;
+  color: lighten($content-color, 40%);
+}
+////
+
 .site-title, .site-title:visited, .site-title:hover {
   margin-left: 3px;
 }

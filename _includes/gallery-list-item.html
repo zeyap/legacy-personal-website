@@ -1,0 +1,27 @@
+<div class="item" data-tags="{{ post.tags | join: " " }}">
+    <a class="item-inner" href="{{ post.url | relative_url }}" data-date="{{ post.date | date: "%m-%d"  }}">
+        <div class="item-title"> {{ post.title | escape }} </div>
+           {% if post.description %}
+        <div class="item-description">{{ post.description }}</div>
+        {% endif %}
+        <div class="item-meta">
+            {{ post.date | date: "%B %-d, %Y" }}
+            /
+            {% capture lang %}{{ post.lang | default: site.lang | default: "en" }}{% endcapture %}
+            {% if lang == "en" %}
+            {% capture words %}{{ post.content | strip_html | number_of_words  }}{% endcapture %}
+            {% else %}
+            {% capture words %}{{ post.content | strip_html | size }}{% endcapture %}
+            {% endif %}
+            {% unless words contains "-" %}
+            {{ words | plus: 250 | divided_by: 250 | append: " minute read"  }}
+            {% endunless %}
+        </div>
+        {% if post.coverpic %}
+        <div class="item-image">
+            <img src="{{ post.coverpic| relative_url }}" alt="" />
+        </div>
+        {% endif %}
+    </a>
+    
+</div>
