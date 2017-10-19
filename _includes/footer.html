@@ -21,8 +21,15 @@
       </a>
     </div>
     <div class="credits">
-      KAGAMI, made with <i class="icon-heart"></i> by Kamikat
+      forked from KAGAMI by Kamikat
     </div>
   </div>
+
+    {% if page.layout != 'gallery' %}
+     <div class="wrapper-gallery">
+            {% include gallery-list.html %}
+     </div>
+     {% endif %}
+
 
 </footer>

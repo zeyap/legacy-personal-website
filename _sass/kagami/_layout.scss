@@ -33,7 +33,7 @@ body {
   margin: 0 auto;
   padding-left: $content-padding;
   padding-right: $content-padding;
-  @media screen and (min-width: $gallery-width) {
+  @media screen and (min-width: $content-width) {
     padding-left: $content-padding + $post-margin-width;
     padding-right: $content-padding + $post-margin-width;
   }
@@ -202,7 +202,7 @@ article {
   background-color: #fff;
   position: relative;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  max-width: 330px;
+  max-width: 400px;
   height: 100%;
   display: inline-block;
   width: 100%;

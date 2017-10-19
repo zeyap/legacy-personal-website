@@ -1,5 +1,5 @@
 ---
-layout: gallery-list
+layout: gallery
 
 title: Portfolio
 navlevel: header
