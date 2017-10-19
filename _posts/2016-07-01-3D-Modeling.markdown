@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "A Little Taste of Hangzhou"
+title: "3D Model Gallery"
 date:   2016-07-01 12:50:00 +0800
 category: portfoliowork
 coverpic: "/assets/images/coverpics/model.jpg"
 description: "Maya modeling coursework"
 ---
 
-A 3D model made in Maya. 
-The archetype is Southern Song Imperial Street (南宋御街) located in downtown Hangzhou.
+A 3D model made in Maya as the final project for the course "Fundamentals of Modeling". 
+Its archetype is Southern Song Imperial Street (南宋御街) located in downtown Hangzhou.
  
 ![Aaron Swartz](/assets/images/model_archetype.png)
 
