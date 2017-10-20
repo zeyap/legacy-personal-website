@@ -208,6 +208,11 @@ article {
   font-size: 0.68em;
 }
 
+.footer-email {
+  color: lighten($content-color, 20%);
+  font-size: 0.90em;
+}
+
 .post-list {
   @include scut-list-unstyled;
 }

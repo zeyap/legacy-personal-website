@@ -24,9 +24,13 @@ layout: default
   {% else %}
   {% assign posts = site.posts %}
   {% endif %}
+
+    {% for rule in page.filter %}
   {% for post in posts %}
-    {% if post.category != 'portfoliowork' %}
+    {% if post.category == rule %}
     {% include post-list-item.html %}
     {% endif %}
   {% endfor %}
+    {% endfor %}
+
 </ul>

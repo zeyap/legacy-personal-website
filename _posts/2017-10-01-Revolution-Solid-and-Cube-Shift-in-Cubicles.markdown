@@ -2,7 +2,8 @@
 layout: post
 title: "Cubicles"
 date:   2017-10-01 12:50:00 +0800
-category: portfoliowork
+category: design
+filter: design
 coverpic: "/assets/images/coverpics/cubicles.png"
 description: "Minigame collections training engineering freshmen's visuospatial skills"
 ---

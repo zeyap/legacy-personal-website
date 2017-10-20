@@ -1,35 +1,44 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
-    <div class="social-links">
-      <a class="social-link social-github" href="https://github.com/{{ site.github_username }}">
-        <i class="icon-github"></i>
-      </a>
-        <a class="social-link social-twitter" href="https://douban.com/people/{{ site.douban_username }}">
-            <i class="icon-heart"></i>
-        </a>
-        <!-- 
-      <a class="social-link social-twitter" href="https://twitter.com/{{ site.twitter_username }}">
-        <i class="icon-twitter"></i>
-      </a>
-      <a class="social-link social-instagram" href="https://instagram.com/{{ site.instagram_username }}">
-        <i class="icon-instagram"></i>
-      </a> -->
-      
-      <a class="social-link social-rss" href="{{ "/feed.xml" | relative_url  }}" target="_blank">
-        <i class="icon-rss"></i>
-      </a>
-    </div>
-    <div class="credits">
-      forked from KAGAMI by Kamikat
-    </div>
-  </div>
+    <div class="wrapper">
+        <div class="social-links">
+            <a class="social-link social-github" href="https://github.com/{{ site.github_username }}">
+                <i class="icon-github"></i>
+            </a>
+            <a class="social-link social-heart" href="https://www.pixiv.net/member.php?id={{ site.pixiv_username }}">
+                <i class="icon-heart"></i>
+            </a>
+            <a class="social-link social-steam" href="http://steamcommunity.com/profiles/{{ site.steam_username }}">
+                <i class="icon-steam"></i>
+            </a>
+            <!--
+            <a class="social-link social-twitter" href="https://twitter.com/{{ site.twitter_username }}">
+              <i class="icon-twitter"></i>
+            </a>
+            <a class="social-link social-instagram" href="https://instagram.com/{{ site.instagram_username }}">
+              <i class="icon-instagram"></i>
+            </a>
 
-    {% if page.layout != 'gallery' %}
+            <a class="social-link social-rss" href="{{ "/feed.xml" | relative_url  }}" target="_blank">
+              <i class="icon-rss"></i>
+            </a> -->
+        </div>
+
+        <div class="credits">
+            forked from KAGAMI by Kamikat
+        </div>
+        <div class="footer-email">
+            E: zeyapeng (a) outlook.com
+        </div>
+  </div>
+     {% if page.layout == 'post' %}
      <div class="wrapper-gallery">
+         
             {% include gallery-list.html %}
      </div>
      {% endif %}
+        
+    
 
 
 </footer>

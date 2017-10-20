@@ -4,8 +4,8 @@ layout: gallery
 title: Portfolio
 navlevel: header
 
-position: 2
-permalink: /portfolio/
----
+filter: [design, research]
 
-Test
+position: 2
+permalink: /all/
+---

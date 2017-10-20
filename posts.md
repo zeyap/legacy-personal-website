@@ -4,7 +4,9 @@ layout: post-list
 title: Posts
 navlevel: header
 
-position: 3
+filter: other
+
+position: 99
 permalink: /posts/
 ---
 

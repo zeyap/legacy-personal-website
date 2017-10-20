@@ -16,15 +16,19 @@
     {% assign posts = posts | append: " " | append: post.path %}
     {% endfor %}
     {% endfor %}
+
     {% if posts %}
     {% assign posts = posts | split: " " | sort | uniq %}
     {% assign posts = site.posts | where_exp: "post", "posts contains post.path" %}
     {% else %}
     {% assign posts = site.posts %}
     {% endif %}
+
+    {% for rule in page.filter %}
     {% for post in posts %}
-    {% if post.category == 'portfoliowork' %}
+    {% if post.category == rule %}
     {% include gallery-list-item.html %}
     {% endif %}
+    {% endfor %}
     {% endfor %}
 </div>
