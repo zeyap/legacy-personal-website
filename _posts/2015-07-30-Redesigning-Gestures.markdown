@@ -35,10 +35,6 @@ User-defined approach, first proposed by Wobbrock et al.(2009), was effective fo
 
 {% include flowcharts/chart1.html %}
 
-<div> 
-	<div id="canvas"></div>
-</div>
-
  <h2>Goal of research</h2>
  * Use the gesture elicitation approach, extend it to other body parts (aside from hand gestures)
  * Improve the validity of rating index
