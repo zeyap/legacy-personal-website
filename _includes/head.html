@@ -19,8 +19,12 @@
   <style>.MathJax_ExBox { font-family: serif; }</style>
   {% endif %}
 
+    {% if page.flowchart %}
     <script src="/assets/js/raphael.min.js"></script>
     <script src="/assets/js/flowchart-latest.js"></script>
+    <script src="/assets/js/drawflowchart.js"></script>
+    <script src="/assets/js/charts_in_post/{{page.flowchart}}.js"></script>
+    {% endif %}
 
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
