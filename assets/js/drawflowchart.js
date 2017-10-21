@@ -1,4 +1,4 @@
-function fun(cd,canvas) {
+function fun(cd,canvas,maxWidth) {
     var code =
     cd,
 
@@ -13,9 +13,9 @@ function fun(cd,canvas) {
         //'x': 30,
         // 'y': 50,
         'line-width': 3,
-        'maxWidth': 240,//ensures the flowcharts fits within a certian width
-        'line-length': 50,
-        'text-margin': 30,
+        'maxWidth': maxWidth,//ensures the flowcharts fits within a certian width
+        'line-length': 20,
+        'text-margin': 20,
         'font-size': 14,
         'font': 'normal',
         'font-family': 'Helvetica',
@@ -30,21 +30,24 @@ function fun(cd,canvas) {
         'scale': 1,
         'symbols': {
             'start': {
-                'font-color': 'grey',
-                'element-color': 'green',
-                'fill': 'yellow'
+                //'font-color': 'grey',
+                //'element-color': 'green',
+                //'fill': 'yellow',
             },
             'end': {
-                'class': 'end-element'
+                'class': 'end-element',
+            },
+            'inputoutput': {
+                'maxWidth': 300,
             }
         },
         'flowstate': {
-            'past': { 'fill': '#CCCCCC', 'font-size': 14 },
+            'past': { 'fill': '#d4e976' },
             'current': { 'fill': 'yellow', 'font-color': 'red', 'font-weight': 'bold' },
             'future': { 'fill': '#FFFF99' },
-            'request': { 'fill': 'blue' },
+            'request': { 'fill': '#fee17c' },
             'invalid': { 'fill': '#444444' },
-            'approved': { 'fill': '#58C4A3', 'font-size': 12, 'yes-text': 'APPROVED', 'no-text': 'n/a' },
+            'approved': { 'fill': '#fea17d', 'font-color': 'white' },
             'rejected': { 'fill': '#C45879', 'font-size': 12, 'yes-text': 'n/a', 'no-text': 'REJECTED' }
         }
     });

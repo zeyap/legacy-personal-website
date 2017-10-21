@@ -39,13 +39,21 @@ User-defined approach, first proposed by Wobbrock et al.(2009), was effective fo
 </div>
  <h2>Goal of research</h2>
  * Use the gesture elicitation approach, extend it to other body parts (aside from hand gestures)
- * Improve the validity of rating index
-
-
- <h3>Findings</h3>
-
+ * Improve the validity of rating index, combining: **gesture frequency, subjective ratings, and physiological risk ratings**
+<h3>Overview</h3>
   <div>
- <div id="canvas1"></div>
- </div>
+    <div id="canvas2"></div>
+</div>
 
+<h2>Determine command set</h2>
 
+The **most important 15 commands** were selected step-by-step
+1. Listed all commands used in past 3D gestural studies
+2. Removed tasks that are related to specific contexts, i.e. TV and games
+3. 4 expert users ranked commands by importance and frequency in previous studies in 5-point Likert scale. We selected those with importance>3 and frequency>2
+4. Surveyed online to select among the remaining commands by importance (M = 3.53, SD = 1.42)
+
+<h2>Gesture Elicitation</h2>
+![gesture_1](/assets/images/gesture_1.png)
+
+<h2>Gesture Reassessment</h2>
