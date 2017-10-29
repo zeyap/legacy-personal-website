@@ -1,8 +1,8 @@
 
 window.onload = function () {
-    fun(cd, 'canvas',240);
+    fun(cd, 'canvas',200);
     fun(cd2, 'canvas2', 150);
-    //fun(cd3, 'canvas3', 400);
+    fun(cd3, 'canvas3', 150);
 };
 
 var cd = 'op1=>operation: To each participant, demonstrate the outcome of an operation, then make him to perform at least one gesture that trigger it\n' +
@@ -19,7 +19,7 @@ var cd2 = 'op0=>start: Determine the most relevant commands in a gesture interac
     'ed=>end: Propose a gesture set for commonly used interaction commands|approved\n' +
     'op0->io1->op1(right)->op1_1->op2->io2->op3(right)->ed\n';
 
-var cd3 = 'op1=>operation: Instructions\n' +
-    'op2=>operation: Proposal\n' +
-    'op3=>operation: Assessment\n' +
-    'op1->op2->op3\n';
+var cd3 = 'op1=>operation: To each participant, demonstrate the outcome of an operation\n' +
+                     'op2=>operation: Participants perform existing corresponding gestures according to written description\n' +
+                     'op3=>operation: Participants assess gestures\n'+
+                     'op1(right)->op2(right)->op3';

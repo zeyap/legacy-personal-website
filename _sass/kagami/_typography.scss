@@ -5,10 +5,11 @@
 
 body {
   color: $content-color;
+  background-color: $background-color;
   font-size: font-size();
   font-weight: 300;
   font-kerning: normal;
-  border-top: 2px solid currentColor;
+  border-top: 2px solid $main-color;
 }
 
 a, a:hover, a:visited {
@@ -21,11 +22,16 @@ h1, h2, h3, h4, h5, h6, p {
   display: block;
 }
 
-h1 { font-size: 1.8em; }
-h2 { font-weight: bold; font-size: 1.4em; }
-h3 { font-weight: bold; font-size: 1.2em; }
+h1 { color: $main-color; font-weight: bold; font-size: 3.0em; }
+h2 { color: lighten($title-color,0); font-weight: bold; font-size: 2.5em; }
+h3 { color: #dcdcdc;font-weight: bold; font-size: 1.5em; background-color:#fff;}
 h4 { font-weight: bold; }
 h5 { font-weight: bold; }
+
+highlight
+{
+    background-color:#fff
+}
 
 article {
 
@@ -40,7 +46,6 @@ article {
       opacity: 0.08;
     }
   }
-
   h3::before { content: "##"; }
   h4::before { content: "###"; }
   h5::before { content: "####"; }
@@ -48,6 +53,10 @@ article {
 
   p {
     hanging-punctuation: allow-end; // no browser supports this rule
+  }
+
+  table,th,td{
+      color:lighten($main-color,10%);
   }
 
   .aside, .sidenote, .side-note {
@@ -126,6 +135,7 @@ article {
 }
 
 .site-nav {
+    color: $main-color;
   font-size: 0.875em;
   font-variant-caps: all-petite-caps;
   letter-spacing: 0.12em;
@@ -136,13 +146,14 @@ article {
 }
 
 .site-nav:hover {
-  color: lighten($content-color, 50%);
+  color: lighten($main-color, 50%);
   .page-link:hover {
-    color: $content-color;
+    color: $main-color;
   }
 }
 
 .post-title {
+   color: $title-color;
   word-break: keep-all;
   margin-top: -0.5 * $font-size;
 }
@@ -169,7 +180,7 @@ article {
 }
 
 .post-footer {
-  color: lighten($content-color, 50%);
+  color: lighten($main-color, 50%);
   font-size: 0.875em;
   @include scut-clearfix;
 
@@ -181,12 +192,13 @@ article {
     @include scut-list-punctuated(" / ");
     .tag-link {
       transition: color 0.2s ease-out;
-      &:hover { color: lighten($content-color, 20%); }
+      &:hover { color: lighten($main-color, 20%); }
     }
   }
 }
 
-.social-link {
+.social-link, .social-links {
+  color:$main-color;
   $size: 2em;
   display: inline-block;
   width: $size;
@@ -198,18 +210,17 @@ article {
 .social-link:hover {
   transform: translateY(-0.25em);
   &.social-github { color: #333; }
-  &.social-twitter { color: #1da1f2; }
-  &.social-instagram { color: #e1306c; }
-  &.social-rss { color: #f26522; }
+  &.social-heart { color: #00c1ff; }
+  &.social-steam { color: #1899db; }
 }
 
 .credits {
-  color: lighten($content-color, 50%);
+  color: lighten($main-color, 50%);
   font-size: 0.68em;
 }
 
 .footer-email {
-  color: lighten($content-color, 20%);
+  color: lighten($main-color, 20%);
   font-size: 0.90em;
 }
 

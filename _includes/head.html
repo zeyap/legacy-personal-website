@@ -26,6 +26,14 @@
     <script src="/assets/js/charts_in_post/{{page.flowchart}}.js"></script>
     {% endif %}
 
+    {% if page.highchart %}
+    <script src="/assets/highcharts/highcharts.js"></script>
+    <script src="/assets/highcharts/modules/exporting.js"></script>
+    <script src="https://img.hcharts.cn/jquery/jquery-1.8.3.min.js"></script>
+    <script src="https://img.hcharts.cn/highcharts/modules/drilldown.js"></script>
+    
+    {% endif %}
+
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
   {% endif %}

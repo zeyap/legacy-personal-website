@@ -44,11 +44,11 @@ function fun(cd,canvas,maxWidth) {
         'flowstate': {
             'past': { 'fill': '#d4e976' },
             'current': { 'fill': 'yellow', 'font-color': 'red', 'font-weight': 'bold' },
-            'future': { 'fill': '#FFFF99' },
-            'request': { 'fill': '#fee17c' },
+            'future': { 'fill': '#99cccc' },
+            'request': { 'fill': '#ffffff' },
             'invalid': { 'fill': '#444444' },
-            'approved': { 'fill': '#fea17d', 'font-color': 'white' },
-            'rejected': { 'fill': '#C45879', 'font-size': 12, 'yes-text': 'n/a', 'no-text': 'REJECTED' }
+            'approved': { 'fill': '#336699', 'font-color': 'white' },
+            'rejected': { 'fill': '#85bfb0', 'font-size': 12, 'yes-text': 'n/a', 'no-text': 'REJECTED' }
         }
     });
 
