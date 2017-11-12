@@ -2,9 +2,9 @@ $content-padding: $spacing-unit / 2;
 $post-margin-width: 2 * $spacing-unit;
 $post-header-spacing: 3.5 * $spacing-unit;
 $post-footer-spacing: 3 * $spacing-unit;
-$gallery-width: 1500px;
 
 html {
+  zoom: 0.8;
   height: 100%;
   overflow-x: hidden;
 }
@@ -16,6 +16,7 @@ body {
 }
 
 .wrapper {
+    
   width: 100%;
   max-width: $content-width;
   margin: 0 auto;
@@ -25,6 +26,7 @@ body {
     padding-left: $content-padding + $post-margin-width;
     padding-right: $content-padding + $post-margin-width;
   }
+
 }
 
 .wrapper-gallery {
@@ -39,15 +41,34 @@ body {
   }
 }
 
+
 article {
+
+  background-color: $background-color-article;
+  position: relative;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 30px 0; //t/r/b/l
+  padding:50px;
 
   $vspacing: $spacing-unit;
   $hspacing: $spacing-unit / 2;
 
   h1, h2, h3, h4, h5, h6, p, ul, ol, pre, hr, blockquote, img:only-child {
+
     display: block;
     margin: $vspacing auto;
   }
+
+  img{
+      background-color: #ffffff;
+      //display: inline-block;
+      padding:10px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
 
   li > ul, li > ol {
     margin-top: 0;
@@ -73,11 +94,23 @@ article {
   }
 
   blockquote {
-    margin-left: 0.5 * $spacing-unit;
-    margin-right: 0.5 * $spacing-unit;
+      
+    margin-left: -$post-margin-width;
+    margin-right: $vspacing;
     @media screen and (min-width: $content-width) {
-      margin-left: $spacing-unit;
-      margin-right: $spacing-unit;
+      margin-left: -$post-margin-width;
+      margin-right: $vspacing;//$spacing-unit;
+    
+
+      background-color: $background-color-float;
+        position: relative;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+        float: right;
+        //margin-left: -$post-margin-width;
+        //margin-right: $vspacing;
+        padding: 30px;
+
     }
     cite {
       display: block;
@@ -85,14 +118,21 @@ article {
       margin-top: -$spacing-unit;
       white-space: nowrap;
     }
+
   }
 
   .aside, .sidenote, .side-note {
-    width: 160px;
-    float: left;
-    margin-left: -$post-margin-width;
-    margin-right: $vspacing;
-    padding: 0;
+    color: $main-color;
+    background-color: $background-color-float;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+
+    width: 300px;
+    float: right;
+    margin-left: $vspacing;
+    margin-right: -$post-margin-width;
+    padding: 30px;
   }
 
   @media screen and (max-width: $content-width) {

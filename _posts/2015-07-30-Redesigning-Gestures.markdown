@@ -10,11 +10,6 @@ highchart: highchart1
 description: "User defined gestures for gestural interaction"
 ---
 
->We extended a hand gesture set to one involving hand and non-hand gestures, in the user-defined approach, combining the indices of gesture frequency, subjective ratings and physiological risk ratings.
-
->More information are available in the full paper. [Download](http://www.tandfonline.com/doi/pdf/10.1080/10447318.2017.1342943?needAccess=true).
-
-
 **Clients**|**Skills**
  <highlight>Group Research Project for Summer Session</highlight>|<highlight>Psychometrics, Experiment design, MATLAB Programming</highlight>
  |
@@ -24,7 +19,8 @@ description: "User defined gestures for gestural interaction"
 **Duration**|
  <highlight>JUL - DEC 2015</highlight>|
 
- * * *
+>We extended a hand gesture set to one involving hand and non-hand gestures, in the user-defined approach, combining the indices of gesture frequency, subjective ratings and physiological risk ratings. More information are available in the full paper. [Download](http://www.tandfonline.com/doi/pdf/10.1080/10447318.2017.1342943?needAccess=true).
+
 
 **Is body gesture interaction *natural* at all?**
 
@@ -32,15 +28,15 @@ Gestures in HCI at present are unnatural and are difficult to learn and memorize
 
 The bad compatibility between gestures and commands can be an issue since its design process. The distinct mental models of interactions between users and designers separate their gesture preferences and result in user unfriendly gesture design.
 
- <h2>Goal of research</h2>
+ <h2>Goal of Research</h2>
  * Use a gesture elicitation approach, extend gesture set to human's all body parts (aside from hand gestures)
  * Create a valid index to determine best gestures
-<h3> OVERVIEW</h3>
+<h3><u>Overview</u></h3>
   <div>
     <div id="canvas2"></div>
 </div>
 
-<h2>Command set selection</h2>
+<h2>Command Set Selection</h2>
 
 The **most important 15 commands** were selected step-by-step
 1. Listed all commands used in past 3D gestural studies
@@ -57,10 +53,11 @@ User-defined approach, first proposed by Wobbrock et al.(2009), was effective fo
  <div>
     <div id="canvas"></div>
 </div>
-<h3> Experiment design</h3>
+Illustrated below was our experiment design.
+<h3><u>Experiment design</u></h3>
 ![gesture_1](/assets/images/gesture_1.png)
-<h3> Results</h3>
-<h4>STEP 1. Identify gestures</h4>
+<h3><u>Results</u></h3>
+<h4>STEP 1. Identify Gestures</h4>
 This is to group gestures that are essentially identical, among 701 gestures proposed by different participants. Then we obtain our initial gesture set.
 
 We used a theoretical ***taxonomy*** (Wobbrock 2009) to achieve this. Gestures identical along all 4 dimensions on taxonomy are considered one same gesture.
@@ -81,7 +78,7 @@ Taxonomy Dimension -
 **Select to see the stacked graph*
 
 <div id="container" style="width:100%; height:400px;"></div>
-<h5>Mental model observations</h5>
+<h5>Mental Model Observations</h5>
 * <highlight>Participants were inclined to perform gestures over concrete objects</highlight>
 * <highlight>Only 17.40% were abstract gestures</highlight>
 * <highlight>Prefer dynamic gestures</highlight>
@@ -121,8 +118,8 @@ Subjective score was thus the focus, while REBA score was left out, and no Kinec
     <div id="canvas3"></div>
 </div>
 
-<h3> Results</h3>
-<h4>Combining command-gesture</h4>
+<h3><u>Results</u></h3>
+<h4>Combining Command-Gesture</h4>
 * 8 commands had the same highest-scoring gesture between Exp 1 and 2.
 * 6 commands had distinct recommendations from Experiment 1 (gesture on, gesture off, zoom in, delete, move, and help) 
 * 1 command overlapped with one of the two recommended gestures in Experiment 1 (zoom out)
@@ -130,5 +127,5 @@ Subjective score was thus the focus, while REBA score was left out, and no Kinec
 <highlight>User-defined method could have only partially reflected the preferences/requirements of users.</highlight> For those command with conflict we propose a gesture for each by considering recognition accuracy, natural language principles, the mental models of the users, and the taxonomy distribution.
 
 //discussion
-<h4>A pictorial demonstration</h4>
+<h4>A Pictorial Demonstration</h4>
 ![gesture_1](/assets/images/gesture_2.png)
