@@ -17,4 +17,4 @@ I do research on design. My previous studies aimed to improve ways of [gestural 
 
 At my leisure I enjoy films, animation and comics. I sing and self-teach guitar. I am quite good at [drawing](https://www.pixiv.net/member.php?id=11717862) and long-distance running.
 
-Download my [resume](/assets/resume.pdf).
+Download my [resume](/assets/files/resume.pdf).

@@ -4,7 +4,6 @@ $post-header-spacing: 3.5 * $spacing-unit;
 $post-footer-spacing: 3 * $spacing-unit;
 
 html {
-  zoom: 0.8;
   height: 100%;
   overflow-x: hidden;
 }
@@ -163,11 +162,12 @@ article {
   //distance between table units
   border-collapse:separate;
   border-spacing:20px 10px;//hori/vert
-  width:100%;//auto;
   align-self:center;
   vertical-align:top;
   table-layout: fixed;
   line-height: 1.2;
+  margin-left: $post-margin-width;
+  margin-right: $post-margin-width;
   }
 }
 
@@ -254,12 +254,16 @@ article {
   p { margin: 0; padding: 0; }
 }
 
+.post-cover{
+  margin-top: 30px;
+}
+
 //gallery
 .gallery div.item {
   background-color: $gallery-block-color;
   position: relative;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  max-width: 300px;
+  max-width: 250px;
   height: 100%;
   display: inline-block;
   width: 100%;
