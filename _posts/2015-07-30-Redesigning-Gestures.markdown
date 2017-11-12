@@ -7,6 +7,7 @@ filter: research
 coverpic: "/assets/images/coverpics/"
 flowchart: chart1
 highchart: highchart1
+coverpic: "/assets/images/coverpics/gesture.png"
 description: "User defined gestures for gestural interaction"
 ---
 

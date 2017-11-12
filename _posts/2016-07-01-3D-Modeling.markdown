@@ -8,8 +8,12 @@ coverpic: "/assets/images/coverpics/model.jpg"
 description: "Maya modeling coursework"
 ---
 
-A 3D model made in Maya as the final project for the course "Fundamentals of Modeling". 
-Its archetype is <em>Southern Song Imperial Street (南宋御街)</em> located in downtown Hangzhou.
+**Clients**|**Skills**
+Coursework for *Fundamentals of Modelling 2016*|Maya Modelling
+
+>A 3D model made in Maya as the final course project. Its archetype is *Southern Song Imperial Street (南宋御街)* located in downtown Hangzhou.
+
+
 
 ![Aaron Swartz](/assets/images/model_archetype.png)
 

@@ -17,7 +17,7 @@ description: "Gamification of spatial visualization skills training workshop"
 **Duration**|
  <highlight>JUL - SEP 2017</highlight>|
 
->'Cubicles' is a gamified version of a scalable online training workshop, aimed to motivate students to engage in spatial visualization skill training. **Download** [Mac](/assets/files/Cubicles_Mac_0929.app.zip) [Win32](/assets/files/Cubicles_Win32_0929.zip) [Win64](/assets/files/Cubicles_Win64_0929.zip)
+>'Cubicles' is a gamified version of a scalable online training workshop, aimed to motivate students to engage in spatial visualization skill training. The gaming platform has been submitted to ACM IUI (intelligent user interfaces ) 2017. **Download** [Mac](/assets/files/Cubicles_Mac_0929.app.zip) [Win32](/assets/files/Cubicles_Win32_0929.zip) [Win64](/assets/files/Cubicles_Win64_0929.zip).
 
 
 Spatial visualization skills (the ability to understand the visual and spatial relationship among objects) are crucial  to reasoning and solving complex problems in STEM disciplines, according to a number of studies.
@@ -48,7 +48,7 @@ The premise of the game is that the player is trapped in a dungeon maze. To esca
 
 <h2>Game Module Design</h2>
 
-<h3> Shape Revolving </h3>
+<h3>Shape Revolving </h3>
 <h4>Educational Goal</h4>
 
 The Shape Revolving game is a gamified adaptation of "Rotation of Objects about Axes" in Sorby's book. 
@@ -65,7 +65,7 @@ An advanced level of this game shows 4 pairs of shapes and object simultaneously
 ![](/assets/images/rs.png)
 
 
-<h3> Cube Shift </h3>
+<h3>Cube Shift </h3>
 
 <h4>Educational Goal</h4>
 
@@ -83,12 +83,42 @@ The game design resembles the n-back tasks by Wayne Kirchner, where the subject 
 
 <h2>Evaluation</h2>
 
-<h3> Iterative design & Development </h3>
+<h3>Iterative design & Development </h3>
 
 We iteratively modified and improved our design. Our team met with a group of testers weekly and adjusted the difficulty level for each game module and implemented a detailed tutorial system.
 
-<h3> Formal evaluation </h3>
+<h3>Formal evaluation</h3>
 
-**PARTICIPANTS** 10 freshmen (5 male and 5 female) were recruited by sending out study invitations for a spatial visualization training game via email to students in entry-level engineering graphics courses. All were compensated with $15 for their participation.
+**PARTICIPANTS** 10 freshmen (5 male and 5 female) were recruited by sending out study invitations to students in entry-level engineering graphics courses. All were compensated with $15 for their participation.
 {:.sidenote}
 
+The focus of our analysis was 
+* To determine if players' spatial visualization skills (measured by PSVT:R) were associated with their in-game player behaviors (time spent in a level & errors) and and number of completed levels
+* To assess player's impressions of our game platform
+
+<h4>Gender difference on Spatial Visualization Skills</h4>
+
+Gender|Average PSVT:R Score
+**Males**|24.6 (SD=6.1)
+**Females**|15.0 (SD=2.41)
+
+t=2.41(p<0.05). Males significantly score higher than females.
+
+<h4>SV Skills and Game Performance</h4>
+
+Pearson's correlation test is used here.
+
+Avg **Level-completion Time**| r=**-0.94**, n =10, *p<0.01*
+|The corre;aton holds for all 8 game modules
+Avg **Error Rate** | r=**-0.97**, n =10, *p<0.01*
+|The corre;aton holds for all 8 game modules
+Avg **Game Progress** | r=**0.58**, n =10, *p>0.05*
+
+<h4>Players' Impressions</h4>
+
+Survey results (on a 5-point Likert scale) indicates a great potential for the gaming platform to be deployed on a larger scale.
+
+*Fun* | M=3.3, SD=0.5
+*Moderately difficult*| M=2.7, SD=0.8
+*Like the platform*| M=3.4, SD=0.5
+*Want to use in the future*| M=3.8 SD=1.1
