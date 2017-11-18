@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6, p {
   display: block;
 }
 
-h1 { color: #fff; font-weight: bold; font-size: 3.0em; }
+h1 { font-family: 'Adobe Garamond Pro', ; color: #fff; font-weight: bold; font-size: 4.0em; }
 h2 { color: $main-color;font-weight: bold; font-size: 2.0em; }//color: lighten($title-color,0.2); font-weight: bolder;
 h3 { font-weight: bolder; font-size: 1.5em;}
 h4 { font-weight: bold; }
@@ -216,7 +216,7 @@ article {
 }
 
 .credits {
-  color: lighten($main-color, 50%);
+  color: $light-grey;
   font-size: 0.68em;
 }
 

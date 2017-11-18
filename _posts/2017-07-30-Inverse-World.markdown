@@ -37,7 +37,7 @@ Also, we try to connect this experience with the real life of player, that is, t
 * Use other capabilities on cell phones, like audio recording, to allow for multi-modal interaction
 
 <h4>How is it special among it counterparts on the market?</h4>
-Due to our love for engaging stories and role-playing interactive novels, we were making a girl simulation game **driven by story**, rather than another 'virtual daughter/girlfriend' game (could be a limitation though :D). Outstanding predecessors among non-AR games are *Life is Strange* and *To the Moon*.
+Due to our love for engaging stories and role-playing interactive novels, we were making a girl simulation game **driven by story**, rather than another 'virtual daughter/girlfriend' game (could be a limitation though :D). Impressive predecessors among non-AR games are *Life is Strange* and *To the Moon*. 
 
 <h3>Iterative Design</h3>
 
