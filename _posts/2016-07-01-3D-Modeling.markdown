@@ -5,7 +5,7 @@ date:   2016-07-01 12:50:00 +0800
 category: design
 filter: design
 coverpic: "/assets/images/coverpics/model.jpg"
-description: "Maya modeling coursework"
+description: "Fundamentals of modeling coursework"
 ---
 
 **Clients**|**Skills**

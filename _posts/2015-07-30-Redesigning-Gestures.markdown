@@ -8,7 +8,9 @@ coverpic: "/assets/images/coverpics/"
 flowchart: chart1
 highchart: highchart1
 coverpic: "/assets/images/coverpics/gesture.png"
-description: "User defined gestures for gestural interaction"
+description: "User defined gestures for gestural interaction."
+publication: "Published in International Journal of HCI '17"
+
 ---
 
 **Clients**|**Skills**

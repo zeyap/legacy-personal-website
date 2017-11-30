@@ -2,8 +2,12 @@
     <a class="post-item-link" href="{{ post.url | relative_url }}" data-date="{{ post.date | date: "%m-%d"  }}">
         {{ post.title | escape }}
     </a>
+    
     {% if post.description %}
     <p class="post-description">{{ post.description }}</p>
+    {% endif %}
+    {% if post.publication %}
+    <p class="post-description"><B><I>{{ post.publication }}</I></B></p>
     {% endif %}
     <div class="post-item-meta">
         {{ post.date | date: "%B %-d, %Y" }}
