@@ -184,8 +184,8 @@ article {
 }
 
 .post-footer, #disqus_thread {
-  margin-top: $post-footer-spacing;
-  margin-bottom: $post-footer-spacing;
+  //margin-top: $post-footer-spacing;
+  //margin-bottom: $post-footer-spacing;
 }
 
 .site-nav {
@@ -264,7 +264,7 @@ article {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   max-width: 250px;
   height: 100%;
-  display: inline-block;
+  display: inline-flex;
   width: 100%;
   margin: 0 1% 30px 1%; //t/r/b/l
 }

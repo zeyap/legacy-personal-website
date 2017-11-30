@@ -2,8 +2,8 @@
 layout: post
 title: "Cubicles"
 date:   2017-10-01 12:50:00 +0800
-category: research
-filter: research
+category: design
+filter: design
 coverpic: "/assets/images/coverpics/cubicles.png"
 description: "Gamification of spatial visualization skills training workshop"
 ---
@@ -16,8 +16,11 @@ description: "Gamification of spatial visualization skills training workshop"
  |
 **Duration**|
  <highlight>JUL - SEP 2017</highlight>|
+ |
+Download [Mac](/assets/files/Cubicles_Mac_0929.app.zip) [Win32](/assets/files/Cubicles_Win32_0929.zip) [Win64](/assets/files/Cubicles_Win64_0929.zip).||
+[Project repository](https://github.com/zeyap/3D-Demo)||
 
->'Cubicles' is a gamified version of a scalable online training workshop, aimed to motivate students to engage in spatial visualization skill training. The gaming platform has been submitted to ACM IUI (intelligent user interfaces ) 2017. **Download** [Mac](/assets/files/Cubicles_Mac_0929.app.zip) [Win32](/assets/files/Cubicles_Win32_0929.zip) [Win64](/assets/files/Cubicles_Win64_0929.zip).
+>'Cubicles' is a gamified version of a scalable online training workshop, aimed to motivate students to engage in spatial visualization skill training. The work has been submitted to ACM IUI (intelligent user interfaces ) 2017.
 
 
 Spatial visualization skills (the ability to understand the visual and spatial relationship among objects) are crucial  to reasoning and solving complex problems in STEM disciplines, according to a number of studies.

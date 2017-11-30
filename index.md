@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 
 title: Peng Zeya
 navlevel: header
@@ -7,12 +7,13 @@ navtitle: Home
 
 position: 1
 permalink: 
+
+filter: [design, research]
 ---
 
 Welcome! 
 
-I am a senior year undergraduate in Zhejiang University, with a major in Psychology and a minor in Digital Media.
+I am a senior year undergraduate in Zhejiang University with a major in Psychology. I took over 30-credit courses in Digital Media for my passionate about human-computer interaction and gamification.
 
-See my portfolio [here](/all/).
 
-My [resume](/assets/files/resume.pdf).
+My [resume](/assets/files/resume.pdf) (PDF).

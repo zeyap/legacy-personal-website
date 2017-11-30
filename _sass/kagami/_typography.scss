@@ -7,7 +7,7 @@ body {
   color: $content-color;
   background-color: $background-color;
   //font-size: font-size();
-  font-size: 0.9em;
+  font-size: 1.0em;
   font-weight: 300;
   font-kerning: normal;
   border-top: 2px solid $main-color;
@@ -129,7 +129,7 @@ article {
 .site-title, .site-title:hover, .site-title:visited {
   display: inline-block;
   font-variant-caps: all-petite-caps;
-  font-size: 0.875em;
+  font-size: 1.5em;
   @include font-serif;
   border-bottom: none;
   white-space: nowrap;
@@ -234,12 +234,13 @@ article {
 }
 
 .post-description {
-  font-size: 0.875em;
+  font-size: 1.0em;
 }
 
 .post-item-meta {
   font-variant-caps: all-petite-caps;
   color: lighten($content-color, 40%);
+  font-size: 1.5em;
 }
 
 .cover-meta {
@@ -259,12 +260,13 @@ article {
 }
 
 .gallery div.item .item-description {
-  font-size: 0.875em;
+  font-size: 1.0em;
 }
 
 .gallery div.item .item-meta {
   font-variant-caps: all-petite-caps;
   color: lighten($content-color, 40%);
+  font-size: 1.5em;
 }
 ////
 

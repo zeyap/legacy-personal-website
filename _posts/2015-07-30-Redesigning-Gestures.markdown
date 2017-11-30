@@ -57,6 +57,13 @@ User-defined approach, first proposed by Wobbrock et al.(2009), was effective fo
 Illustrated below was our experiment design.
 <h3><u>Experiment design</u></h3>
 ![gesture_1](/assets/images/gesture_1.png)
+
+![](/assets/images/gesture_exp1.jpg)
+* Experiment setting in a view
+
+![](/assets/images/gesture_exp2.jpg)
+* A shot of the experiment recording
+
 <h3><u>Results</u></h3>
 <h4>STEP 1. Identify Gestures</h4>
 This is to group gestures that are essentially identical, among 701 gestures proposed by different participants. Then we obtain our initial gesture set.
@@ -130,3 +137,6 @@ Subjective score was thus the focus, while REBA score was left out, and no Kinec
 //discussion
 <h4>A Pictorial Demonstration</h4>
 ![gesture_1](/assets/images/gesture_2.png)
+
+![gesture_1](/assets/images/kinect_group.jpg)
+* Meet the somatosensory interaction group (4 of us responsible for the research above)

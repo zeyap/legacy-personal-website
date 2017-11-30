@@ -1,10 +1,10 @@
 ---
-layout: post-list
+layout: posts
 
 title: Posts
 navlevel: header
 
-filter: other
+filter: [post]
 
 position: 99
 permalink: /posts/

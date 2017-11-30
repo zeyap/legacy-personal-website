@@ -1,5 +1,11 @@
 <footer class="site-footer">
 
+    {% if page.layout == 'post'|| page.footer-post-list == 'true' %}
+    <div class="wrapper-gallery">
+        {% include post-list.html %}
+    </div>
+    {% endif %}
+
     <div class="wrapper">
         <div class="social-links">
             <a class="social-link social-github" href="https://github.com/{{ site.github_username }}">
@@ -31,12 +37,7 @@
             E: zeyapeng (a) outlook.com
         </div>
   </div>
-     {% if page.layout == 'post' %}
-     <div class="wrapper-gallery">
-         
-            {% include gallery-list.html %}
-     </div>
-     {% endif %}
+     
         
 
 </footer>
