@@ -21,16 +21,16 @@ description: "A story-driven AR game"
 
 >'Inverse World' is a story-driven AR game, where players explore the game subject's memories through dialogues to help fulfill her wishes. The project is still under way.
 
-<h3>Game conception</h3>
+<h2>Conception</h2>
 
 We were required to develop an Augmented Reality game.
 
 After brainstorming on the game design, we primarily decided on a **life simulation** experience on mobile devices.
 
-<h4>Target audience</h4>
+<h3>Target audience</h3>
 Since we are going to iterate and test the games on campus, we largely see university student as the target. No gender preference.
 
-<h4>AR element</h4>
+<h3>AR element</h3>
 We make use of the virtual *social* experience of AR by making a life simulation mechanism
 * Create visual relations between game character with real life objects
 
@@ -38,48 +38,51 @@ To further connect this experience with players' real life ~~(discarded temporar
 * Use pedometer and directly transfer stats to bonus in game, driving players to make more physical movement
 * Use other capabilities on cell phones, like audio recording, to allow for engaging multi-modal interaction]
 
-<h4>How is it special among it counterparts on the market?</h4>
-Due to our love for engaging stories and role-playing interactive novels, we decided to make a girl simulation game *driven by story*. Impressive predecessors among non-AR games are *Life is Strange* and *To the Moon*. 
+<h3>Counterparts analysis</h3>
+Due to our love for engaging stories and role-playing interactive novels, we decided to make a story-driven simulation game. Most impressive predecessors are non-AR. 
 
-<h3>Gameplay</h3>
+<h2>Gameplay</h2>
 
-The main character is a ghost who seeks help from the player to explore into her vague memories and find about her goals.
-* The game mainly consists of dialogues between the AR character and player, where the players accumulate fragments of her life stories, in a counter-chronological order.
+<h3>Goal of player</h3>
 
-(prototype of the main scene)
-![](/assets/images/iw_p_main.jpg)
-* The player has to infer about the connections among the story fragments of the ghost, and pair them on the interface. Once the paring is successful, the player moves on to the next level. 
+The main character is a ghost who seeks help from the player (a magician) to explore into her vague memories and find about her innate goal.
 
-(prototype of the inference scene)
-![](/assets/images/iw_p_infer.jpg)
+The game mainly consists of dialogues between the AR character and player, where the players accumulate fragments of her life stories, in a counter-chronological order.
 
-(the scene where players can look at the game progress and review the story)
-![](/assets/images/iw_p_progress.jpg)
+![](/assets/images/iw_p_main2.png)
+![](/assets/images/iw_main.jpg)
+[ Main scene & in-game snapshot ]
 
-(Settings of the main character)
+The player has to infer about the connections among the story fragments of the ghost, and pair them on the interface. Once the paring is successful, the player moves on to the next level. 
+
+![](/assets/images/iw_p_infer2.png)
+![](/assets/images/iw_infer.jpg)
+[ Inference scene (the game progress is indicated by the expansion of scene) & in-game snapshot. ]
+
 ![](/assets/images/iw_p_settings.png)
+[ Setting of the main character ]
 
 <h3>Stat balance</h3>
 
-Both the chance for dialogues and fragments-pairing is limited by a energy parameter. To replenish energy of the character, players can
-* Feed the character in mini-game
+Since it would be no fun given the progress super-easy and resources unlimited, both the chance for dialogues and fragments-pairing are restricted by a energy parameter.
+
+To replenish energy of the character, players can feed the character in mini-game.
+
+For mini-game design, we brainstormed about the likely ability of magicians to properly match the role of players, and finally decided on a shooting game (that would look like magic spelling).
+
+![](/assets/images/iw_game_1.jpg)
+![](/assets/images/iw_game_2.jpg)
+[ Mini-game snapshot ]
 
 <h2>Development</h2>
 
-<h3>2D Elements</h3>
+Responsible for design & development job related to user interfaces and 2D transition animation.
 
-(Iterated prototype of the main scene)
-![](/assets/images/iw_p_main2.png)
 
-(Iterated prototype of the inference scene. The game progress is indicated by the expansion of the inference scene)
-![](/assets/images/iw_p_infer2.png)
 
-(In game snapshot)
-![](/assets/images/iw_main.jpg)
 
-![](/assets/images/iw_infer.jpg)
 
-![](/assets/images/iw_game_1.jpg)
 
-![](/assets/images/iw_game_2.jpg)
+
+
 

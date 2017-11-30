@@ -61,10 +61,10 @@ Illustrated below was our experiment design.
 ![gesture_1](/assets/images/gesture_1.png)
 
 ![](/assets/images/gesture_exp1.jpg)
-* Experiment setting in a view
+[ Experiment setting in a view ]
 
 ![](/assets/images/gesture_exp2.jpg)
-* A shot of the experiment recording
+[ A shot of the experiment recording ]
 
 <h3><u>Results</u></h3>
 <h4>STEP 1. Identify Gestures</h4>
@@ -141,4 +141,4 @@ Subjective score was thus the focus, while REBA score was left out, and no Kinec
 ![gesture_1](/assets/images/gesture_2.png)
 
 ![gesture_1](/assets/images/kinect_group.jpg)
-* Meet the somatosensory interaction group (4 of us responsible for the research above)
+[ The group (4 of us responsible for the research above) ]
