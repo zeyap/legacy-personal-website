@@ -10,6 +10,7 @@ highchart: highchart1
 coverpic: "/assets/images/coverpics/gesture.png"
 description: "User defined gestures for gestural interaction."
 publication: "Published in International Journal of HCI '17"
+slider: "yes"
 
 ---
 
@@ -34,7 +35,7 @@ The bad compatibility between gestures and commands can be an issue since its de
  <h2>Goal of Research</h2>
  * Use a gesture elicitation approach, extend gesture set to human's all body parts (aside from hand gestures)
  * Create a valid index to determine best gestures
-<h3><u>Overview</u></h3>
+<h3>Overview</h3>
   <div>
     <div id="canvas2"></div>
 </div>
@@ -57,16 +58,10 @@ User-defined approach, first proposed by Wobbrock et al.(2009), was effective fo
     <div id="canvas"></div>
 </div>
 Illustrated below was our experiment design.
-<h3><u>Experiment design</u></h3>
+<h3>Experiment design</h3>
 ![gesture_1](/assets/images/gesture_1.png)
 
-![](/assets/images/gesture_exp1.jpg)
-[ Experiment setting in a view ]
-
-![](/assets/images/gesture_exp2.jpg)
-[ A shot of the experiment recording ]
-
-<h3><u>Results</u></h3>
+<h3>Results</h3>
 <h4>STEP 1. Identify Gestures</h4>
 This is to group gestures that are essentially identical, among 701 gestures proposed by different participants. Then we obtain our initial gesture set.
 
@@ -128,7 +123,7 @@ Subjective score was thus the focus, while REBA score was left out, and no Kinec
     <div id="canvas3"></div>
 </div>
 
-<h3><u>Results</u></h3>
+<h3>Results</h3>
 <h4>Combining Command-Gesture</h4>
 * 8 commands had the same highest-scoring gesture between Exp 1 and 2.
 * 6 commands had distinct recommendations from Experiment 1 (gesture on, gesture off, zoom in, delete, move, and help) 
@@ -136,9 +131,27 @@ Subjective score was thus the focus, while REBA score was left out, and no Kinec
 
 <highlight>User-defined method could have only partially reflected the preferences/requirements of users.</highlight> For those command with conflict we propose a gesture for each by considering recognition accuracy, natural language principles, the mental models of the users, and the taxonomy distribution.
 
-//discussion
 <h4>A Pictorial Demonstration</h4>
 ![gesture_1](/assets/images/gesture_2.png)
 
-![gesture_1](/assets/images/kinect_group.jpg)
-[ The group (4 of us responsible for the research above) ]
+
+<div>
+    <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:800px;margin:0px auto 56px;">
+        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="/assets/slider/images/kinect_group.jpg" alt="kinect_group"  title="kinect_group" />
+                </li>
+                <li><img src="/assets/slider/images/gesture_exp2.jpg" alt="gesture_exp2"  title="gesture_exp2" />
+                </li>
+                <li><img src="/assets/slider/images/gesture_exp1.jpg" alt="gesture_exp1"  title="gesture_exp1" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="/assets/slider/images/kinect_group-tn.jpg" alt="kinect_group" title="kinect_group" /></li>
+                <li><img src="/assets/slider/images/gesture_exp2-tn.jpg" alt="gesture_exp2" title="gesture_exp2" /></li>
+                <li><img src="/assets/slider/images/gesture_exp1-tn.jpg" alt="gesture_exp1" title="gesture_exp1" /></li>
+            </ul>
+        <div class="amazingslider-engine"><a href="http://amazingslider.com" title="jQuery Image Slideshow">jQuery Image Slideshow</a></div>
+        </div>
+    </div>
+	</div>

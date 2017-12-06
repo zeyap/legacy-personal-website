@@ -1,14 +1,14 @@
 ---
 layout: post
 
-title: Peng Zeya
+title: About
 navlevel: header
 navtitle: Home
 
 position: 1
 permalink: 
 
-filter: [design, research]
+filter: [development, research, design]
 ---
 
 Welcome! 

@@ -22,16 +22,17 @@
     {% endif %}
 
     {% for rule in page.filter %}
+
+    {% if rule == 'development' %}
+    <h2>Development</h2>
+    {% endif %}
+
     {% if rule == 'research' %}
     <h2>Research</h2>
     {% endif %}
     {%if rule == 'design' %}
     <h2>Design</h2>
     {% endif %}
-    {% if rule == 'post' %}
-    <h2>Post</h2>
-    {% endif %}
-
 
     {% for post in posts %}
     {% if post.category == rule %}

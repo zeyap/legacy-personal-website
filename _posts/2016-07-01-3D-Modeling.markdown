@@ -6,19 +6,36 @@ category: design
 filter: design
 coverpic: "/assets/images/coverpics/model.jpg"
 description: "Fundamentals of modeling coursework"
+slider: "yes"
+
 ---
 
 **Clients**|**Skills**
 Coursework for *Fundamentals of Modelling 2016*|Maya Modelling
 
->A 3D model made in Maya as the final course project. Its archetype is *Southern Song Imperial Street (南宋御街)* located in downtown Hangzhou.
 
+>A 3D model made in Maya as the final course project. Its archetype is *Southern Song Imperial Street (南宋御街)* located in downtown Hangzhou.
 
 
 ![Aaron Swartz](/assets/images/model_archetype.png)
 
-![image@2x](/assets/images/model_overview.jpg){:.retina2x}
-
-![image@2x](/assets/images/model_midview.jpg){:.retina2x}
-
-![image@2x](/assets/images/model_insideview.jpg){:.retina2x}
+<div>
+    <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1200px;margin:0px auto 56px;">
+        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="/assets/slider/images/model_overview.jpg" alt="model"  title="model" />
+                </li>
+                <li><img src="/assets/slider/images/model_midview.jpg" alt="model_midview"  title="model_midview" />
+                </li>
+                <li><img src="/assets/slider/images/model_insideview.jpg" alt="model_insideview"  title="model_insideview" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="/assets/slider/images/model_overview-tn.jpg" alt="model" title="model" /></li>
+                <li><img src="/assets/slider/images/model_midview-tn.jpg" alt="model_midview" title="model_midview" /></li>
+                <li><img src="/assets/slider/images/model_insideview-tn.jpg" alt="model_insideview" title="model_insideview" /></li>
+            </ul>
+        <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive jQuery Image Slideshow">Responsive jQuery Image Slideshow</a></div>
+        </div>
+    </div>
+	</div>

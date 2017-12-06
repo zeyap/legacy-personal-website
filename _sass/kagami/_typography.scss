@@ -23,11 +23,11 @@ h1, h2, h3, h4, h5, h6, p {
   display: block;
 }
 
-h1 { font-family: 'Adobe Garamond Pro', ; color: #fff; font-weight: bold; font-size: 4.0em; }
+h1 { font-family: 'Adobe Garamond Pro', ; color: #fff; font-weight: bold; font-size: 3.5em; }
 h2 { color: $main-color;font-weight: bold; font-size: 2.0em; }//color: lighten($title-color,0.2); font-weight: bolder;
-h3 { font-weight: bolder; font-size: 1.5em;}
+h3 { font-weight: bold; font-size: 1.5em;}
 h4 { font-weight: bold; }
-h5 { font-weight: bold; }
+h5 { font-weight: bolder; }
 
 highlight
 {
@@ -38,19 +38,18 @@ article {
 
   h2, h3, h4, h5, h6 {
     &::before {
-      content: "#";
       display: inline-block;
-      text-align: right;
+      text-align: center;
       width: font-size(5);
       margin-left: font-size(-5.5);
       margin-right: font-size(0.5);
-      opacity: 0.08;
     }
   }
-  h3::before { content: "##"; }
-  h4::before { content: "###"; }
-  h5::before { content: "####"; }
-  h6::before { content: "#####"; }
+
+  h3{
+      &::after,&::before{ content: "-"; }
+      font-variant-caps: all-petite-caps;
+  }
 
   p {
     hanging-punctuation: allow-end; // no browser supports this rule
@@ -129,7 +128,7 @@ article {
 .site-title, .site-title:hover, .site-title:visited {
   display: inline-block;
   font-variant-caps: all-petite-caps;
-  font-size: 1.5em;
+  font-size: 2.0em;
   @include font-serif;
   border-bottom: none;
   white-space: nowrap;

@@ -42,10 +42,10 @@ body {
 
 
 article {
-
+    
   background-color: $background-color-article;
   position: relative;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  //box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   height: 100%;
   display: inline-block;
   width: 100%;
@@ -56,10 +56,15 @@ article {
   $hspacing: $spacing-unit / 2;
 
   h1, h2, h3, h4, h5, h6, p, ul, ol, pre, hr, blockquote, img:only-child {
-
+      
     display: block;
     margin: $vspacing auto;
   }
+
+  h1, h2, h3, h4, h5, h6, p,img:only-child {
+    text-align:center;
+  }
+  
 
   img{
       background-color: #ffffff;
@@ -70,6 +75,7 @@ article {
 
 
   li > ul, li > ol {
+      text-align:left;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -93,13 +99,10 @@ article {
   }
 
   blockquote {
+
+    text-align:left;
       
-    margin-left: -$post-margin-width;
-    margin-right: $vspacing;
     @media screen and (min-width: $content-width) {
-      margin-left: -$post-margin-width;
-      margin-right: $vspacing;//$spacing-unit;
-    
 
       background-color: $background-color-float;
         position: relative;
