@@ -1,0 +1,47 @@
+{
+    "0" : {
+        "position": [0, 0 ,0],
+        "dimension": [3, 3, 3],
+        "color": [1, 0.8, 1, 1],
+        "puzzle type": "none",
+        "unlock on start": [1]
+    },
+    "1" : {
+        "position": [ 0, 0, -1 ],
+        "dimension": [ 1, 1, 1 ],
+        "color": [ 0.2, 0.4, 0.6, 1 ],
+        "puzzle type": "Unfolding"
+    },
+    "2": {
+        "position": [ 0, 0, -2 ],
+        "dimension": [ 1, 1, 1 ],
+        "color": [ 0.2, 0.4, 0.6, 1 ],
+        "doors to unlock": [[0,3]],
+        "puzzle type": "Unfolding"
+    }, 
+    "3" : {
+        "position" : [0,0,3],
+        "dimension": [ 1, 1, 1 ],
+        "color": [ 0.2, 0.4, 0.6, 1 ],
+        "puzzle type": "Unfolding"
+    },
+    "4": {
+        "position": [ 0, 0, 4 ],
+        "dimension": [ 1, 1, 1 ],
+        "color": [ 0.2, 0.4, 0.6, 1 ],
+        "doors to unlock": [[0,5]],
+        "puzzle type": "Unfolding"
+    },
+    "5": {
+        "position": [ 2, 0, 3 ],
+        "dimension": [ 1, 1, 1 ],
+        "color": [ 0.2, 0.4, 0.6, 1 ],
+        "puzzle type": "Unfolding"
+    },
+    "6" : {
+        "position" : [2,0,4],
+        "dimension": [ 1, 1, 1 ],
+        "color": [ 0.2, 0.4, 0.6, 1 ],
+        "puzzle type": "Unfolding"
+    }
+}

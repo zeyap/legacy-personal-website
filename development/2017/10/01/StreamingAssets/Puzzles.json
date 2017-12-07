@@ -1,0 +1,487 @@
+{
+    "0": {
+        "type": "none"
+    },
+    "1": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[0,0,0],[0,1,0],[0,0,0]]
+    },
+    "2": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[1,1,1],[0,0,0],[0,0,0]]
+    },
+    "3": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[0,0,2],[0,0,2],[0,0,2]]
+    },
+    "4": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[3,3,0],[0,0,3],[0,0,3]]
+	},
+	"5": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[0,0,5],[3,3,0],[3,3,0]]
+	},
+	"6": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[5,5,5],[1,1,4],[1,1,4]]
+	},
+	"7": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[0,0,0],[1,2,3],[0,0,0]]
+	},
+	"8": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[2,4,5],[0,0,0],[1,1,1]]
+	},
+	"9": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[2,0,5],[2,0,3],[2,0,2]]
+	},
+	"10": {
+        "type": "view point",
+		"levelNum":4,
+		"levels":{
+			"0":{
+				"solidNum":4,
+				"method":"d"
+				},
+			"1":{
+				"solidNum":4,
+				"method":"d"
+				},
+			"2":{
+				"solidNum":6,
+				"method":"d"
+				},
+			"3":{
+				"solidNum":5,
+				"method":"d"
+				}
+			}
+    },
+	"11": {
+        "type": "plane exploration",
+		"level": 0
+    },
+	"12": {
+        "type": "transform limitation",
+		"levelNum": 1,
+		"levels":{
+			"0":{
+		        "blockNum": 3,
+				"baicSteps": 3,
+				"difficulty": 12,
+				"method": "rs",
+                "tutorial":"true"
+				}
+			}
+    },
+	"13": {
+		"type": "CSG",
+		"objects": {
+			"Cube": {
+				"pos": [-2,2,0],
+				"type": "cube"
+			},
+			"Sphere": {
+				"pos": [-2,-2,0],
+				"scale": [1.3,1.3,1.3],
+				"type": "sphere"
+			}
+		},
+		"target":  {
+			"name": "Cube - Sphere x 1.3"
+		}
+	},
+	"14": {
+		"type": "Unfolding"
+	},
+	"15": {
+		"type" : "Unfolding"
+	},
+	"16": {
+		"type" :  "Unfolding"
+	},
+	"17": {
+    "type": "view point",
+		"levelNum":4,
+		"levels":{
+			"0":{
+				"solidNum":5,
+				"method":"r"
+				},
+			"1":{
+				"solidNum":7,
+				"method":"r"
+				},
+			"2":{
+				"solidNum":7,
+				"method":"r"
+				},
+			"3":{
+				"solidNum":8,
+				"method":"r"
+				}
+			}
+  },
+  "18": {
+    "type": "view point",
+		"levelNum":4,
+		"levels":{
+			"0":{
+				"solidNum":7,
+				"method":"s"
+				},
+			"1":{
+				"solidNum":6,
+				"method":"s"
+				},
+			"2":{
+				"solidNum":5,
+				"method":"s"
+				},
+			"3":{
+				"solidNum":4,
+				"method":"s"
+				}
+			}
+  },
+  "19": {
+    "type": "plane exploration",
+	"level":1
+  },
+	"20": {
+        "type": "transform limitation",
+		"levelNum":4,
+		"levels":{
+			"0":{
+		        "blockNum": 4,
+				"baicSteps": 1,
+				"difficulty": 9,
+				"method": "r"
+				},
+			"1":{
+		        "blockNum": 5,
+				"baicSteps": 2,
+				"difficulty": 6,
+				"method": "r"
+				},
+			"2":{
+		        "blockNum": 7,
+				"baicSteps": 2,
+				"difficulty": 3,
+				"method": "r"
+				},
+			"3":{
+		        "blockNum": 9,
+				"baicSteps": 3,
+				"difficulty": 2,
+				"method": "r"
+				}
+			}
+  },
+	"21": {
+        "type": "transform limitation",
+		"levelNum":4,
+		"levels":{
+			"0":{
+		        "blockNum": 5,
+				"baicSteps": 1,
+				"difficulty": 9,
+				"method": "s"
+				},
+			"1":{
+		        "blockNum": 5,
+				"baicSteps": 1,
+				"difficulty": 4,
+				"method": "s"
+				},
+			"2":{
+		        "blockNum": 7,
+				"baicSteps": 1,
+				"difficulty": 4,
+				"method": "s"
+				},
+			"3":{
+		        "blockNum": 9,
+				"baicSteps": 2,
+				"difficulty": 2,
+				"method": "s"
+				}
+			}
+		},
+	"22": {
+        "type": "transform limitation",
+		"levelNum":6,
+		"levels":{
+			"0":{
+		        "blockNum": 4,
+				"baicSteps": 3,
+				"difficulty": 7,
+				"method": "rs"
+				} ,
+			"1":{
+		        "blockNum": 7,
+				"baicSteps": 3,
+				"difficulty": 5,
+				"method": "rs"
+				} ,
+			"2":{
+		        "blockNum": 8,
+				"baicSteps": 3,
+				"difficulty": 1,
+				"method": "rs"
+				} ,
+			"3":{
+		        "blockNum": 8,
+				"baicSteps": 4,
+				"difficulty": 0,
+				"method": "rs"
+				} ,
+			"4":{
+		        "blockNum": 12,
+				"baicSteps": 5,
+				"difficulty": 3,
+				"method": "rs"
+				} ,
+			"5":{
+		        "blockNum": 14,
+				"baicSteps": 5,
+				"difficulty": 0,
+				"method": "rs"
+				}
+			}
+  },
+	"23": {
+        "type": "plane exploration",
+        "level": 8
+  },
+	"24": {
+        "type": "plane exploration",
+		"level": 2
+  },
+	"25": {
+        "type": "plane exploration",
+		"level":3
+    },
+	"26": {
+        "type": "plane exploration",
+		"level":4
+    },
+	"27": {
+        "type": "plane exploration",
+		"level":5
+    },
+	"28": {
+        "type": "plane exploration",
+		"level":6
+    },
+	"29": {
+		"type" :  "revolution solid",
+		"levelNum":1
+	},
+	"30": {
+		"type" :  "revolution solid",
+		"levelNum":2
+	},
+	"31": {
+		"type" :  "cube shift",
+		"shiftNumPerTrial":1,
+		"cubeNum":3
+	},
+	"32": {
+        "type": "plane exploration",
+		"level":7
+    },
+	"33": {
+		"type" :  "cube shift",
+		"shiftNumPerTrial":1,
+		"cubeNum":4
+	},
+	"34": {
+		"type": "CSG",
+		"objects": {
+			"Cylinder": {
+				"pos": [-2,-2,0],
+				"scale": [1.5,1.5,1.5],
+				"direction": "Y",
+				"type": "cylinder"
+			},
+			"Sphere": {
+				"pos": [2,1,0],
+				"scale": [2,2,2],
+				"type": "sphere"
+			}
+		},
+		"target":  {
+			"name": "sphx2 - cylx1.5",
+			"scale": [2,2,2]
+		}
+	},
+	"35": {
+		"type": "CSG",
+		"objects": {
+			"Cube": {
+				"pos": [2,2,0],
+				"type": "cube"
+			},
+			"Sphere": {
+				"pos": [-2.5,-2.5,0.5],
+				"scale": [1,1,1],
+				"type": "sphere"
+			},
+			"Cube1": {
+				"pos": [2,-2,0],
+				"type": "cube"
+			}
+		},
+		"target":  {
+			"name": "cube + cube - sph"
+		}
+	},
+	"36": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[0,0,0],[2,1,0],[0,0,0]]
+	},
+	"37": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[4,3,2],[4,3,2],[4,3,2]]
+	},
+	"38": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[1,1,1],[3,3,3],[5,5,5]]
+	},
+	"39": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[0,0,0],[2,1,3],[0,0,0]]
+	},
+	"40": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[0,5,0],[0,3,0],[0,4,0]]
+	},
+	"41": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[4,2,4],[2,2,2],[4,2,4]]
+	},
+	"42": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[3,4,5],[2,3,4],[1,2,3]]
+	},
+	"43": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[2,1,0],[3,2,1],[4,3,2]]
+	},
+	"44": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[0,1,2],[3,0,3],[4,5,4]]
+	},
+	"45": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[4,1,2],[3,5,3],[0,3,1]]
+	},
+	"46": {
+        "type": "block builder",
+        "size": {
+            "x": 3,
+            "z": 3
+        },
+        "maxHeight": 5,
+        "height": [[5,1,2],[2,0,3],[1,3,4]]
+	}
+}

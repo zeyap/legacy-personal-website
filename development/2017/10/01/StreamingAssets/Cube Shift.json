@@ -1,0 +1,45 @@
+﻿{
+    "0" : {
+        "position": [0, 0 ,0],
+        "dimension": [3, 3, 3],
+        "color": [1, 0.8, 1, 1],
+        "puzzle type": "none",
+        "unlock on start": [1]
+    },
+	"1" : {
+        "position" : [-1,0,2],
+        "dimension": [ 1, 1, 1 ],
+        "color": [ 0.2, 0.4, 0.6, 1 ],
+        "puzzle type": "cube shift",
+
+		"leastRetryNum":1,
+		"levelNum":1,
+		"stoppingMove":1,
+        "shiftNumPerTrial":1,
+		"cubeNum":3
+    },
+    "2" : {
+        "position" : [-2,0,2],
+        "dimension": [ 1, 1, 1 ],
+        "color": [ 0.2, 0.4, 0.6, 1 ],
+        "puzzle type": "cube shift",
+
+		"leastRetryNum":1,
+		"levelNum":2,
+		"stoppingMove":2,
+        "shiftNumPerTrial":1,
+		"cubeNum":3
+    },
+    "3" : {
+        "position" : [-3,0,2],
+        "dimension": [ 1, 1, 1 ],
+        "color": [ 0.2, 0.4, 0.6, 1 ],
+        "puzzle type": "cube shift",
+
+		"leastRetryNum":1,
+		"levelNum":3,
+		"stoppingMove":3,
+        "shiftNumPerTrial":1,
+		"cubeNum":4
+    }
+}
