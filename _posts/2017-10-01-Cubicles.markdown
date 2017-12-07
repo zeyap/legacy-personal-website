@@ -29,17 +29,6 @@ Spatial visualization skills (the ability to understand the visual and spatial r
 
 In previous attempts, scalable online traning platform were built by researchers in UIUC, but they reported low retention rate of such platform. To intrinsically motivate students to train their skills, a popular solution is gamification.
 
-<div>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">3D-Demo</div>
-      </div>
-    </div>
-</div>
-
 * * *
 <h2>Game Design</h2>
 
