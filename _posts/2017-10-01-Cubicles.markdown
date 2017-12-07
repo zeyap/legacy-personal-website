@@ -35,8 +35,6 @@ In previous attempts, scalable online traning platform were built by researchers
 * The player is trapped in a dungeon maze. To escape, the player needs to navigate through the maze and unlock all the rooms; finishing the game task in the room is the only way to unlock the door to the next room.
 * 8 game modules based on 5 major aspects of spatial visualizations skills, with levels of graudual progression
 
-![](/assets/images/maze.png)
-
 **Block Builder**|3D object visualization & manipulation|2D to 3D transformation
 **Constructive Solid Geometry**|3D object visualization & manipulation|Perspective Taking
 **Plane Exploration**|3D object visualization & manipulation|Perspective Taking
@@ -46,16 +44,6 @@ In previous attempts, scalable online traning platform were built by researchers
 **Transformation Limitation**|Perspective Taking|2D to 3D transformation/ Mental Rotation
 **Cube Shift**|spatial memory|
 
-<h3>Shape Revolving </h3>
-
-The Shape Revolving game aims to improve players' understanding of surfaces and solids from revolution. The player needs to mentally revolve a 2D shape about an axis, and visualize the created 3D model. 
-
-It is a gamified adaptation of "Rotation of Objects about Axes" in Sorby's engineering graphics workbook. 
-![](/assets/images/shape revolving1.png)
-
-![](/assets/images/rs.png)
-
-
 <h3>Cube Shift </h3>
 
 The game aims at memory aspect of spatial abilities. It taps into two strong indicators of spatial abilities, working memory span and short-term memory (Miyake, et al., 2001), by requiring students to direct their attention to the image on the cubes regardless of the distraction of shifting movement, and to retain memory of previous configurations of the cube. 
@@ -64,7 +52,25 @@ The game design resembles the n-back tasks by Wayne Kirchner, and Dot Memory tas
 
 ![Aaron Swartz](/assets/images/nback.jpeg)
 
-![Aaron Swartz](/assets/images/tutorial.png)
+<video width="900" height="563" controls="controls">
+  <source src="/assets/videos/cube_shift.mp4" type="video/mp4" />
+  </object>
+</video>
+
+<h3>Shape Revolving </h3>
+
+The Shape Revolving game aims to improve players' understanding of surfaces and solids from revolution. The player needs to mentally revolve a 2D shape about an axis, and visualize the created 3D model. 
+
+It is a gamified adaptation of "Rotation of Objects about Axes" in Sorby's engineering graphics workbook. 
+![](/assets/images/shape revolving1.png)
+
+<video width="900" height="563" controls="controls">
+	<style type="text/css">
+		video{text-align:center;}
+	</style>
+  <source src="/assets/videos/revolve.mp4" type="video/mp4" />
+  </object>
+</video>
 
 <h2>Platform features</h2>
 * Designed modularly, game modules can be added or removed easily by communicating through documented API, maze map can be modified through a single JSON file
