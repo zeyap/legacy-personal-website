@@ -7,6 +7,7 @@ filter: development
 coverpic: "/assets/images/coverpics/cubicles.png"
 description: "Games training spatial visualization skills"
 publication: "Accepted by ACM IUI '18"
+webgl: "yes"
 ---
 
 **Clients**|**Skills**
@@ -21,14 +22,24 @@ publication: "Accepted by ACM IUI '18"
 Download [Mac](/assets/files/Cubicles_Mac_0929.app.zip) [Win32](/assets/files/Cubicles_Win32_0929.zip) [Win64](/assets/files/Cubicles_Win64_0929.zip).||
 [Project repository](https://github.com/zeyap/3D-Demo)||
 
->'Cubicles' is a game aimed to motivate students to engage in spatial visualization skill training. The work has been submitted to ACM IUI (intelligent user interfaces ) 2018.
+>'Cubicles' is a game aimed to motivate students to engage in spatial visualization skill training. The work has been accepted by ACM IUI (intelligent user interfaces ) 2018.
 
 
 Spatial visualization skills (the ability to understand the visual and spatial relationship among objects) are crucial to reasoning and solving complex problems in STEM disciplines.
 
-In previous attempts, scalable online traning platform were built by researchers in UIUC, but they reported low retention rate of such platform. 
+In previous attempts, scalable online traning platform were built by researchers in UIUC, but they reported low retention rate of such platform. To intrinsically motivate students to train their skills, a popular solution is gamification.
 
-To intrinsically motivate students to train their skills, a popular solution is gamification.
+<div>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">3D-Demo</div>
+      </div>
+    </div>
+</div>
+
 * * *
 <h2>Game Design</h2>
 

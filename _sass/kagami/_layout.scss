@@ -99,7 +99,6 @@ article {
   }
 
   blockquote {
-
     text-align:left;
       
     @media screen and (min-width: $content-width) {
@@ -171,6 +170,7 @@ article {
   line-height: 1.2;
   margin-left: $post-margin-width;
   margin-right: $post-margin-width;
+  width:100%;
   }
 }
 
