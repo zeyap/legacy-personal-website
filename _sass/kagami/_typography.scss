@@ -40,14 +40,13 @@ article {
     &::before {
       display: inline-block;
       text-align: center;
-      width: font-size(5);
-      margin-left: font-size(-5.5);
+      margin-left: font-size(0.5);
       margin-right: font-size(0.5);
     }
   }
 
   h3{
-      &::after,&::before{ content: "-"; }
+      &::after,&::before{ content: " -"; }
       font-variant-caps: all-petite-caps;
   }
 

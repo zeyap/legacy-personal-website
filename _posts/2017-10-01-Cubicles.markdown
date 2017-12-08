@@ -54,7 +54,6 @@ The game design resembles the n-back tasks by Wayne Kirchner, and Dot Memory tas
 
 <video width="900" height="563" controls="controls">
   <source src="/assets/videos/cube_shift.mp4" type="video/mp4" />
-  </object>
 </video>
 
 <h3>Shape Revolving </h3>
@@ -65,11 +64,7 @@ It is a gamified adaptation of "Rotation of Objects about Axes" in Sorby's engin
 ![](/assets/images/shape revolving1.png)
 
 <video width="900" height="563" controls="controls">
-	<style type="text/css">
-		video{text-align:center;}
-	</style>
   <source src="/assets/videos/revolve.mp4" type="video/mp4" />
-  </object>
 </video>
 
 <h2>Platform features</h2>

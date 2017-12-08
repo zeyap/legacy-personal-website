@@ -22,6 +22,14 @@ slider: "yes"
 
 >'Inverse World' is a story-driven AR game, where players explore the game subject's memories through dialogues to help fulfill her wishes. The project is still under way.
 
+[Switch on English subtitle at bottom right]
+<div>
+<video width="900" height="563" controls="controls">
+  <source src="/assets/videos/inverse_world.mp4" type="video/mp4">
+  <track src="/assets/videos/inverse_world.vtt" kind="subtitles" srclang="en" label="English"/>
+</video>
+</div>
+
 <h2>Conception</h2>
 
 We were required to develop an Augmented Reality game.
