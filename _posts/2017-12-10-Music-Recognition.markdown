@@ -18,7 +18,7 @@ Digital Audio and Video Processing, Course Project|C++ Programming
  NOV 25 2017 - |Qt Creator4.4.1
  |Windows 10 (VC14 x86)
 
->This desktop application read in audio recordings to generate audio fingerprints, you can build up & search among a fingerprint database with this application. Till now it is made independently by myself. Still in progress at the moment. See the [repository](https://github.com/zeyap/MusicFingerprint)
+>This desktop application read in audio recordings to generate audio fingerprints, you can build up & search among a fingerprint database with this application. Till now it is made independently by myself. Project still in progress at the moment. Visit the <a href="https://github.com/zeyap/MusicFingerprint" class="button button-pill button-tiny button-caution">Repository</a>
 
 <h2>Configurations & Features</h2>
 
