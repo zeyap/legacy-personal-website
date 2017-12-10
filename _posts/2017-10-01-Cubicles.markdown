@@ -20,13 +20,14 @@ webgl: "yes"
  <highlight>JUL - SEP 2017</highlight>|
  |
 
+ <center>
   <div class="button-group">
-    <a href="/assets/files/Cubicles_Mac_0929.app.zip" class="button button-pill button-tiny">Mac</a>
-    <a href="/assets/files/Cubicles_Win32_0929.zip" class="button button-pill button-tiny">Win32</a>
-    <a href="/assets/files/Cubicles_Win64_0929.zip" class="button button-pill button-tiny">Win64</a>
+    <a href="/assets/files/Cubicles_Mac_0929.app.zip" class="button button-pill button-caution button-tiny">Mac</a>
+    <a href="/assets/files/Cubicles_Win32_0929.zip" class="button button-pill button-caution button-tiny">Win32</a>
+    <a href="/assets/files/Cubicles_Win64_0929.zip" class="button button-pill button-caution button-tiny">Win64</a>
+	<a href="https://github.com/zeyap/3D-Demo" class="button button-pill button-tiny">Project repository</a>
   </div>
-
-<a href="https://github.com/zeyap/3D-Demo" class="button button-pill button-tiny">Project repository</a>
+</center>
 
 >'Cubicles' is a game aimed to motivate students to engage in spatial visualization skill training. The work has been accepted by ACM IUI (intelligent user interfaces ) 2018.
 

@@ -10,7 +10,9 @@
   <link rel="stylesheet" href="{{ "/assets/styles/core.css?v=" | append: v | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/styles/fontello.css?v=" | append: v | relative_url }}">
   <link rel="stylesheet" href="{{ page.color_scheme | default: site.color_scheme | default: "default" | prepend: "/assets/styles/highlighting/" | append: ".css?v=" | append: v | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/styles/buttons.css?v=" | append: v | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/styles/buttons.css?v=" | append: v | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/styles/font-awesome/css/font-awesome.css?v=" | append: v | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/styles/font-awesome/css/font-awesome.min.css?v=" | append: v | relative_url }}">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">

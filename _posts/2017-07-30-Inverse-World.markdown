@@ -5,7 +5,7 @@ date:   2017-07-30 12:50:00 +0800
 category: design
 filter: design
 coverpic: "/assets/images/coverpics/iw.png"
-description: "A story-driven AR game"
+description: "A story-driven AR game" 
 slider: "yes"
 ---
 
@@ -18,9 +18,9 @@ slider: "yes"
 **Duration**|
  <highlight>April - July 2017</highlight>|
  |
- [Project repository](https://github.com/fish1996/AR-Game---Inverse-World)|
 
->'Inverse World' is a story-driven AR game, where players explore the game subject's memories through dialogues to help fulfill her wishes. The project is still under way.
+
+>'Inverse World' is a story-driven AR game, where players explore the game subject's memories through dialogues to help fulfill her wishes. The project is still under way. <a href="https://github.com/fish1996/AR-Game---Inverse-World" class="button button-pill button-tiny button-caution">Project repository</a>
 
 <h3>Video</h3>
 
