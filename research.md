@@ -1,12 +1,12 @@
 ---
-layout: gallery
+layout: posts
 
 title: Research
 navlevel: header
 
 filter: research
 
-position: 4
+position: 3
 permalink: /research/
 ---
 
