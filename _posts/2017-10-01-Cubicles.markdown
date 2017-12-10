@@ -44,6 +44,9 @@ In previous attempts, scalable online traning platform were built by researchers
 **Transformation Limitation**|Perspective Taking|2D to 3D transformation/ Mental Rotation
 **Cube Shift**|spatial memory|
 
+The **2 games** elaborated here are designed & implemented independently on my own.
+{:.sidenote}
+
 <h3>Cube Shift </h3>
 
 The game aims at memory aspect of spatial abilities. It taps into two strong indicators of spatial abilities, working memory span and short-term memory (Miyake, et al., 2001), by requiring students to direct their attention to the image on the cubes regardless of the distraction of shifting movement, and to retain memory of previous configurations of the cube. 
@@ -112,3 +115,13 @@ Survey results (on a 5-point Likert scale) indicates a great potential for the g
 *Moderately difficult*| M=2.7, SD=0.8
 *Like the platform*| M=3.4, SD=0.5
 *Want to use in the future*| M=3.8 SD=1.1
+
+* * *
+
+<h3>Group Members</h3>
+
+<h4>Development</h4>
+**Zeya Peng** | [Hanfei Ren](https://renhanfei.com) | [Rayne Zhang](https://raynezhang.github.io) | [Shiliang Zuo](https://shiliangzuo.github.io)
+
+<h4>Ideation & Testing</h4>
+Helen Wauck | Ziang Xiao | Yuqi Yao

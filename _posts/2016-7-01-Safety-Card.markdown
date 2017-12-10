@@ -88,3 +88,10 @@ operation motions, critical equipments & guiding arrows|first fixation duration 
 * SUS scores of the mixture group were above 50.9, the critical score based on Scale-grading Standards, except for "safety gates"
 * Interview records shows positive feedbacks
 * Users show acceptance to this new design
+
+
+* * *
+
+<h3>Group Members</h3>
+
+~ [Tianmi Fang](tianmi-fang.com) ~ Huao Li ~ Zheng Ma ~ **Zeya Peng** ~ Yiping Xie ~

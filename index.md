@@ -13,9 +13,9 @@ filter: [development, research, design]
 
 Welcome! 
 
-I am a senior year undergraduate in Zhejiang University with a major in Psychology. 
+I am a senior Psychology major at Zhejiang University. 
 
-I took >30 credits courses on Digital Media Technology for my passion about human-computer interaction and gamification.
+Currently taking an uncertificated minor on Digital Media Technology.
 
 
 [Resume](/assets/files/resume.pdf) (PDF)|

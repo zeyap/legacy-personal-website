@@ -23,7 +23,7 @@ slider: "yes"
 **Duration**|
  <highlight>JUL - DEC 2015</highlight>|
 
->We extended a hand gesture set to one involving hand and non-hand gestures, in the user-defined approach, combining the indices of gesture frequency, subjective ratings and physiological risk ratings. More information are available in the full paper. [Download](http://www.tandfonline.com/doi/pdf/10.1080/10447318.2017.1342943?needAccess=true).
+>To make gestural interaction with Kinect more "natural", we extended a hand gesture set to one involving hand and non-hand gestures, in the user-defined approach, combining the indices of gesture frequency, subjective ratings and physiological risk ratings. More information are available in the full paper. [Download](http://www.tandfonline.com/doi/pdf/10.1080/10447318.2017.1342943?needAccess=true).
 
 
 **Is body gesture interaction *natural* at all?**
@@ -134,6 +134,10 @@ Subjective score was thus the focus, while REBA score was left out, and no Kinec
 <h4>A Pictorial Demonstration</h4>
 ![gesture_1](/assets/images/gesture_2.png)
 
+* * *
+
+<h3>Group Members</h3>
+Zhen Chen | **Zeya Peng** | Mengge Yao | Shixian Yu | Ying Zhou
 
 <div>
     <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:800px;margin:0px auto 56px;">
