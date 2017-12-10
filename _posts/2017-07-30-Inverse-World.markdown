@@ -60,16 +60,16 @@ slider: "yes"
                 </li>
             </ul>
             <ul class="amazingslider-thumbnails" style="display:none;">
-                <li><img src="images/inverseWorld-tn.png" alt="Inverse World!" title="Inverse World!" /></li>
-                <li><img src="images/23-tn.png" alt="Transition animation snapshot" title="Transition animation snapshot" /></li>
-                <li><img src="images/scene1_1-tn.png" alt="Transition animation snapshot" title="Transition animation snapshot" /></li>
-                <li><img src="images/prototype-tn.png" alt="Early prototype" title="Early prototype" /></li>
-                <li><img src="images/main-tn.png" alt="Main scene" title="Main scene" /></li>
-                <li><img src="images/notebook_0-tn.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." /></li>
-                <li><img src="images/notebook_1-tn.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." /></li>
-                <li><img src="images/notebook_2-tn.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." /></li>
-                <li><img src="images/notebook_3-tn.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." /></li>
-                <li><img src="images/shoot-tn.png" alt="buttons in mini-game scenes" title="buttons in mini-game scenes" /></li>
+                <li><img src="/assets/slider/images/inverseWorld-tn.png" alt="Inverse World!" title="Inverse World!" /></li>
+                <li><img src="/assets/slider/images/23-tn.png" alt="Transition animation snapshot" title="Transition animation snapshot" /></li>
+                <li><img src="/assets/slider/images/scene1_1-tn.png" alt="Transition animation snapshot" title="Transition animation snapshot" /></li>
+                <li><img src="/assets/slider/images/prototype-tn.png" alt="Early prototype" title="Early prototype" /></li>
+                <li><img src="/assets/slider/images/main-tn.png" alt="Main scene" title="Main scene" /></li>
+                <li><img src="/assets/slider/images/notebook_0-tn.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." /></li>
+                <li><img src="/assets/slider/images/notebook_1-tn.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." /></li>
+                <li><img src="/assets/slider/images/notebook_2-tn.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." /></li>
+                <li><img src="/assets/slider/images/notebook_3-tn.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." /></li>
+                <li><img src="/assets/slider/images/shoot-tn.png" alt="buttons in mini-game scenes" title="buttons in mini-game scenes" /></li>
             </ul>
         <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive JavaScript Image Slideshow">Responsive JavaScript Image Slideshow</a></div>
         </div>
