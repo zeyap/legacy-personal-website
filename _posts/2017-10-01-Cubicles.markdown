@@ -7,6 +7,7 @@ filter: development
 coverpic: "/assets/images/coverpics/cubicles.png"
 description: "Games training spatial visualization skills"
 publication: "Accepted by ACM IUI '18"
+icon: gamepad
 webgl: "yes"
 ---
 

@@ -214,16 +214,21 @@ article {
 }
 
 .site-footer {
-  padding-top: $spacing-unit;
+  //padding-top: $spacing-unit;
   padding-bottom: $spacing-unit;
+  margin-left: $post-margin-width+50;
+  margin-right: $post-margin-width+50;
+
 }
 
 .site-footer .wrapper {
+    
   display: flex;
   width: 100%;
   flex-flow: row-reverse wrap;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .social-links {
@@ -246,6 +251,9 @@ article {
 .post-list-item {
   margin-top: $spacing-unit;
   margin-bottom: $spacing-unit;
+}
+h2{
+  
 }
 
 .post-description {

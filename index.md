@@ -11,7 +11,7 @@ permalink:
 filter: [development, research, design]
 ---
 
-<button class="button button-inverse button-circle button-borderless"><i class="fa fa-star-o"></i></button> 
+<button class="button button-inverse button-circle button-borderless"><i class="fa fa-flash"></i></button> 
 
 Welcome!
 

@@ -7,6 +7,7 @@ filter: research
 coverpic: "/assets/images/coverpics/"
 description: "The influence of pictorial realism on the comprehension of safety briefing card"
 publication: "Published in Chinese Journal of Applied Psychology '17"
+icon: paper-plane-o
 ---
 
 **Clients**|**Skills**

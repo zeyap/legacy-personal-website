@@ -19,6 +19,15 @@ Coursework for *Fundamentals of Modelling 2016*|Maya Modelling
 
 ![Aaron Swartz](/assets/images/model_archetype.png)
 
+<center>
+<div class="button-group">
+    <button type="button" class="button button-pill button-tiny button-caution">See HD Images</button>
+	<a href="/assets/images/overview.jpg" type="button" class="button button-pill button-tiny">overview</a>
+    <a href="/assets/images/midview.jpg" type="button" class="button button-pill button-tiny">midview</a>
+    <a href="/assets/images/insideview.jpg" type="button" class="button button-pill button-tiny">close shot</a>
+  </div>
+  </center>
+
 <div>
     <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1000px;margin:0px auto 56px;">
         <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
@@ -40,9 +49,4 @@ Coursework for *Fundamentals of Modelling 2016*|Maya Modelling
     </div>
 	</div>
 
-  <div class="button-group">
-    <button type="button" class="button button-pill button-tiny button-caution">See HD Images</button>
-	<a href="/assets/images/overview.jpg" type="button" class="button button-pill button-tiny">overview</a>
-    <a href="/assets/images/midview.jpg" type="button" class="button button-pill button-tiny">midview</a>
-    <a href="/assets/images/insideview.jpg" type="button" class="button button-pill button-tiny">close shot</a>
-  </div>
+  
