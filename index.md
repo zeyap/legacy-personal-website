@@ -15,9 +15,9 @@ filter: [development, research, design]
 
 Welcome!
 
-I am a senior Psychology major at Zhejiang University 
+I am a senior **Psychology** major at [Zhejiang University](http://www.zju.edu.cn/english/)
 
-currently studying Digital Media Technology.
+currently studying **Digital Media Technology**.
 
 
 <a href="mailto:zeyapeng@outlook.com" class="button button-caution button-border button-circle"><i class="fa fa-envelope-open-o"></i></a> zeyapeng (a) outlook.com|
