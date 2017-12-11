@@ -172,7 +172,12 @@ article {
   line-height: 1.0;
   margin-left: $post-margin-width;
   margin-right: $post-margin-width;
+  @media screen and (max-width: $content-width) {
+    margin-left:$spacing-unit;
+    margin-right:$spacing-unit;
   }
+  }
+
 	
 }
 
@@ -274,11 +279,17 @@ h2{
   position: relative;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   max-width: 30%;
+  @media screen and (max-width: $content-width) {
+    max-width: 300px;
+  }
   height: 0.2 * $gallery-width;
   display: inline-flex;
   width: 100%;
   margin: 0 1% 30px 1%; //t/r/b/l
 }
+
+
+
 .gallery div.item .item-inner {
   display: block;
   padding: 10px;
