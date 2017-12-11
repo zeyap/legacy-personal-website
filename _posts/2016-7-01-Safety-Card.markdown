@@ -4,7 +4,7 @@ title: "Eye-tracking Study on Flight Safety Card Design"
 date:   2016-07-01 12:50:00 +0800
 category: research
 filter: research
-coverpic: "/assets/images/coverpics/"
+coverpic: "/assets/images/coverpics/flight.jpg"
 description: "The influence of pictorial realism on the comprehension of safety briefing card"
 publication: "Published in Chinese Journal of Applied Psychology '17"
 icon: paper-plane-o
@@ -22,6 +22,12 @@ icon: paper-plane-o
 >**Safety briefing cards with real photos and cartoon pictures, which is more effective for comprehension?**
 >We investigate this by combining the eye-tracking technique and a simulated manipulation task. The work has been accepted by Chinese Journal of Applied Psychology '17.   <a href="/assets/files/safety_card.pdf" class="button button-pill button-tiny button-inverse">Full paper</a> <a href="/assets/files/safety_card_translation.pdf" class="button button-pill button-tiny">Translated version</a>
 
+<style type="text/css">
+  table,th,td
+  {
+  width:100%;
+  }
+</style>
 
 <h2>Literature review</h2>
 

@@ -1,18 +1,21 @@
 <div class="item" data-tags="{{ post.tags | join: " " }}">
-    <a class="item-inner" href="{{ post.url | relative_url }}" data-date="{{ post.date | date: "%m-%d"  }}">
+    {% if post.coverpic %}
+    <img src="{{ post.coverpic| relative_url }}" alt=""/>
+    {% endif %}
+    <a class="item-inner" href="{{ post.url | relative_url }}" data-date="{{ post.date | date: "%m-%d"  }}">      
         <div class="item-title"> {{ post.title | escape }} </div>
            {% if post.description %}
         <div class="item-description">{{ post.description }}</div>
         {% endif %}
+        {% if post.publication %}
+        <p class="post-description"><B><I><button class="button button-inverse button-circle button-borderless"><i class="fa fa-{{ post.icon }}"></i></button>{{ post.publication }}</I></B></p>
+        {% endif %}
+
         <div class="item-meta">
             {{ post.date | date: "%B %-d, %Y" }}
 
         </div>
-        {% if post.coverpic %}
-        <div class="item-image">
-            <img src="{{ post.coverpic| relative_url }}" alt="" />
-        </div>
-        {% endif %}
+        
     </a>
     
 </div>

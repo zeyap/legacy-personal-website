@@ -4,7 +4,7 @@ title: "Inverse World"
 date:   2017-07-30 12:50:00 +0800
 category: design
 filter: design
-coverpic: "/assets/images/coverpics/iw.png"
+coverpic: "/assets/images/coverpics/iw.jpg"
 description: "A story-driven AR game" 
 slider: "yes"
 ---

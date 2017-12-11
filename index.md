@@ -12,7 +12,6 @@ filter: [development, research, design]
 ---
 
 <button class="button button-inverse button-circle button-borderless"><i class="fa fa-flash"></i></button> 
-
 Welcome!
 
 I am a senior **Psychology** major at [Zhejiang University](http://www.zju.edu.cn/english/)

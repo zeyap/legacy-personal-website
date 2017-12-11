@@ -4,7 +4,7 @@ title: "Music Recoginition"
 date:   2017-12-10 12:50:00 +0800
 category: development
 filter: development
-coverpic: 
+coverpic: /assets/images/coverpics/music.jpg
 
 description: "A music processing project (In progress)"
 ---
@@ -19,6 +19,13 @@ Digital Audio and Video Processing, Course Project|C++ Programming
  |Windows 10 (VC14 x86)
 
 >This desktop application read in audio recordings to generate audio fingerprints, you can build up & search among a fingerprint database with this application. Till now it is made independently by myself. Project still in progress at the moment. Visit the <a href="https://github.com/zeyap/MusicFingerprint" class="button button-pill button-tiny button-caution">Repository</a>
+
+<style type="text/css">
+  table,th,td
+  {
+  width:100%;
+  }
+</style>
 
 <h2>Configurations & Features</h2>
 
