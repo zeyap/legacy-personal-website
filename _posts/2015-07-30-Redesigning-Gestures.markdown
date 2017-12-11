@@ -81,8 +81,9 @@ Taxonomy Dimension -
     <option  value="Nature">Nature</option>
 </select>
 **Select to see the stacked graph*
-
-<div id="container" style="width:100%; height:400px;"></div>
+<center>
+<div id="container" style="width:70%; height:400px;"></div>
+</center>
 <h5>Mental Model Observations</h5>
 * <highlight>Participants were inclined to perform gestures over concrete objects</highlight>
 * <highlight>Only 17.40% were abstract gestures</highlight>
@@ -91,9 +92,9 @@ Taxonomy Dimension -
 
 
 ***Agreement rate*** indicates to what extent participants tend to come up with the same gestures for a command.
-
-<div id="container2" style="width:100%; height:700px;"></div>
-
+<center>
+<div id="container2" style="width:70%; height:500px;"></div>
+</center>
 <script src="/assets/js/charts_in_post/highchart1_2.js"></script>
 
 <h4>STEP 2. Score gesture set</h4>
