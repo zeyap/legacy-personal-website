@@ -2,7 +2,7 @@
     {% if post.coverpic %}
     <img src="{{ post.coverpic| relative_url }}" alt=""/>
     {% endif %}
-    <a class="item-inner" href="{{ post.url | relative_url }}" data-date="{{ post.date | date: "%m-%d"  }}">      
+    <a class="item-inner" href="{{ post.url | relative_url }}" data-date="{{ post.date | date: "%m-%d"  }}">     
         <div class="item-title"> {{ post.title | escape }} </div>
            {% if post.description %}
         <div class="item-description">{{ post.description }}</div>

@@ -1,8 +1,7 @@
 ---
-layout: posts
+layout: gallery
 
 title: Research
-navlevel: header
 
 filter: research
 

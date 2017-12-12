@@ -1,14 +1,12 @@
 ---
-layout: post
+layout: gallery
 
-title: About
+title: Portfolio
 navlevel: header
-navtitle: About
+navtitle: Portfolio
 
 position: 1
 permalink: 
 
 filter: [development, research, design]
 ---
-
-{% include index-content.html %}

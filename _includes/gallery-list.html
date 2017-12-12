@@ -1,34 +1,44 @@
-
-
 <div class="gallery">
-    {% for rule in page.filter %}
-    {% assign posts = site.posts %}
-    {% if rule.by_tag %}
-    {% assign posts = posts | where_exp: "post", "post.tags contains rule.by_tag" %}
-    {% endif %}
-    {% if rule.by_category %}
-    {% assign posts = posts | where_exp: "post", "post.category == rule.by_category" %}
-    {% endif %}
-    {% if rule.by_expression %}
-    {% assign posts = posts | where_exp: "post", rule.by_expression %}
-    {% endif %}
-    {% for post in posts %}
-    {% assign posts = posts | append: " " | append: post.path %}
-    {% endfor %}
-    {% endfor %}
+    <center>
+        <div class="button-group">
+            <a href="/design/" class="button button-pill button-tiny">Design</a>
+            <a href="/development/" class="button button-pill button-tiny">Development</a>
+            <a href="/research/" class="button button-pill button-tiny">Research</a>
+            <a href="/clear/portfolio" class="button button-pill button-tiny">[?] incompatible</a>
+        </div>
+    </center>
+        <br>
+        <br>
+        {% for rule in page.filter %}
+        {% assign posts = site.posts %}
+        {% if rule.by_tag %}
+        {% assign posts = posts | where_exp: "post", "post.tags contains rule.by_tag" %}
+        {% endif %}
+        {% if rule.by_category %}
+        {% assign posts = posts | where_exp: "post", "post.category == rule.by_category" %}
+        {% endif %}
+        {% if rule.by_expression %}
+        {% assign posts = posts | where_exp: "post", rule.by_expression %}
+        {% endif %}
+        {% for post in posts %}
+        {% assign posts = posts | append: " " | append: post.path %}
+        {% endfor %}
+        {% endfor %}
 
-    {% if posts %}
-    {% assign posts = posts | split: " " | sort | uniq %}
-    {% assign posts = site.posts | where_exp: "post", "posts contains post.path" %}
-    {% else %}
-    {% assign posts = site.posts %}
-    {% endif %}
+        {% if posts %}
+        {% assign posts = posts | split: " " | sort | uniq %}
+        {% assign posts = site.posts | where_exp: "post", "posts contains post.path" %}
+        {% else %}
+        {% assign posts = site.posts %}
+        {% endif %}
 
-    {% for rule in page.filter %}
-    {% for post in posts %}
-    {% if post.category == rule %}
-    {% include gallery-list-item.html %}
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
+
+        {% for post in posts %}
+        {% for rule in page.filter %}
+        {% if post.category == rule %}
+        {% include gallery-list-item.html %}
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+   
 </div>

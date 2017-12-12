@@ -1,8 +1,7 @@
 ---
-layout: posts
+layout: gallery
 
 title: Development
-navlevel: header
 
 filter: development
 
