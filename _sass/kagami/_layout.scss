@@ -10,6 +10,7 @@ html {
 }
 
 body {
+    background-image: url(grids.png);
   min-height: 100%;
   width: 100%;
   overflow: hidden; // fixes margin-collapsing of body
@@ -51,7 +52,7 @@ article {
   display: inline-block;
   width: 100%;
   margin: 0 0 20px 0; //t/r/b/l
-  padding: 0 50px 50px 50px;
+  padding: 20px 50px 20px 50px;
   line-height:0.5;
 
   $vspacing: $spacing-unit;
