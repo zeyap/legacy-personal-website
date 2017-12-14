@@ -7,6 +7,7 @@
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
   {% assign v = site.time | date: "%Y%m%d%H%M%S" %}
+  <link rel="shortcut icon" href="/assets/styles/avatar.ico" type="image/x-icon" />
   <link rel="stylesheet" href="{{ "/assets/styles/core.css?v=" | append: v | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/styles/fontello.css?v=" | append: v | relative_url }}">
   <link rel="stylesheet" href="{{ page.color_scheme | default: site.color_scheme | default: "default" | prepend: "/assets/styles/highlighting/" | append: ".css?v=" | append: v | relative_url }}">
