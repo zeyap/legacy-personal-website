@@ -290,15 +290,19 @@ article {
   padding: 10px;
   margin-bottom: 10px;
   position:absolute;
-  opacity: 0;
+  opacity:0;
 }
+
 .gallery div.item:hover {
-  opacity: 1;
+    .item-inner {
+        opacity: 1.0;
+    }
+    .item-image{
+        filter: brightness(0.5);
+    }
+    
 }
 .gallery div.item .item-image {
-  display:block;
-  max-width: 100%;
-  //padding-bottom: 1em;
 }
 .gallery div.item .item-title {
 

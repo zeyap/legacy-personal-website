@@ -256,10 +256,12 @@ article {
 
 .gallery div.item .item-title {
   font-size: 1.4em;
+  color: white;
 }
 
 .gallery div.item .item-description {
   font-size: 1.0em;
+  color: lighten($content-color, 50%);
 }
 
 .gallery div.item .item-meta {
