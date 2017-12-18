@@ -290,9 +290,10 @@ article {
   padding: 10px;
   margin-bottom: 10px;
   position:absolute;
+  opacity: 0;
 }
 .gallery div.item:hover {
-  opacity: 0.9;
+  opacity: 1;
 }
 .gallery div.item .item-image {
   display:block;
