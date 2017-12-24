@@ -22,7 +22,7 @@ Course Projects|C++ Programming
  |Visualization
  |
 **Duration**|
- 2016 - 2017 |
+ 2017 - |
  |
 
  <h3>Music Recognition</h3>
@@ -36,3 +36,4 @@ See more in <a href="https://github.com/zeyap/MusicFingerprint" class="button bu
 ![](/assets/images/mf_1.png)
 
 ![](/assets/images/mf_2.png)
+
