@@ -32,7 +32,7 @@ Course Projects|C++ Programming
 
 This desktop application reads in audio recordings to generate audio fingerprints, you can build up & search among a fingerprint database with this application. Till now it is made independently by myself. Project still in progress at the moment.
 
-See more in <a href="https://github.com/zeyap/MusicFingerprint" class="button button-pill button-tiny button-caution">Project page</a>
+<center> <a href="https://github.com/zeyap/MusicFingerprint" class="button button-pill button-tiny button-highlight">Music fingerprint</a></center>
 
 ![](/assets/images/mf_1.png)
 
@@ -40,7 +40,7 @@ See more in <a href="https://github.com/zeyap/MusicFingerprint" class="button bu
 
  <h3>Face Recognition</h3>
 
- <a href="https://github.com/zeyap/Eigenface" class="button button-pill button-tiny button-caution">Eigenface</a>
+<center> <a href="https://github.com/zeyap/Eigenface" class="button button-pill button-tiny button-highlight">Eigenface</a></center> 
 
  Coursework on Computer Vision. Made with OpenCV(3.3.1) modules. Core functions (other than matrix eigen vectors calculation) are originally implemented.
 
@@ -60,7 +60,7 @@ See more in <a href="https://github.com/zeyap/MusicFingerprint" class="button bu
 
  <h3>Panorama Stitcher</h3>
 
- <a href="https://github.com/zeyap/Panorama-stitching" class="button button-pill button-tiny button-caution">Panorama stitching</a>
+<center>  <a href="https://github.com/zeyap/Panorama-stitching" class="button button-pill button-tiny button-highlight">Panorama stitching</a></center> 
 
   Coursework on Computer Vision. I used OpenCV(3.3.1) module of [SIFT](https://en.wikipedia.org/wiki/Scale-invariant_feature_transform), a renowned method for 2D feature extraction on images ([Lowe 1999](http://www.cs.ubc.ca/~lowe/papers/iccv99.pdf)). 
 
