@@ -21,7 +21,7 @@ Coursework for *Fundamentals of Modelling 2016*|Maya Modelling
 
 <center>
 <div class="button-group">
-    <button type="button" class="button button-pill button-tiny button-caution">See HD Images</button>
+    <button type="button" class="button button-pill button-tiny button-highlight">See HD Images</button>
 	<a href="/assets/images/overview.jpg" type="button" class="button button-pill button-tiny">overview</a>
     <a href="/assets/images/midview.jpg" type="button" class="button button-pill button-tiny">midview</a>
     <a href="/assets/images/insideview.jpg" type="button" class="button button-pill button-tiny">close shot</a>

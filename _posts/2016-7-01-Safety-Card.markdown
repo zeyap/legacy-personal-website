@@ -18,9 +18,11 @@ icon: paper-plane-o
  |
 **Duration**|
  <highlight>MAR - JUN 2016</highlight>|
+ |
+ <a href="/assets/files/safety_card.pdf" class="button button-pill button-tiny button-highlight">Full paper</a> <a href="/assets/files/safety_card_translation.pdf" class="button button-pill button-tiny">Translated version</a>|
 
 >**Safety briefing cards with real photos and cartoon pictures, which is more effective for comprehension?**
->We investigate this by combining the eye-tracking technique and a simulated manipulation task. The work has been accepted by Chinese Journal of Applied Psychology '17.   <a href="/assets/files/safety_card.pdf" class="button button-pill button-tiny button-inverse">Full paper</a> <a href="/assets/files/safety_card_translation.pdf" class="button button-pill button-tiny">Translated version</a>
+>We investigate this by combining the eye-tracking technique and a simulated manipulation task. The work has been accepted by Chinese Journal of Applied Psychology '17.
 
 <style type="text/css">
   table,th,td

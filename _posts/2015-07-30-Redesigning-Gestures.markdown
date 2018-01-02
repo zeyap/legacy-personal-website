@@ -23,8 +23,10 @@ slider: "yes"
  |
 **Duration**|
  <highlight>JUL - DEC 2015</highlight>|
+|
+<a href="http://www.tandfonline.com/doi/pdf/10.1080/10447318.2017.1342943?needAccess=true" class="button button-pill button-tiny button-highlight">Full paper</a> |
 
->To make gestural interaction with Kinect more "natural", we extended a hand gesture set to one involving hand and non-hand gestures, in the user-defined approach, combining the indices of gesture frequency, subjective ratings and physiological risk ratings. More information are available in the full paper. <a href="http://www.tandfonline.com/doi/pdf/10.1080/10447318.2017.1342943?needAccess=true" class="button button-pill button-tiny button-inverse">Download</a>
+>To make gestural interaction with Kinect more "natural", we extended a hand gesture set to one involving hand and non-hand gestures, in the user-defined approach, combining the indices of gesture frequency, subjective ratings and physiological risk ratings.
 
 
 **Is body gesture interaction *natural* at all?**

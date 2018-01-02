@@ -18,9 +18,9 @@ slider: "yes"
 **Duration**|
  <highlight>April - July 2017</highlight>|
  |
+ <a href="https://github.com/fish1996/AR-Game---Inverse-World" class="button button-pill button-tiny button-highlight">Project repository</a>|
 
-
->'Inverse World' is a story-driven AR game, where players explore the game subject's memories through dialogues to help fulfill her wishes. The project is still under way. <a href="https://github.com/fish1996/AR-Game---Inverse-World" class="button button-pill button-tiny button-caution">Project repository</a>
+>'Inverse World' is a story-driven AR game, where players explore the game subject's memories through dialogues to help fulfill her wishes.
 
 <h3>Video</h3>
 
@@ -78,9 +78,7 @@ slider: "yes"
 
 <h2>Conception</h2>
 
-We were required to develop an Augmented Reality game.
-
-After brainstorming on the game design, we decided to create a life simulation & virtual social experience on mobile devices.
+We were required to develop an Augmented Reality game. After brainstorming on the game design, we decided to create a life simulation & virtual social experience on mobile devices.
 
 Due to thr group's love for engaging stories and role-playing interactive novels, we decided to make a story-driven simulation game. There are already a number of impressive and non-AR predesessors. 
 
