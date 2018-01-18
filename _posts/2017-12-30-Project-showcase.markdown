@@ -18,15 +18,14 @@ description: "Course projects in progress"
 
 **Clients**|**Skills**
 Course Projects|C++ Programming
- |Multimedia processing fundamentals
- |Computer Vision
- |Visualization
+ |Multimedia processing
+ |Computer Animation
  |
 **Duration**|
  Nov 2017 - |
  |
 
- <h3>Music Recognition</h3>
+ <h2>Music Recognition</h2>
 
  This is a coursework done on Digital Video-Audio Processing.
 
@@ -34,43 +33,14 @@ This desktop application reads in audio recordings to generate audio fingerprint
 
 <center> <a href="https://github.com/zeyap/MusicFingerprint" class="button button-pill button-tiny button-highlight">Music fingerprint</a></center>
 
+![](/assets/images/mf_2.gif)
+
 ![](/assets/images/mf_1.png)
 
-![](/assets/images/mf_2.png)
+ <h2>UFO Catcher</h2>
 
- <h3>Face Recognition</h3>
+ Computer Animaiton course project. The 2D inverse kinematics was implemented to make this interactive program.
 
-<center> <a href="https://github.com/zeyap/Eigenface" class="button button-pill button-tiny button-highlight">Eigenface</a></center> 
+  <center> <a href="https://github.com/zeyap/IK-ufo-catcher" class="button button-pill button-tiny button-highlight">IK UFO Catcher</a></center>
 
- Coursework on Computer Vision. Made with OpenCV(3.3.1) modules. Core functions (other than matrix eigen vectors calculation) are originally implemented.
-
- Faces can be decomposed linearly using some eigen vectors (or [Eigenfaces](https://en.wikipedia.org/wiki/Eigenface)) ([Turk & Pentland 1991](http://ieeexplore.ieee.org/document/139758/)). The face images I used to generate eigenvectors come from the database of AT&T and one of my photo. The method to extract eigen vectors is [Principal Component Analysis](https://en.wikipedia.org/wiki/Principal_component_analysis) (PCA).
-
- Mean face
- ![](https://github.com/zeyap/Eigenface/raw/master/eigen_output/mean_face.png)
-
- Eigenfaces
- ![](https://github.com/zeyap/Eigenface/raw/master/eigen_output/eigenfaces.png)
-
- Reconstruction of my photo using a certain number of eigenfaces
- ![](https://github.com/zeyap/Eigenface/raw/master/eigen_output/reconstruction.png)
-
- The UI designed for conveniently unifying the position of eyes among all photos.
- ![](https://github.com/zeyap/Eigenface/raw/master/eigen_output/ui.png)
-
- <h3>Panorama Stitcher</h3>
-
-<center>  <a href="https://github.com/zeyap/Panorama-stitching" class="button button-pill button-tiny button-highlight">Panorama stitching</a></center> 
-
-  Coursework on Computer Vision. I used OpenCV(3.3.1) module of [SIFT](https://en.wikipedia.org/wiki/Scale-invariant_feature_transform), a renowned method for 2D feature extraction on images ([Lowe 1999](http://www.cs.ubc.ca/~lowe/papers/iccv99.pdf)). 
-
-  Read individual and overlapping images
-  ![](/assets/images/yosemite.png)
-
-  Detect & Match keypoints according to keypoint desriptors. [See more here](https://github.com/zeyap/Panorama-stitching/tree/master/output)
-
-  ![](https://github.com/zeyap/Panorama-stitching/raw/master/output/match0_1.png)
-
-  Warp images & Stitch together
-  ![](https://github.com/zeyap/Panorama-stitching/raw/master/output/stitch.png)
-
+ ![](/assets/images/ik.gif)
