@@ -1,4 +1,5 @@
 <div class="gallery">
+    {% if page.filter %}
     <center>
         <div class="button-group">
             <a href="/design/" class="button button-pill button-tiny">DESIGN</a>
@@ -7,6 +8,7 @@
             <a href="/clear/portfolio" class="button button-pill button-tiny">[<strong>?</strong>] Incompatible</a>
         </div>
     </center>
+    {% endif %}
         <br>
         {% for rule in page.filter %}
         {% assign posts = site.posts %}
