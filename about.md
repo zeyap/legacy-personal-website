@@ -10,5 +10,5 @@ permalink: /about/
 
 filter: [development, research, design]
 ---
-
+![](/assets/images/selfies.png)
 {% include index-content.html %}
