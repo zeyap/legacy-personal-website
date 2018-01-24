@@ -102,34 +102,16 @@ article {
   }
 
   blockquote {
-    text-align:left;
-      
-    @media screen and (min-width: $content-width) {
-
-      background-color: $background-color-float;
-        position: relative;
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-
-        float: right;
-        //margin-left: -$post-margin-width;
-        //margin-right: $vspacing;
-        padding: 30px;
-
-    }
-    cite {
-      display: block;
-      text-align: right;
-      margin-top: -$spacing-unit;
-      white-space: nowrap;
-    }
-
+    border-left: 0.3em solid $main-color;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0.2em 1.5em;
   }
 
   .aside, .sidenote, .side-note {
     color: $main-color;
     background-color: $background-color-float;
     position: relative;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
 
     width: 300px;
@@ -173,18 +155,25 @@ article {
   line-height: 1.0;
   margin-left: $post-margin-width;
   margin-right: $post-margin-width;
+  max-width:100%;
   @media screen and (max-width: $content-width) {
     margin-left:$spacing-unit;
     margin-right:$spacing-unit;
   }
   }
-
 	
 }
 
 .post-header {
   margin-top: $post-header-spacing;
   margin-bottom: $post-header-spacing/2;
+  div.sub-nav{
+    a{
+        color:$main-color;
+        font-size: 1.0em;
+    }
+    
+}
 }
 
 .post-cover {
@@ -206,13 +195,7 @@ article {
   justify-content: center;
   margin-left: $content-padding;
   margin-right: $content-padding;
-}
-
-@media screen and (min-width: $content-width) {
-  .site-nav {
-    height: 0;
-    justify-content: flex-end;
-  }
+  justify-content: flex-end;
 }
 
 .page-link {
@@ -274,13 +257,12 @@ article {
 .gallery div.item {
   background-color: $gallery-block-color;
   position: relative;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 
   max-width: 31%;
   @media screen and (max-width: $content-width) {
-    max-width: 350px;
+    max-width: 31%;
   }
-  height: 0.193 * $gallery-width;
+  height: 100%;
   display: inline-flex;
   width: 100%;
   margin: 0 2% 4% 0; //t/r/b/l

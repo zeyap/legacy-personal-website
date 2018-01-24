@@ -1,13 +1,14 @@
 [lang^="en"]      { line-height: 1.3; @include font-serif; }
-[lang^="zh-Hans"] { line-height: 1.3; @include font-serif-zh-Hans; }
-[lang^="zh-Hant"] { line-height: 1.3; @include font-serif-zh-Hant; }
-[lang^="ja"]      { line-height: 1.3; @include font-serif-ja; }
+@import url('https://fonts.googleapis.com/css?family=Supermercado+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu|Ubuntu+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono');
 
 body {
   color: $content-color;
   background-color: $background-color;
   //font-size: font-size();
-  font-size: 1.0em;
+  font-size: 1.2em;
   font-weight: 300;
   font-kerning: normal;
   border-top: 2px solid $main-color;
@@ -23,9 +24,9 @@ h1, h2, h3, h4, h5, h6, p {
   display: block;
 }
 
-h1 { font-family: 'Adobe Garamond Pro', ; color: #fff; font-weight: bold; font-size: 3.5em; }
-h2 { color: $main-color;font-weight: bold; font-size: 2.0em; }//color: lighten($title-color,0.2); font-weight: bolder;
-h3 { font-weight: bold; font-size: 1.5em;}
+h1 { font-family: 'Supermercado One', cursive; color: #fff; font-weight: bold; font-size: 3.0em; }
+h2 { font-family: 'Supermercado One', cursive; color: $main-color;font-weight: bold; font-size: 2.0em; }//color: lighten($title-color,0.2); font-weight: bolder;
+h3 { font-family: 'Ubuntu Condensed', sans-serif; font-weight: bold; font-size: 1.5em;}
 h4 { font-weight: bold; }
 h5 { font-weight: bolder; }
 
@@ -45,21 +46,19 @@ article {
     }
   }
 
-  h3{
-      &::after,&::before{ content: " -"; }
-      font-variant-caps: all-petite-caps;
-  }
+  h4{font-variant-caps: all-petite-caps;}
 
   p {
     hanging-punctuation: allow-end; // no browser supports this rule
   }
 
   table,th,td{
-      color:lighten($main-color,10%);
+     color:$main-color;
+     
   }
 
   .aside, .sidenote, .side-note {
-    font-size: 1.0 em;
+    font-size: 0.9 em;
   }
 
   em {
@@ -86,7 +85,8 @@ article {
   ol { list-style-type: decimal; }
 
   blockquote {
-    font-style: italic;
+     font-family: 'Ubuntu Mono', monospace;
+
   }
 
   code {
@@ -255,19 +255,19 @@ article {
 }
 
 .gallery div.item .item-title {
-  font-size: 1.4em;
+  font-size: 1.5em;
   color: white;
 }
 
 .gallery div.item .item-description {
-  font-size: 1.0em;
-  color: lighten($content-color, 50%);
+  font-size: 0.9em;
+  color: lighten($content-color, 90%);
 }
 
 .gallery div.item .item-meta {
   font-variant-caps: all-petite-caps;
-  color: lighten($content-color, 40%);
-  font-size: 1.0em;
+  color: lighten($content-color, 90%);
+  font-size: 0.9em;
 }
 ////
 

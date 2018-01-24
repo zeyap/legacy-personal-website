@@ -2,6 +2,13 @@
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape | replace: "​", "<wbr>" }}</h1>
     {% if page.layout=='page' %}{% include cover-image.html %}{% endif %}
+    {% if page.layout=='gallery' %}
+    <div class="sub-nav">
+        <a href="/design/">Design. </a> 
+        <a href="/development/">Development. </a> 
+        <a href="/research/">Research. </a>
+    </div>
+    {% endif %}
 </header>
 
 {% if page.cover_url %}
