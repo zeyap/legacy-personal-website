@@ -143,12 +143,9 @@ article {
     & + .sidenote + * { margin-top: -0.5 * $hspacing; }
   }
 
-	
-}
-
-table,th,td
+  table,th,td
   {
-        //padding:15px;
+  //padding:15px;
   //distance between table units
   border-collapse:separate;
   border-spacing:30px 5px;//hori/vert
@@ -163,26 +160,9 @@ table,th,td
     margin-left:$spacing-unit;
     margin-right:$spacing-unit;
   }
-  
   }
-
-table-meta,th-meta,td-meta
-  {
-  border-collapse:separate;
-  align-self:center;
-  align-content:center;
-  vertical-align:top;
-  table-layout: fixed;
-  line-height: 1.0;
-  margin-left: $post-margin-width;
-  margin-right: $post-margin-width;
-  max-width: $content-width;
-  @media screen and (max-width: $content-width) {
-    margin-left:$spacing-unit;
-    margin-right:$spacing-unit;
-  }
-  
-  }
+	
+}
 
 .post-header {
   margin-top: $post-header-spacing;
