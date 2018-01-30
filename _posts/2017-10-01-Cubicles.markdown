@@ -21,6 +21,17 @@ webgl: "yes"
  <highlight>JUL - SEP 2017</highlight>|
  |
 
+ <table-meta>
+<tr-meta>
+<td-meta>row 1, cell 1</td-meta>
+<td-meta>row 1, cell 2</td-meta>
+</tr-meta>
+<tr-meta>
+<td-meta>row 2, cell 1</td-meta>
+<td>row 2, cell 2</td>
+</tr>
+</table-meta>
+
  <center>
   <div class="button-group">
     <a href="/assets/files/Cubicles_Mac_0929.app.zip" class="button button-pill button-highlight button-tiny">Mac</a>
