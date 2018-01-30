@@ -7,7 +7,7 @@ category: play
 description: "Game jams I have participated"
 ---
 
-Global Game Jam is an annualy-held 48-hour-hackathon for games.
+Global Game Jam is an annually-held 48-hour-hackathon for games.
 
 <h2>Time Wave</h2>
 
