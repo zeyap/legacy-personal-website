@@ -8,10 +8,10 @@ body {
   color: $content-color;
   background-color: $background-color;
   //font-size: font-size();
-  font-size: 1.2em;
+  font-size: 1.0em;
   font-weight: 300;
   font-kerning: normal;
-  border-top: 2px solid $main-color;
+  border-top: 50px solid lighten($main-color,15%);
 }
 
 a, a:hover, a:visited {
@@ -125,6 +125,7 @@ article {
 }
 
 .site-title, .site-title:hover, .site-title:visited {
+  color:$background-color;
   display: inline-block;
   font-variant-caps: all-petite-caps;
   font-size: 2.0em;
@@ -134,7 +135,7 @@ article {
 }
 
 .site-nav {
-  color: $main-color;
+  color: lighten($main-color, 50%);
   font-size: 1.0em;
   font-variant-caps: all-petite-caps;
   letter-spacing: 0.1em;
@@ -145,7 +146,7 @@ article {
 }
 
 .site-nav:hover {
-  color: lighten($main-color, 50%);
+  color: $main-color;
   .page-link:hover {
     color: $main-color;
   }
@@ -284,3 +285,22 @@ article {
   h3 { margin-left: -2px; }
 }
 
+.navbar-default {
+  background-color: lighten($main-color,15%);
+}
+.navbar-default .navbar-brand {
+    color: $background-color;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: $background-color;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: $background-color;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: $main-color;
+    background-color:$background-color;
+}

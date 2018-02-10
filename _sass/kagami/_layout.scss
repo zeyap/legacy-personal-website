@@ -165,8 +165,8 @@ article {
 }
 
 .post-header {
-  margin-top: $post-header-spacing;
-  margin-bottom: $post-header-spacing/2;
+  //margin-top: $post-header-spacing/4;
+  margin-bottom: $post-header-spacing/4;
   div.sub-nav{
     a{
         color:$main-color;
@@ -191,7 +191,7 @@ article {
 .site-nav {
   display: flex;
   flex-flow: row wrap;
-  align-items: top;
+  align-items: center;
   justify-content: center;
   margin-left: $content-padding;
   margin-right: $content-padding;
@@ -257,20 +257,13 @@ article {
 .gallery div.item {
   background-color: $gallery-block-color;
   position: relative;
-
-  max-width: 31%;
-  @media screen and (max-width: $content-width) {
-    max-width: 31%;
-  }
-  height: 100%;
   display: inline-flex;
-  width: 100%;
-  margin: 0 2% 4% 0; //t/r/b/l
+
 }
 
 .gallery div.item .item-inner {
   display: block;
-  padding: 20px;
+  padding: 60px;
   margin-bottom: 20px;
   position:absolute;
   opacity:0;
@@ -288,7 +281,7 @@ article {
 .gallery div.item .item-image {
 }
 .gallery div.item .item-title {
-
+    margin-bottom:20px;
 }
 .gallery div.item .item-meta {
   text-align: left;
