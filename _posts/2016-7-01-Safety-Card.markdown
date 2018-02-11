@@ -32,6 +32,8 @@ duration: "MAR - JUN 2016"
 
 It is of great significance to improve the comprehensibility of airline safety briefing cards.
 
+* * *
+
 <h3>market research & research review</h3>
 Two forms of safety cards
 
@@ -62,6 +64,8 @@ Two forms of safety cards
         </div> 
     </div>
 </div>
+
+* * *
 
 <h3>Theory hypothesis</h3>
 
@@ -111,6 +115,7 @@ Two forms of safety cards
 <h3>Materials</h3>
 * Test pictures are adapted to **3 representation styles** of 8 crucial contents from curently used airline safety briefing card of *China Eastern Airlines*
 * To ensure the **general comprehensibility** and **equality** (perceptual & information) of all adaptations of original card, materials were evaluated in a focus group of 5(with 3 experienced passengers) and revised the pictures based on comments.
+
 <h3>Procedure</h3>
 
  ![](/assets/images/safetycards3.png)
@@ -160,6 +165,7 @@ Two forms of safety cards
     </div>
 </div>
 
+* * *
 
 <div class="container">
     <div class="row">
@@ -203,6 +209,8 @@ Two forms of safety cards
     </div>
 </div>
 
+* * *
+
 <div class="container">
     <div class="row">
         <div class="col">
@@ -216,9 +224,6 @@ Two forms of safety cards
         </div> 
     </div>
 </div>
-
-
-
 
 * * *
 
