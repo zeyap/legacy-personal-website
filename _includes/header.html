@@ -3,8 +3,8 @@
     {% if page.layout=='page' %}{% include cover-image.html %}{% endif %}
     {% if page.layout=='gallery' %}
     <div class="sub-nav">
-        <a href="/design/">Design. </a> 
-        <a href="/development/">Development. </a> 
+        <a href="/design/">Design. </a>
+        <a href="/development/">Development. </a>
         <a href="/research/">Research. </a>
     </div>
     {% endif %}
@@ -12,9 +12,14 @@
 
 {% if page.cover_url %}
 <div class="post-cover" aria-label="Cover">
-  <div class="post-cover-wrapper">
-    <img src="{{ page.cover_url }}" alt="" />
-  </div>
-  <div class="cover-meta">{{ page.cover_meta | markdownify }}</div>
+    <div class="post-cover-wrapper">
+        <img src="{{ page.cover_url }}" alt="" />
+    </div>
+    <div class="cover-meta">{{ page.cover_meta | markdownify }}</div>
 </div>
+{% endif %}
+
+<wbr>
+{% if page.meta-banner %}
+{% include meta-banner.html %}
 {% endif %}

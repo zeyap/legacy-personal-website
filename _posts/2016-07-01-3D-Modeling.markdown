@@ -7,11 +7,13 @@ filter: design
 coverpic: "/assets/images/coverpics/model.jpg"
 description: "Fundamentals of modeling coursework"
 slider: "yes"
+permalink: /3D-Modeling/
+
+meta-banner: "yes"
+client: "Fundamentals of Modeling 2016 Coursework"
+skills: "Maya Modeling"
 
 ---
-
-**Clients**|**Skills**
-Coursework for *Fundamentals of Modelling 2016*|Maya Modelling
 
 
 >A 3D model made in Maya as the final course project. Its archetype is *Southern Song Imperial Street (南宋御街)* located in downtown Hangzhou.
@@ -47,6 +49,6 @@ Coursework for *Fundamentals of Modelling 2016*|Maya Modelling
         <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive jQuery Image Slideshow">Responsive jQuery Image Slideshow</a></div>
         </div>
     </div>
-	</div>
+</div>
 
   

@@ -7,30 +7,30 @@ filter: design
 coverpic: "/assets/images/coverpics/iw.jpg"
 description: "A story-driven AR game" 
 slider: "yes"
+permalink: /inverse-world/
+
+meta-banner: "yes"
+client: "Computer Game Programming capstone project"
+skills: "Concept Design, Graphic Design, Unity 3D"
+duration: "April - July 2017"
+
 ---
 
-**Clients**|**Skills**
- <highlight>Computer Game Programming capstone project</highlight>|<highlight>Concept Design, Graphic Design, Unity 3D</highlight>
- |
- **Platform**|
- Android|
- |
-**Duration**|
- <highlight>April - July 2017</highlight>|
- |
- <a href="https://github.com/fish1996/AR-Game---Inverse-World" class="button button-pill button-tiny button-highlight">Project repository</a>|
-
 >'Inverse World' is a story-driven AR game, where players explore the game subject's memories through dialogues to help fulfill her wishes.
+
+ <a href="https://github.com/fish1996/AR-Game---Inverse-World" class="button button-pill button-tiny button-highlight">Project repository</a>
 
 <h3>Video</h3>
 
 [Switch on English subtitle at bottom right]
+<center>
 <div>
 <video width="900" height="563" controls="controls">
   <source src="/assets/videos/inverse_world.mp4" type="video/mp4">
   <track src="/assets/videos/inverse_world.vtt" kind="subtitles" srclang="en" label="English"/>
 </video>
 </div>
+</center>
 
 <h3>2D Assets Snapshot</h3>
 
@@ -84,29 +84,53 @@ Due to thr group's love for engaging stories and role-playing interactive novels
 
 <h2>Gameplay</h2>
 
-<h3>Goal of player</h3>
+<div class="container">
+    <div class="row">
+        <div class="col">
+		<h3>Goal of player</h3>
 
-* The main character is a ghost (we call Inverse Phantom) who seeks help from the player (a magician) to explore into her vague memories and find about her innate goal.
-* The game mainly consists of dialogues between the AR character and player, where the players accumulate fragments of her life stories, in a counter-chronological order.
-* The player has to infer about the connections among the story fragments of the ghost, and pair them on the interface. Once the paring is successful, the player moves on to the next level. 
+<li>The main character is a ghost (we call Inverse Phantom) who seeks help from the player (a magician) to explore into her vague memories and find about her innate goal.</li>
+<li>The game mainly consists of dialogues between the AR character and player, where the players accumulate fragments of her life stories, in a counter-chronological order.</li>
+<li>The player has to infer about the connections among the story fragments of the ghost, and pair them on the interface. Once the paring is successful, the player moves on to the next level. </li>
+		</div>
+		<div class="col">
+		<h3>Stat balance</h3>
 
-<h3>Stat balance</h3>
+<ul>Since it would be no fun given the progress super-easy and resources unlimited, both the chance for dialogues and fragments-pairing are restricted by a energy parameter.</ul>
 
-Since it would be no fun given the progress super-easy and resources unlimited, both the chance for dialogues and fragments-pairing are restricted by a energy parameter.
+<ul>To replenish energy of the character, players can feed the character in mini-game.</ul>
 
-To replenish energy of the character, players can feed the character in mini-game.
+<ul>For mini-game design, we brainstormed about the likely ability of magicians to properly match the role of players, and finally decided on a shooting game (that would look like magic spelling).</ul>
+		</div>
+	</div>
+</div>
 
-For mini-game design, we brainstormed about the likely ability of magicians to properly match the role of players, and finally decided on a shooting game (that would look like magic spelling).
+
+
 
 * * *
 
+<div class="container">
+    <div class="row">
+        <div class="col">
+		<h4>Development</h4>
+		<center>
+		Mengdi Xu / Jiayi Ruan / Xinyang Guan / Biyun Zhang / Yibing Mei / Ya Gao
+		</center>
+		</div>
+		<div class="col">
+		<h4>Design</h4>
+		<center>
+		Zeya Peng - 2D Assets / Yiwen Hu - 3D Assets
+		</center>
+		</div>
+	</div>
+</div>
 <h3>The Group</h3>
-<h4>Development</h4>
-Mengdi Xu / Jiayi Ruan / Xinyang Guan / Biyun Zhang / Yibing Mei / Ya Gao
 
 
-<h4>Design</h4>
-**Zeya Peng** - 2D Assets / Yiwen Hu - 3D Assets
+
+
 
 
 

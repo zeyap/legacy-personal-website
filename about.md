@@ -9,5 +9,7 @@ position: 1
 permalink: /about/
 
 ---
-![](/assets/images/selfies.png)
+
+<img src="/assets/images/selfies_sm.png" class="float-left">
+
 {% include index-content.html %}

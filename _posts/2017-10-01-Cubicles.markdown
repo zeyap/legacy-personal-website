@@ -9,17 +9,17 @@ description: "Games training spatial visualization skills"
 publication: "Accepted by ACM IUI '18"
 icon: gamepad
 webgl: "yes"
+permalink: /cubicles/
+
+meta-banner: "yes"
+client: "Cascade Lab @ UIUC"
+skills: "Unity 3D, User testing design"
+director: "Wai-Tat Fu"
+duration: "JUL - SEP 2017"
+
 ---
 
-**Clients**|**Skills**
- <highlight>University of Illinois at Urbana-Champaigne</highlight>|<highlight>Unity 3D, User testing design</highlight>
- |
-**Advisor**|
- <highlight>Wai-Tat Fu</highlight>|
- |
-**Duration**|
- <highlight>JUL - SEP 2017</highlight>|
- |
+>'Cubicles' is a game aimed to motivate students to engage in spatial visualization skill training. The work has been accepted by ACM IUI (intelligent user interfaces ) 2018.
 
  <center>
   <div class="button-group">
@@ -30,9 +30,6 @@ webgl: "yes"
   </div>
 </center>
 
->'Cubicles' is a game aimed to motivate students to engage in spatial visualization skill training. The work has been accepted by ACM IUI (intelligent user interfaces ) 2018.
-
-
 Spatial visualization skills (the ability to understand the visual and spatial relationship among objects) are crucial to reasoning and solving complex problems in STEM disciplines.
 
 In previous attempts, scalable online traning platform were built by researchers in UIUC, but they reported low retention rate of such platform. To intrinsically motivate students to train their skills, a popular solution is gamification.
@@ -40,47 +37,122 @@ In previous attempts, scalable online traning platform were built by researchers
 * * *
 <h2>Game Design</h2>
 
-* The player is trapped in a dungeon maze. To escape, the player needs to navigate through the maze and unlock all the rooms; finishing the game task in the room is the only way to unlock the door to the next room.
-* 8 game modules based on 5 major aspects of spatial visualizations skills, with levels of graudual progression
+<div class="container">
+    <div class="row">
+        <div class="col">
+		<h3>The Platform</h3>
+		<h4>Gameplay</h4>
+		<li>The player is trapped in a dungeon maze. To escape, the player needs to navigate through the maze and unlock all the rooms; finishing the game task in the room is the only way to unlock the door to the next room.</li>
+<li>8 game modules based on 5 major aspects of spatial visualizations skills, with levels of graudual progression</li>
+<h4>Features</h4>
+<li>Designed modularly, game modules can be added or removed easily by communicating through documented API, maze map can be modified through a single JSON file</li>
+<li>Platform collects in-game behavior in detail to infer a player's problem-solving strategy and react by adjusting game difficulty or repeating failed challenges</li>
+        </div>
+		<div class="col">
+		<img src="/assets/images/maze.png">
+        </div> 
+    </div>
 
-**Block Builder**|3D object visualization & manipulation|2D to 3D transformation
-**Constructive Solid Geometry**|3D object visualization & manipulation|Perspective Taking
-**Plane Exploration**|3D object visualization & manipulation|Perspective Taking
-**View Point**|Perspective Taking|2D to 3D transformation
-**Shape Revolving**|Perspective Taking|2D to 3D transformation
-**Flat Pattern**|Perspective Taking|2D to 3D transformation
-**Transformation Limitation**|Perspective Taking|2D to 3D transformation/ Mental Rotation
-**Cube Shift**|spatial memory|
+	<div class="row">
+		<div class="col">
+		<img src="/assets/images/cubicles.png">
+        </div> 
+		<div class="col">
+		<h4>Modules</h4>
+		<table class="table table-sm">
+  <thead>
+    <tr>
+      <th scope="col">Game Module</th>
+      <th scope="col">Visuospatial Abilities</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Block Builder</td>
+      <td>3D object visualization & manipulation, 2D to 3D transformation</td>
+    </tr>
+    <tr>
+      <td>Constructive Solid Geometry</td>
+      <td>3D object visualization & manipulation, Perspective Taking</td>
+    </tr>
+    <tr>
+      <td>Plane Exploration</td>
+	  <td>3D object visualization & manipulation, Perspective Taking</td>
+    </tr>
+	<tr>
+      <td>View Point</td>
+	  <td>Perspective Taking, 2D to 3D transformation</td>
+    </tr>
+	<tr>
+      <td>Shape Revolving</td>
+	  <td>Perspective Taking, 2D to 3D transformation</td>
+    </tr>
+	<tr>
+      <td>Flat Pattern</td>
+	  <td>Perspective Taking, 2D to 3D transformation</td>
+    </tr>
+	<tr>
+      <td>Transformation Limitation</td>
+	  <td>Perspective Taking, 2D to 3D transformation/ Mental Rotation</td>
+    </tr>
+	<tr>
+      <td>Cube Shift</td>
+	  <td>spatial memory</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+    </div>
 
-The **2 games** elaborated here are designed & implemented independently on my own.
-{:.sidenote}
+</div>
 
-<h3>Cube Shift </h3>
+* * *
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+		 <h3>Cube Shift </h3>
 
 The game aims at memory aspect of spatial abilities. It taps into two strong indicators of spatial abilities, working memory span and short-term memory (Miyake, et al., 2001), by requiring students to direct their attention to the image on the cubes regardless of the distraction of shifting movement, and to retain memory of previous configurations of the cube. 
 
 The game design resembles the n-back tasks by Wayne Kirchner, and Dot Memory task that tap into STM.
+        </div>
+		<div class="col">
+		<img src="/assets/images/nback.jpeg">
+		
+        </div> 
+    </div>
+</div>
 
-![Aaron Swartz](/assets/images/nback.jpeg)
-
+<center>
 <video width="900" height="563" controls="controls">
   <source src="/assets/videos/cube_shift.mp4" type="video/mp4" />
 </video>
+</center>
 
-<h3>Shape Revolving </h3>
+* * *
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+		 <h3>Shape Revolving </h3>
 
 The Shape Revolving game aims to improve players' understanding of surfaces and solids from revolution. The player needs to mentally revolve a 2D shape about an axis, and visualize the created 3D model. 
 
-It is a gamified adaptation of "Rotation of Objects about Axes" in Sorby's engineering graphics workbook. 
-![](/assets/images/shape revolving1.png)
+It is a gamified adaptation of "Rotation of Objects about Axes" in Sorby's engineering graphics workbook.
+        </div>
+		<div class="col">
+		<img src="/assets/images/shape revolving1.png">
+		
+        </div> 
+    </div>
+</div>
 
+<center>
 <video width="900" height="563" controls="controls">
   <source src="/assets/videos/revolve.mp4" type="video/mp4" />
 </video>
-
-<h2>Platform features</h2>
-* Designed modularly, game modules can be added or removed easily by communicating through documented API, maze map can be modified through a single JSON file
-* Platform collects in-game behavior in detail to infer a player's problem-solving strategy and react by adjusting game difficulty or repeating failed challenges
+</center>
 
 <h2>Evaluation</h2>
 
@@ -97,39 +169,113 @@ The focus of our analysis was
 * To determine if players' spatial visualization skills (measured by PSVT:R) were associated with their in-game player behaviors (time spent in a level & errors) and and number of completed levels
 * To assess player's impressions of our game platform
 
-<h4>Gender difference on Spatial Visualization Skills</h4>
+<div class="container">
+    <div class="row">
+        <div class="col">
+		<h4>Gender difference on Spatial Visualization Skills</h4>
+		t=2.41(p<0.05). Males significantly score higher than females.
+		</div>
+		<div class="col">
+		<table class="table table-sm">
+  <thead>
+    <tr>
+      <th scope="col">Gender</th>
+      <th scope="col">Average PSVT:R Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Males</td>
+      <td>24.6 (SD=6.1)</td>
+    </tr>
+    <tr>
+      <td>Females</td>
+      <td>15.0 (SD=2.41)</td>
+    </tr>
+  </tbody>
+</table>
+		</div>
+	</div>
 
-Gender|Average PSVT:R Score
-**Males**|24.6 (SD=6.1)
-**Females**|15.0 (SD=2.41)
-
-t=2.41(p<0.05). Males significantly score higher than females.
-
-<h4>SV Skills and Game Performance</h4>
-
+    <div class="row">
+		<div class="col">
+		<h4>SV Skills and Game Performance</h4>
 Pearson's correlation test is used here.
+		</div>
+        <div class="col">
+		<table class="table table-sm">
+  <thead>
+    <tr>
+      <th scope="col">Performance Indicator</th>
+      <th scope="col">Correlation with PSVT:R Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Avg Level-completion Time	</td>
+      <td> r=-0.94, n =10, p<0.01</td>
+    </tr>
+    <tr>
+      <td>Avg Error Rate</td>
+      <td>r=-0.97, n =10, p<0.01</td>
+    </tr>
+	<tr>
+      <td>Avg Game Progress</td>
+      <td>r=0.58, n =10, p>0.05</td>
+    </tr>
+  </tbody>
+</table>
+		</div>
+	</div>
 
-Avg **Level-completion Time**| r=**-0.94**, n =10, *p<0.01*
-|The corre;aton holds for all 8 game modules
-Avg **Error Rate** | r=**-0.97**, n =10, *p<0.01*
-|The corre;aton holds for all 8 game modules
-Avg **Game Progress** | r=**0.58**, n =10, *p>0.05*
+	<div class="row">
+		<div class="col">
+		<h4>Players' Impressions</h4>
+		Survey results (on a 5-point Likert scale) indicates a great potential for the gaming platform to be deployed on a larger scale.
+		</div>
+        <div class="col">
+		<table class="table table-sm">
+  <thead>
+    <tr>
+      <th scope="col">Performance Indicator</th>
+      <th scope="col">Correlation with PSVT:R Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Avg Level-completion Time	</td>
+      <td> r=-0.94, n =10, p<0.01</td>
+    </tr>
+    <tr>
+      <td>Avg Error Rate</td>
+      <td>r=-0.97, n =10, p<0.01</td>
+    </tr>
+	<tr>
+      <td>Avg Game Progress</td>
+      <td>r=0.58, n =10, p>0.05</td>
+    </tr>
+  </tbody>
+</table>
+		</div>
+	</div>
+</div>
 
-<h4>Players' Impressions</h4>
-
-Survey results (on a 5-point Likert scale) indicates a great potential for the gaming platform to be deployed on a larger scale.
-
-*Fun* | M=3.3, SD=0.5
-*Moderately difficult*| M=2.7, SD=0.8
-*Like the platform*| M=3.4, SD=0.5
-*Want to use in the future*| M=3.8 SD=1.1
 
 * * *
 
 <h3>Group Members</h3>
 
-<h4>Development</h4>
-**Zeya Peng** | [Hanfei Ren](https://renhanfei.com) | [Rayne Zhang](https://raynezhang.github.io) | [Shiliang Zuo](https://shiliangzuo.github.io)
-
-<h4>Ideation & Testing</h4>
-Helen Wauck | Ziang Xiao | Yuqi Yao
+<div class="container">
+    <div class="row">
+        <div class="col">
+		 <h4>Development</h4>
+		 <center>
+Zeya Peng | <a href="https://renhanfei.com">Hanfei Ren</a> | <a href="https://raynezhang.github.io">Rayne Zhang</a> | <a href="https://shiliangzuo.github.io">Shiliang Zuo</a></center>
+        </div>
+		<div class="col">
+		<h4>Ideation & Testing</h4>
+		<center>
+Helen Wauck | Ziang Xiao | Yuqi Yao</center>
+        </div> 
+    </div>
+</div>

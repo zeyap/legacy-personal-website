@@ -1,8 +1,8 @@
 
 window.onload = function () {
-    fun(cd, 'canvas',200);
-    fun(cd2, 'canvas2', 150);
-    fun(cd3, 'canvas3', 150);
+    fun(cd, 'canvas',150);
+    fun(cd2, 'canvas2', 100);
+    fun(cd3, 'canvas3', 100);
 };
 
 var cd = 'op1=>operation: To each participant, demonstrate the outcome of an operation, then make him to perform at least one gesture that trigger it\n' +

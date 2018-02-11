@@ -12,22 +12,19 @@ description: "User defined gestures for gestural interaction."
 publication: "Published in International Journal of HCI '17"
 icon: hand-paper-o
 slider: "yes"
+permalink: /gestures/
+
+meta-banner: "yes"
+client: "Summer Session Research"
+skills: "Psychometrics, Experiment design, MATLAB Programming"
+director: "Gao Zaifeng"
+duration: "JUL - DEC 2015"
 
 ---
 
-**Clients**|**Skills**
- <highlight>Group Research Project for Summer Session</highlight>|<highlight>Psychometrics, Experiment design, MATLAB Programming</highlight>
- |
-**Advisor**|
- <highlight>Prof. Gao Zaifeng</highlight>|
- |
-**Duration**|
- <highlight>JUL - DEC 2015</highlight>|
-|
-<a href="http://www.tandfonline.com/doi/pdf/10.1080/10447318.2017.1342943?needAccess=true" class="button button-pill button-tiny button-highlight">Full paper</a> |
-
 >To make gestural interaction with Kinect more "natural", we extended a hand gesture set to one involving hand and non-hand gestures, in the user-defined approach, combining the indices of gesture frequency, subjective ratings and physiological risk ratings.
 
+<a href="http://www.tandfonline.com/doi/pdf/10.1080/10447318.2017.1342943?needAccess=true" class="button button-pill button-tiny button-highlight">Full paper</a>
 
 **Is body gesture interaction *natural* at all?**
 
@@ -35,113 +32,195 @@ Gestures in HCI at present are unnatural and are difficult to learn and memorize
 
 The bad compatibility between gestures and commands can be an issue since its design process. The distinct mental models of interactions between users and designers separate their gesture preferences and result in user unfriendly gesture design.
 
- <h2>Goal of Research</h2>
- * Use a gesture elicitation approach, extend gesture set to human's all body parts (aside from hand gestures)
- * Create a valid index to determine best gestures
-<h3>Overview</h3>
-  <div>
-    <div id="canvas2"></div>
+ <h2>Procedure</h2>
+
+ <div class="container">
+ <div class="row">
+		<div class="col">
+		<h3>Command Set Selection</h3>
+
+The most important 15 commands were selected step-by-step
+
+<li>Listed all commands used in past 3D gestural studies</li>
+
+<li>Removed tasks that are related to specific contexts, i.e. TV and games</li>
+
+<li>4 expert users ranked commands by importance and frequency in previous studies in 5-point Likert scale. We selected those with importance>3 and frequency>2</li>
+
+<li>Surveyed online to select among the remaining commands by importance (M = 3.53, SD = 1.42)</li>
+		</div>
+		<div class="col">
+		<img src="/assets/images/questionaire.jpg">
+		</div>
 </div>
 
-<h2>Command Set Selection</h2>
+<hr>
 
-The **most important 15 commands** were selected step-by-step
-1. Listed all commands used in past 3D gestural studies
-2. Removed tasks that are related to specific contexts, i.e. TV and games
-3. 4 expert users ranked commands by importance and frequency in previous studies in 5-point Likert scale. We selected those with importance>3 and frequency>2
-4. Surveyed online to select among the remaining commands by importance (M = 3.53, SD = 1.42)
+    <div class="row">
+		<div class="col">
 
-<h2>Gesture Elicitation: User-defined</h2>
-* **PARTICIPANT** undergraduates (12 male, 10 female) from Zhejiang University were recruited, aged 20.73 on average (SD=1.42).
-* 11 of them had never used kinect before, and the remaining participants had experience of no more than 14 hrs.
-{:.side-note}
-User-defined approach, first proposed by Wobbrock et al.(2009), was effective for generating gestures that fit users' mental models. It involves 2 phase:
+<h3>Gesture Elicitation: Behavior Experiment</h3>
 
- <div>
+<h4>Participant</h4>
+
+Undergraduates (12 male, 10 female) from Zhejiang University were recruited, aged 20.73 on average (SD=1.42).
+11 of them had never used kinect before, and the remaining participants had experience of no more than 14 hrs.
+
+<h4>User-defined approach</h4>
+First proposed by Wobbrock et al.(2009), it was effective for generating gestures that fit users' mental models. It involves 2 phase:
+<div>
     <div id="canvas"></div>
 </div>
-Illustrated below was our experiment design.
-<h3>Experiment design</h3>
-![gesture_1](/assets/images/gesture_1.png)
+		</div> 
+		<div class="col">
+		<img src="/assets/images/gesture_1.png">
+        </div>
+    </div>
+</div>
 
-<h3>Results</h3>
-<h4>STEP 1. Identify Gestures</h4>
+
+<h2>Results</h2>
+
+<div class="container">
+    <div class="row">
+        
+        <div class="col">
+		<h3>STEP 1. Identify Gestures</h3>
 This is to group gestures that are essentially identical, among 701 gestures proposed by different participants. Then we obtain our initial gesture set.
 
-We used a theoretical ***taxonomy*** (Wobbrock 2009) to achieve this. Gestures identical along all 4 dimensions on taxonomy are considered one same gesture.
+We used a theoretical taxonomy (Wobbrock 2009) to achieve this. Gestures identical along all 4 dimensions on taxonomy are considered one same gesture.
+<h4>Identify by Taxonomy</h4>
+            <table class="table table-sm">
+			  <tbody>
+				<tr>
+				  <th scope="row">Binding</th>
+				  <td>Object-centric/ World-dependent/ World-independent</td>
+				</tr>
+				<tr>
+				  <th scope="row">Form</th>
+				  <td>Static/Dynamic</td>
+				</tr>
+				<tr>
+				  <th scope="row">Body Parts</th>
+				  <td>One hand/ Two hands/ Full body</td>
+				</tr>
+				<tr>
+				  <th scope="row">Nature</th>
+				  <td>Physical/ Symbolic/ Metaphorical/ Abstract</td>
+				</tr>
+			  </tbody>
+			</table>
 
-**Binding**|Object-centric/ World-dependent/ World-independent
-**Form**|Static/Dynamic
-**Body Parts**|One hand/ Two hands/ Full body
-**Nature**|Physical/ Symbolic/ Metaphorical/ Abstract
+        </div>
+		<div class="col">
+		<script src="/assets/js/charts_in_post/highchart1_1.js"></script>
+						Taxonomy Dimension - 
+			<select id="taxodropdown" onchange="selectInput(this)">
+				<option  value="Binding">Binding</option>
+				<option  value="Form">Form</option>
+				<option  value="Body Parts">Body Parts</option>
+				<option  value="Nature">Nature</option>
+			</select>
+			<div id="container" style="width:100%; height:400px;"></div>
+	   </div>
+	   </div>
+	   <div class="row">
+	   <div class="col">
+	   <img src="/assets/images/mental model.jpg">
+	   </div>
+	   <div class="col">
+	   <h4>Mental Model Observations</h4>
+				<li>Participants were inclined to perform gestures over concrete objects</li>
+				<li>Only 17.40% were abstract gestures</li>
+				<li>Prefer dynamic gestures</li>
+				<li>Reversible gestures are desired for dichotomous tasks (i.e. zoom-in/zoom-out)</li>
+	   </div>
+	   
+	   </div>
+</div>
 
-<script src="/assets/js/charts_in_post/highchart1_1.js"></script>
-Taxonomy Dimension - 
-<select id="taxodropdown" onchange="selectInput(this)">
-    <option  value="Binding">Binding</option>
-    <option  value="Form">Form</option>
-    <option  value="Body Parts">Body Parts</option>
-    <option  value="Nature">Nature</option>
-</select>
-**Select to see the stacked graph*
-<center>
-<div id="container" style="width:70%; height:400px;"></div>
-</center>
-<h5>Mental Model Observations</h5>
-* <highlight>Participants were inclined to perform gestures over concrete objects</highlight>
-* <highlight>Only 17.40% were abstract gestures</highlight>
-* <highlight>Prefer dynamic gestures</highlight>
-* <highlight>Reversible gestures are desired for dichotomous tasks (i.e. zoom-in/zoom-out)</highlight>
+* * *
 
-
-***Agreement rate*** indicates to what extent participants tend to come up with the same gestures for a command.
-<center>
-<div id="container2" style="width:70%; height:500px;"></div>
-</center>
-<script src="/assets/js/charts_in_post/highchart1_2.js"></script>
-
-<h4>STEP 2. Score gesture set</h4>
+<div class="container">
+    <div class="row">
+        <div class="col">
+		<h3>STEP 2. Score gesture set</h3>
 
 To indicate the best gestures, 3 aspects were involved, based on past research.
 
-**Agreement rate**|formula proposed by Vatavu & Wobbrock (2015)
-**Subjective ratings**|Learnability
-on 7-point Likert Scale|Gesture-command Match
-|Ease of Performing
-|Subjective Fatigue
-|Preference
-**Physiological risk rating**|Rapid Entire Body Assessment (REBA)
+<table class="table table-sm">
+  <tbody>
+    <tr>
+      <th scope="row">Agreement rate</th>
+      <td>formula proposed by Vatavu & Wobbrock (2015), indicates to what extent participants tend to come up with the same gestures for a command.</td>
+    </tr>
+    <tr>
+      <th scope="row">Subjective ratings on 7-point Likert</th>
+      <td><li>Learnability</li>
+	  <li>Gesture-command Match</li>
+	  <li>Ease of Performing</li>
+	  <li>Subjective Fatigue</li>
+	  <li>Preference</li>
+	  </td>
+    </tr>
+	<tr>
+      <th scope="row">Physiological risk rating</th>
+      <td>Rapid Entire Body Assessment (REBA)</td>
+    </tr>
+  </tbody>
+</table>
 
-An **overall command-gesture score** was calculated by summng 7 varaibles. The highest-scored gesture was proposed for each command. *See the paper for more detail on the gesture set and scores.*
+An overall command-gesture score was calculated by summng 7 varaibles. The highest-scored gesture was proposed for each command. See the paper for more detail on the gesture set and scores.
+        </div>
+		<div class="col">
+		<div id="container2" style="width:100%; height:500px;"></div>
+		<script src="/assets/js/charts_in_post/highchart1_2.js"></script>
+	   </div>
+	</div>
+</div>
 
+* * *
 
-<h2>Gesture Re-check</h2>
-* **PARTICIPANT** undergraduates (11 male, 14 female) from Zhejiang University were recruited, aged 22.83 on average (SD=1.43).
-* None of them had experience with gestural interaction.
-{:.side-note}
+<div class="container">
+    <div class="row">
+        <div class="col">
+		<h3>STEP 3. Gesture Re-check</h3>
 Although intuitional and match mental model, we have to resolve an issue of user-defined method, that participants may have not fully understood the possibilities within design space. Showing many gestures in advance is an effective solution in previous studies.
 
 Subjective score was thus the focus, while REBA score was left out, and no Kinect skeletal recording was done.
-
+<wbr>
+<h4>Participant</h4>
+Undergraduates (11 male, 14 female) from Zhejiang University were recruited, aged 22.83 on average (SD=1.43).None of them had experience with gestural interaction.
 <div>
     <div id="canvas3"></div>
 </div>
+		</div>
+		<div class="col">
+		<h4>Results</h4>
+<h5>Combining Command-Gesture</h5>
+		<li> 8 commands had the same highest-scoring gesture between Exp 1 and 2.</li>
+<li> 6 commands had distinct recommendations from Experiment 1 (gesture on, gesture off, zoom in, delete, move, and help) </li>
+<li> 1 command overlapped with one of the two recommended gestures in Experiment 1 (zoom out)</li>
 
-<h3>Results</h3>
-<h4>Combining Command-Gesture</h4>
-* 8 commands had the same highest-scoring gesture between Exp 1 and 2.
-* 6 commands had distinct recommendations from Experiment 1 (gesture on, gesture off, zoom in, delete, move, and help) 
-* 1 command overlapped with one of the two recommended gestures in Experiment 1 (zoom out)
 
-<highlight>User-defined method could have only partially reflected the preferences/requirements of users.</highlight> For those command with conflict we propose a gesture for each by considering recognition accuracy, natural language principles, the mental models of the users, and the taxonomy distribution.
+	</div>
+	</div>
+	<div class="row">
+	<div class="col">
+	<img src="/assets/images/gesture_2.png">
+	</div>
+	<div class="col">
+	<h5>Generate Final Gesture Set</h5>
+	User-defined method could have only partially reflected the preferences/requirements of users. For those command with conflict we propose a gesture for each by considering recognition accuracy, natural language principles, the mental models of the users, and the taxonomy distribution.
+	</div>
+	</div>
+</div>
 
-<h4>A Pictorial Demonstration</h4>
-![gesture_1](/assets/images/gesture_2.png)
 
 * * *
 
 <h3>Group Members</h3>
-Zhen Chen | **Zeya Peng** | Mengge Yao | Shixian Yu | Ying Zhou
+<center>Zhen Chen | Zeya Peng | Mengge Yao | Shixian Yu | Ying Zhou</center>
 
 <div>
     <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:800px;margin:0px auto 56px;">

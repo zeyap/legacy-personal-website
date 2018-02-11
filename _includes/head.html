@@ -8,7 +8,8 @@
 
   {% assign v = site.time | date: "%Y%m%d%H%M%S" %}
   <link rel="shortcut icon" href="/assets/styles/avatar.ico" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" href="/assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="{{ "/assets/styles/core.css?v=" | append: v | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/styles/fontello.css?v=" | append: v | relative_url }}">
   <link rel="stylesheet" href="{{ page.color_scheme | default: site.color_scheme | default: "default" | prepend: "/assets/styles/highlighting/" | append: ".css?v=" | append: v | relative_url }}">
@@ -43,6 +44,7 @@
   {% include google-analytics.html %}
   {% endif %}
 
+    <script src="/assets/slider/sliderengine/jquery.js"></script>
     {% if page.slider %}
     {% include slider-engine.html %}
     {% endif %}

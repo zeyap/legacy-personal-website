@@ -5,6 +5,9 @@ date:   2018-01-29 12:50:00 +0800
 category: play
 
 description: "Game jams I have participated"
+
+permalink: /ggj/
+
 ---
 
 Global Game Jam is an annually-held 48-hour-hackathon for games.

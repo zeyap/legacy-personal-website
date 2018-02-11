@@ -1,0 +1,40 @@
+<div class="container-fluid">
+    <div class="row">
+        {% if page.client%}
+        <div class="col">
+            <i class="fa fa-user-circle fa-lg col-xs-3 col-sm-3 col-md-3 col-lg-3"></i>
+            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9" align="left">
+                <h4>Client</h4>
+                <p>{{page.client}}</p>
+            </div>
+        </div>
+        {% endif %}
+        {% if page.skills%}
+        <div class="col">
+            <i class="fa fa-cogs fa-lg col-xs-3 col-sm-3 col-md-3 col-lg-3"></i>
+            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9" align="left">
+                <h4>Skills</h4>
+                <p>{{page.skills}}</p>
+            </div>
+        </div>
+        {% endif %}
+        {% if page.director%}
+        <div class="col">
+            <i class="fa fa-user fa-lg col-xs-3 col-sm-3 col-md-3 col-lg-3"></i>
+            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9" align="left">
+                <h4>Director</h4>
+                <p>{{page.director}}</p>
+            </div>
+        </div>
+        {% endif %}
+        {% if page.duration %}
+        <div class="col">
+            <i class="fa fa-clock-o fa-lg col-xs-3 col-sm-3 col-md-3 col-lg-3"></i>
+            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9" align="left">
+                <h4>Duration</h4>
+                <p>{{page.duration}}</p>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>

@@ -15,7 +15,7 @@ function fun(cd,canvas,maxWidth) {
         'line-width': 3,
         'maxWidth': maxWidth,//ensures the flowcharts fits within a certian width
         'line-length': 20,
-        'text-margin': 20,
+        'text-margin': 15,
         'font-size': 14,
         'font': 'normal',
         'font-family': 'Helvetica',
@@ -45,7 +45,7 @@ function fun(cd,canvas,maxWidth) {
             'past': { 'fill': '#d4e976' },
             'current': { 'fill': 'yellow', 'font-color': 'red', 'font-weight': 'bold' },
             'future': { 'fill': '#99cccc' },
-            'request': { 'fill': '#ffffff' },
+            'request': { 'fill': '#dddddd' },
             'invalid': { 'fill': '#444444' },
             'approved': { 'fill': '#336699', 'font-color': 'white' },
             'rejected': { 'fill': '#85bfb0', 'font-size': 12, 'yes-text': 'n/a', 'no-text': 'REJECTED' }
