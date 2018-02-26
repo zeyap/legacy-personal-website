@@ -13,7 +13,7 @@ permalink: /project-showcase/
 meta-banner: "yes"
 client: "Course Projects"
 skills: "C++ Programming, Multimedia processing, Computer Animation"
-duration: "Nov 2017 -"
+duration: "Nov 2017 - Jan 2018"
 
 ---
 
@@ -27,10 +27,10 @@ duration: "Nov 2017 -"
     <div class="row">
         <div class="col">
 		<div class="row">
-		 <h2>Music Recognition</h2>
-           This is a coursework done on Digital Video-Audio Processing.
+<h2>Music Recognition</h2>
+This is a coursework done on Digital Video-Audio Processing.
 
-This desktop application reads in audio recordings to generate audio fingerprints, you can build up & search among a fingerprint database with this application. Till now it is made independently by myself. Project still in progress at the moment.
+This desktop application reads in audio recordings to generate audio fingerprints, you can build up & search among a fingerprint database with this application. Till now it is made independently by myself.
 		</div>
 		<div class="row">
 		<a href="https://github.com/zeyap/MusicFingerprint" class="button button-pill button-tiny button-highlight">Music fingerprint</a>

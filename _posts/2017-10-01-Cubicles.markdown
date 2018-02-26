@@ -19,7 +19,7 @@ duration: "JUL - SEP 2017"
 
 ---
 
->'Cubicles' is a game aimed to motivate students to engage in spatial visualization skill training. The work has been accepted by ACM IUI (intelligent user interfaces ) 2018.
+>'Cubicles' is a game aimed to motivate students to engage in spatial visualization skill training. The work has been accepted by ACM IUI (intelligent user interface) 2018. [See full paper here.](/assets/files/cubicle.pdf)
 
  <center>
   <div class="button-group">
@@ -28,25 +28,73 @@ duration: "JUL - SEP 2017"
     <a href="/assets/files/Cubicles_Win64_0929.zip" class="button button-pill button-highlight button-tiny">Win64</a>
 	<a href="https://github.com/zeyap/3D-Demo" class="button button-pill button-tiny">Project repository</a>
   </div>
-</center>
+</center> 
 
-Spatial visualization skills (the ability to understand the visual and spatial relationship among objects) are crucial to reasoning and solving complex problems in STEM disciplines.
+<h2>Research</h2>
 
-In previous attempts, scalable online traning platform were built by researchers in UIUC, but they reported low retention rate of such platform. To intrinsically motivate students to train their skills, a popular solution is gamification.
+<h3>Problem Statement</h3>
+
+Spatial visualization skills (the ability to understand the visual and spatial relationship among objects) are crucial to reasoning and solving complex problems in STEM disciplines. In previous attempts, scalable online traning platform were built by researchers in UIUC, but they reported low retention rate of such platform.
+
+<h3>Literature Review</h3>
+* To intrinsically motivate students to train their skills, a popular solution is gamification. Gamification can introduce higher levels of motivation and engagement than traditional instructional methods *(Boyle, Elizabeth A., et al., 2012; McClarty, Katie Larsen, et al., 2012)*
+* Different academic fields in STEM emphasize different aspects of spatial visualization skills *(Sorby, Sheryl A., 2009)*
+
+<h3>Competitor Analysis</h3>
+<div class="container">
+    <div class="row">
+		<div class="col">
+		<h4>Exercise Materials</h4>
+		<img src="/assets/images/sorby.jpg">
+		</div>
+        <div class="col">
+		<h4>Educational Applications</h4>
+		<img src="/assets/images/spatialVis.png">
+		</div>
+		<div class="col">
+		<h4>Commercial Games</h4>
+		<img src="/assets/images/fez.png">
+		<img src="/assets/images/shadowmatic.png">
+		<img src="/assets/images/platie.jpeg">
+		<img src="/assets/images/outfolded.jpg">
+
+		</div>
+
+	</div>
+</div>
+
+<h3>Insights</h3>
+<h4>Student Needs</h4>
+* The targeted engineering students need to improve all aspects of their spatial visualization skills through training on our platform
+* The platform should be fun enough for the students, so that they will voluntarily keep training
+
+<h4>Instructor Needs</h4>
+* Instructors may need to write their customized content to cater to their students' need
+* Instructors also need fine-grained information on learners' behavior and problem-solving strategies
+
+<h4>System Needs</h4>
+* We will gamify the online workshop into a scalable gaming platform, to make it more engaging and effective for instructional purpose
+* The platform need to address all 5 major aspects of spatial visualization skills: *3D object visualization & manipulation*, *perspective taking*, *mental rotation*, *2D to 3D transformation*, and *spatial memory*.
+* The system should allow the platform to compose the most suitable learning materials for game players from different disciplines
+* It may generate feedback on learners' behavior to the instructors
 
 * * *
-<h2>Game Design</h2>
+
+<h2>Design</h2>
 
 <div class="container">
     <div class="row">
         <div class="col">
 		<h3>The Platform</h3>
-		<h4>Gameplay</h4>
-		<li>The player is trapped in a dungeon maze. To escape, the player needs to navigate through the maze and unlock all the rooms; finishing the game task in the room is the only way to unlock the door to the next room.</li>
-<li>8 game modules based on 5 major aspects of spatial visualizations skills, with levels of graudual progression</li>
-<h4>Features</h4>
-<li>Designed modularly, game modules can be added or removed easily by communicating through documented API, maze map can be modified through a single JSON file</li>
-<li>Platform collects in-game behavior in detail to infer a player's problem-solving strategy and react by adjusting game difficulty or repeating failed challenges</li>
+
+		<h4>Game Setting</h4>
+		The player is trapped in a dungeon maze. To escape, the player needs to navigate through the maze and unlock all the rooms; finishing the game task in the room is the only way to unlock the door to the next room.
+
+		<h4>Modular Design</h4>
+		8 game modules based on 5 major aspects of spatial visualizations skills, with levels of graudual progression. The game system was designed so that game modules can be added or removed easily by communicating through documented API, maze map can be modified through a single JSON file.
+
+		<h4>Behavior Data Collection</h4>
+		Platform collects in-game behavior in detail to infer a player's problem-solving strategy and react by adjusting game difficulty or repeating failed challenges.
         </div>
 		<div class="col">
 		<img src="/assets/images/maze.png">
@@ -58,46 +106,45 @@ In previous attempts, scalable online traning platform were built by researchers
 		<img src="/assets/images/cubicles.png">
         </div> 
 		<div class="col">
-		<h4>Modules</h4>
 		<table class="table table-sm">
   <thead>
     <tr>
       <th scope="col">Game Module</th>
-      <th scope="col">Visuospatial Abilities</th>
+      <th scope="col">Gameplay</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Block Builder</td>
-      <td>3D object visualization & manipulation, 2D to 3D transformation</td>
+      <td>Building model from its corresponding orthographic views</td>
     </tr>
     <tr>
       <td>Constructive Solid Geometry</td>
-      <td>3D object visualization & manipulation, Perspective Taking</td>
+      <td>Constructing 3D model from given primitive objects</td>
     </tr>
     <tr>
       <td>Plane Exploration</td>
-	  <td>3D object visualization & manipulation, Perspective Taking</td>
+	  <td>Navigating on a 3D landscape with only orthographic views of the landscape</td>
     </tr>
 	<tr>
       <td>View Point</td>
-	  <td>Perspective Taking, 2D to 3D transformation</td>
+	  <td>Determining the View Point from 2D map</td>
     </tr>
 	<tr>
       <td>Shape Revolving</td>
-	  <td>Perspective Taking, 2D to 3D transformation</td>
+	  <td>Drawing the revolving axis for a 2D shape to form 3D object</td>
     </tr>
 	<tr>
       <td>Flat Pattern</td>
-	  <td>Perspective Taking, 2D to 3D transformation</td>
+	  <td>Unfolding a 3D object to a target 2D pattern</td>
     </tr>
 	<tr>
       <td>Transformation Limitation</td>
-	  <td>Perspective Taking, 2D to 3D transformation/ Mental Rotation</td>
+	  <td>Manipulating a 3D objec to match the target within limited steps</td>
     </tr>
 	<tr>
       <td>Cube Shift</td>
-	  <td>spatial memory</td>
+	  <td>Keeping track of a series of cube shifting and identifying the missing emoji</td>
     </tr>
   </tbody>
 </table>
@@ -112,22 +159,67 @@ In previous attempts, scalable online traning platform were built by researchers
     <div class="row">
         <div class="col">
 		 <h3>Cube Shift </h3>
+<p>According to working memory span and short-term memory are two strong indicators of spatial abilities,(Miyake, et al., 2001). Thus my first game aims at memory aspect of spatial abilities. </p>
+		</div>
+	</div>
+	<div class="row">
+	<div class="col">
+	<h4>Ideation 1: Navigation in a labyrinth</h4>
+	<img src="/assets/images/dungeon_prototype.gif"> 
+	<i>Mid-Fi prototype made with Unity 3D</i>
 
-The game aims at memory aspect of spatial abilities. It taps into two strong indicators of spatial abilities, working memory span and short-term memory (Miyake, et al., 2001), by requiring students to direct their attention to the image on the cubes regardless of the distraction of shifting movement, and to retain memory of previous configurations of the cube. 
+</div>
+<div class="col">
+<h5>Gameplay</h5>
+The player is faced with a labyrinth on the plane, his goal is to look at a 2D map of his target, memorize the map, and finally go inside the labyrinth to look for the targets. Once player reaches the right position, the target will appear.
+The game requires students to:
+<p>
+<li>Navigate in a 3D space </li>
+<li>keep the memory of target position on a 2D map</li>
+<li>visualize the target position in the labyrinth from the 2D map</li>
+</p>
+<h5>User Testing</h5>
+<p>Our team met with a group of testers weekly. According to their opinions and misunderstanding while using the prototype, we made adjustment on the prototypes.</p>
 
-The game design resembles the n-back tasks by Wayne Kirchner, and Dot Memory task that tap into STM.
-        </div>
+In the iteration, this game design was thought of as too difficult, due to the heavy load on memory. But the ideas were later inherited by the design of the dungeon and by ideation 2.
+</div>
+	</div>
+	<hr>
+	<div class="row">
 		<div class="col">
+		<h4>Ideation 2: Cube Shift V1.0</h4>
+		<img src="/assets/images/cubeshift_prototype.gif"> 
+		<i>Mid-Fi prototype made with Unity 3D</i>
+		</div>
+		<div class="col">
+		<h5>Gameplay</h5>
+		<p>In the game, the player aims to keep track of a target object in one of the cubes. Cubes will shift in the scene, and the target disappears by some rule. This is where the players' working memory is challenged.</p>
+ 
+		<p>The game requires students to direct their attention to the image on the cubes regardless of the distraction of shifting movement, and to retain memory of previous configurations of the cube.It resembles the n-back tasks by Wayne Kirchner, and Dot Memory task that tap into STM.</p>
+
 		<img src="/assets/images/nback.jpeg">
-		
-        </div> 
-    </div>
+
+		Still, the game, even at the easiest level, was considered too complex to follow the instruction by some users. 
+
+		</div>
+	</div>
+		<hr>
+		<div class="row">
+		<div class="col">
+		<h4>Design Decisions</h4>
+		<li>Lower the difficulty in easy levels, so that players have time to familiarize with the gameplay and do not give up at initial difficulty</li>
+		<li>Clarified the expressions of in-game instructions; a detailed explanation(as right illustration shows) could be accessed at any time</li>
+		</div>
+		<div class="col">
+		<img src="/assets/images/cubeshift_example.png">
+		</div>
+		</div>
 </div>
 
 <center>
-<video width="900" height="563" controls="controls">
-  <source src="/assets/videos/cube_shift.mp4" type="video/mp4" />
-</video>
+		<video width="900" height="563" controls="controls">
+		  <source src="/assets/videos/cube_shift.mp4" type="video/mp4" />
+		</video>
 </center>
 
 * * *
@@ -136,16 +228,34 @@ The game design resembles the n-back tasks by Wayne Kirchner, and Dot Memory tas
     <div class="row">
         <div class="col">
 		 <h3>Shape Revolving </h3>
+		 <h4>Ideation</h4>
+		 <img src="/assets/images/revolvingsolid.gif">
 
-The Shape Revolving game aims to improve players' understanding of surfaces and solids from revolution. The player needs to mentally revolve a 2D shape about an axis, and visualize the created 3D model. 
-
-It is a gamified adaptation of "Rotation of Objects about Axes" in Sorby's engineering graphics workbook.
         </div>
 		<div class="col">
-		<img src="/assets/images/shape revolving1.png">
-		
+		<h5>Gameplay</h5>
+		<p>The player need to 
+		<li>Match each 2D shape at window center to one of the incoming 3D models</li>
+		<li>Draw a line on the shape to indicate the revolving axis</li>
+		</p>
+		<p>The second game is a gamified adaptation of <i>Rotation of Objects about Axes</i> on previous online platform. It aims to improve players' understanding of surfaces and solids from revolution. To succeed in the game, players have to mentally revolve a 2D shape about an axis and visualize the created 3D model.</p>
+<img src="/assets/images/shape revolving1.png">
         </div> 
     </div>
+	<h4>Design Decisions</h4>
+	<div class="row">
+	<div class="col">
+	<p>
+	<li>Lower the difficulty of introductory levels</li>
+	<img src="/assets/images/rs_t.png">
+	</p>
+	</div>
+	<div class="col">
+	<li>Tutorials becomes adaptive: if the player make more than a certain amount of errors, the game will indicate the right answer by animation</li>
+	<img src="/assets/images/rs_intro.gif">
+	</div>
+	
+	</div>
 </div>
 
 <center>
@@ -155,10 +265,6 @@ It is a gamified adaptation of "Rotation of Objects about Axes" in Sorby's engin
 </center>
 
 <h2>Evaluation</h2>
-
-<h3>Iterative design & Development </h3>
-
-We iteratively modified and improved our design. Our team met with a group of testers weekly and adjusted the difficulty level for each game module and implemented a detailed tutorial system.
 
 <h3>Formal evaluation</h3>
 
@@ -265,17 +371,12 @@ Pearson's correlation test is used here.
 
 <h3>Group Members</h3>
 
-<div class="container">
-    <div class="row">
-        <div class="col">
-		 <h4>Development</h4>
-		 <center>
-Zeya Peng | <a href="https://renhanfei.com">Hanfei Ren</a> | <a href="https://raynezhang.github.io">Rayne Zhang</a> | <a href="https://shiliangzuo.github.io">Shiliang Zuo</a></center>
-        </div>
-		<div class="col">
-		<h4>Ideation & Testing</h4>
-		<center>
-Helen Wauck | Ziang Xiao | Yuqi Yao</center>
-        </div> 
-    </div>
-</div>
+
+<h4>Development</h4>
+
+Zeya Peng / <a href="https://renhanfei.com">Hanfei Ren</a> / <a href="https://raynezhang.github.io">Rayne Zhang</a> / <a href="https://shiliangzuo.github.io">Shiliang Zuo</a>
+   
+<h4>Ideation & Testing</h4>
+		
+Helen Wauck / Ziang Xiao / Yuqi Yao
+     

@@ -92,7 +92,7 @@ article {
     display: inline-block;
     padding: 0 0.3em;
     margin: 0 -0.05em;
-    font-size: 0.875em;
+    font-size: 1.0 em;
     @include font-monospace;
     color: $inline-code-color;
     background: $inline-code-background;
@@ -229,17 +229,17 @@ article {
 
 .post-item-link {
     border-bottom: 1px dotted currentColor;
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 
 .post-description {
-  font-size: 1.0em;
+  font-size: 0.9em;
 }
 
 .post-item-meta {
   font-variant-caps: all-petite-caps;
   color: lighten($content-color, 40%);
-  font-size: 1.5em;
+  font-size: 0.9em;
 }
 
 .cover-meta {

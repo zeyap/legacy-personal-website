@@ -64,8 +64,13 @@ article {
     margin: $vspacing auto;
   }
 
-  h1, h2, h3, h4, h5, h6, img:only-child {
-    text-align:center;
+  h2{
+      text-align:center;
+  }
+  h1, h2, h3, h4, h5, h6, img:only-child, img {
+    //text-align:center;
+    padding-top:$vspacing;
+    margin-bottom:$vspacing/2;
   }
 
 
