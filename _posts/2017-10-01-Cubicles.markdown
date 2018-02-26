@@ -13,7 +13,7 @@ permalink: /cubicles/
 
 meta-banner: "yes"
 client: "Cascade Lab @ UIUC"
-skills: "Unity 3D, User testing design"
+skills: "Unity 3D, UX design, User testing"
 director: "Wai-Tat Fu"
 duration: "JUL - SEP 2017"
 
