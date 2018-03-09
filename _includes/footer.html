@@ -1,43 +1,20 @@
-﻿<footer class="site-footer">  
-        <div class="wrapper-gallery">
-            {% if page.layout == 'post'|| page.footer-post-list == 'true' %}
+﻿<footer class="site-footer">
 
-            {% include gallery-list.html %}
-
-            {% endif %}
-        </div>
-            <div class="wrapper">
-
-                <div class="social-links">
-                    <a class="social-link social-github" href="https://github.com/{{ site.github_username }}">
-                        <i class="icon-github"></i>
-                    </a>
-                    <a class="social-link social-heart" href="https://www.pixiv.net/member.php?id={{ site.pixiv_username }}">
-                        <i class="icon-heart"></i>
-                    </a>
-                    <a class="social-link social-steam" href="http://steamcommunity.com/profiles/{{ site.steam_username }}">
-                        <i class="icon-steam"></i>
-                    </a>
-                    <!--
-                <a class="social-link social-twitter" href="https://twitter.com/{{ site.twitter_username }}">
-                  <i class="icon-twitter"></i>
-                </a>
-                <a class="social-link social-instagram" href="https://instagram.com/{{ site.instagram_username }}">
-                  <i class="icon-instagram"></i>
-                </a>
-
-                <a class="social-link social-rss" href="{{ "/feed.xml" | relative_url  }}" target="_blank">
-                  <i class="icon-rss"></i>
-                </a> -->
-                </div>
-
-                <div class="credits">
-                    Design by Zeya Peng © 2017
-                </div>
-                <div class="footer-email">
-                    E: zeyapeng (a) outlook.com
-                </div>
+    <table>
+        <tr>
+        <td>
+            <div class="footer-email">
+                E: zeyapeng (a) outlook.com
             </div>
-
-
+        </td>
+        </tr>
+    <tr><td>
+    <div class="credits">
+        © 2018 Zeya Peng's Portfolio. All rights reserved
+    </div>
+</td>
+</tr>
+    </table>
+    
+    
 </footer>

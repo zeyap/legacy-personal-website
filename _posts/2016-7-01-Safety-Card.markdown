@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Eye-tracking Study on Flight Safety Card Design"
+title: "Safety Card Redesign: An Eye-tracking Study"
 date:   2016-07-01 12:50:00 +0800
 category: research
 filter: research
@@ -8,6 +8,7 @@ coverpic: "/assets/images/coverpics/flight.jpg"
 description: "The influence of pictorial realism on the comprehension of safety briefing card"
 publication: "Published in Chinese Journal of Applied Psychology '17"
 icon: paper-plane-o
+gallery: right
 
 permalink: /safety-card/
 
@@ -16,6 +17,7 @@ client: "Engineering Psychology Capstone Project"
 skills: "Experiment design, Illustration"
 director: "Gao Zaifeng"
 duration: "MAR - JUN 2016"
+
 
 ---
 
@@ -27,15 +29,15 @@ duration: "MAR - JUN 2016"
 <h2>Literature review</h2>
 
 <h3>data research</h3>
-* Based on previous research, in civil aviation, passengers' comprehension of cabin safety information could guide their evacuation when facing emergency. 
-* The investigation of NTSB showed, passengers who do not read the safety card could get injured in aviation accidents threefold than those who do.
+<li>Based on previous research, in civil aviation, passengers' comprehension of cabin safety information could guide their evacuation when facing emergency. </li>
+<li>The investigation of NTSB showed, passengers who do not read the safety card could get injured in aviation accidents threefold than those who do.</li>
 
 It is of great significance to improve the comprehensibility of airline safety briefing cards.
 
 * * *
 
 <h3>market research & research review</h3>
-Two forms of safety cards
+<p>Two forms of safety cards</p>
 
 <div class="container">
     <div class="row">
@@ -72,7 +74,7 @@ Two forms of safety cards
 <div class="container">
     <div class="row">
         <div class="col">
-		Previous empirical studies on safety card design mainly use materials in a single kind of pictorial realism. What if we combine the advantages of both? The <i>mixture representation</i> employs:
+		<p>Previous empirical studies on safety card design mainly use materials in a single kind of pictorial realism. What if we combine the advantages of both? The <i>mixture representation</i> employs:</p>
 
 <table class="table table-sm">
   <thead>
@@ -89,7 +91,7 @@ Two forms of safety cards
   </tbody>
 </table>
 
- We assume the safety cards' level of realism will affect the comprehensibility of them, measured by: 1. Eye-tracking, 2. Simulation operation test performance, 3. Self-report questionaire (System Usability Scale), 4. Interview
+ <p>We assume the safety cards' level of realism will affect the comprehensibility of them, measured by: 1. Eye-tracking, 2. Simulation operation test performance, 3. Self-report questionaire (System Usability Scale), 4. Interview</p>
 		 
         </div>
 		<div class="col">
@@ -156,7 +158,7 @@ Two forms of safety cards
 		 <img src="/assets/images/air jacket.png">
         </div>
 		<div class="col">
-		40 participants (20 male/ 20 female) were recruited from Zhejiang University, 4 were screened out for eye-movement data loss
+		<p>40 participants (20 male/ 20 female) were recruited from Zhejiang University, 4 were screened out for eye-movement data loss</p>
 		<h3>Operation Performance</h3>
 <li>Mixture groups had significantly higher accuracy in "oxygen mask" and "safety door" conditions</li>
 <li>Supports that mixture design could possibly help participants conduct correct actions following instructions</li>
@@ -228,6 +230,4 @@ Two forms of safety cards
 * * *
 
 <h3>Group Members</h3>
-<center>
- Zeya Peng | <a href="tianmi-fang.com">Tianmi Fang</a> | Huao Li | Zheng Ma | Yiping Xie 
- </center>
+ Zeya Peng | Tianmi Fang | Huao Li | Zheng Ma | Yiping Xie 

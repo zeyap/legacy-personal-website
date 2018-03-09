@@ -1,6 +1,5 @@
-<div class="gallery row">
-        <br>
-        {% for rule in page.filter %}
+
+{% for rule in page.filter %}
         {% assign posts = site.posts %}
         {% if rule.by_tag %}
         {% assign posts = posts | where_exp: "post", "post.tags contains rule.by_tag" %}
@@ -15,21 +14,39 @@
         {% assign posts = posts | append: " " | append: post.path %}
         {% endfor %}
         {% endfor %}
-
-        {% if posts %}
+       
+{% if posts %}
         {% assign posts = posts | split: " " | sort | uniq %}
         {% assign posts = site.posts | where_exp: "post", "posts contains post.path" %}
         {% else %}
         {% assign posts = site.posts %}
         {% endif %}
+    <table>
+        <tr>
+            <td class="gallery-col">
+                {% for post in posts %}
+                {% for rule in page.filter %}
+                {% if post.category == rule %}
+                {% if post.gallery == 'left' %}
+                {% include gallery-list-item.html %}
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+            
+            </td>
+            <td class="gallery-col">
+                {% for post in posts %}
+                {% for rule in page.filter %}
+                {% if post.category == rule %}
+                {% if post.gallery == "right" %}
+                {% include gallery-list-item.html %}
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
 
+            </td>
+        </tr>
+    </table>
 
-        {% for post in posts %}
-        {% for rule in page.filter %}
-        {% if post.category == rule %}
-        {% include gallery-list-item.html %}
-        {% endif %}
-        {% endfor %}
-        {% endfor %}
-   
-</div>

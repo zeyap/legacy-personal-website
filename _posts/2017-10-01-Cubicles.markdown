@@ -10,6 +10,7 @@ publication: "Accepted by ACM IUI '18"
 icon: gamepad
 webgl: "yes"
 permalink: /cubicles/
+gallery: left
 
 meta-banner: "yes"
 client: "Cascade Lab @ UIUC"
@@ -34,11 +35,11 @@ duration: "JUL - SEP 2017"
 
 <h3>Problem Statement</h3>
 
-Spatial visualization skills (the ability to understand the visual and spatial relationship among objects) are crucial to reasoning and solving complex problems in STEM disciplines. In previous attempts, scalable online traning platform were built by researchers in UIUC, but they reported low retention rate of such platform.
+<p>Spatial visualization skills (the ability to understand the visual and spatial relationship among objects) are crucial to reasoning and solving complex problems in STEM disciplines. In previous attempts, scalable online traning platform were built by researchers in UIUC, but they reported low retention rate of such platform.</p>
 
 <h3>Literature Review</h3>
-* To intrinsically motivate students to train their skills, a popular solution is gamification. Gamification can introduce higher levels of motivation and engagement than traditional instructional methods *(Boyle, Elizabeth A., et al., 2012; McClarty, Katie Larsen, et al., 2012)*
-* Different academic fields in STEM emphasize different aspects of spatial visualization skills *(Sorby, Sheryl A., 2009)*
+<li> To intrinsically motivate students to train their skills, a popular solution is gamification. Gamification can introduce higher levels of motivation and engagement than traditional instructional methods <i>(Boyle, Elizabeth A., et al., 2012; McClarty, Katie Larsen, et al., 2012)</i></li>
+<li> Different academic fields in STEM emphasize different aspects of spatial visualization skills <i>(Sorby, Sheryl A., 2009)</i></li>
 
 <h3>Competitor Analysis</h3>
 <div class="container">
@@ -81,77 +82,78 @@ Spatial visualization skills (the ability to understand the visual and spatial r
 * * *
 
 <h2>Design</h2>
-
 <div class="container">
     <div class="row">
+<div class="col">
+            <h3>The Platform</h3>
+
+            <h4>Game Setting</h4>
+            <p>The player is trapped in a dungeon maze. To escape, the player needs to navigate through the maze and unlock all the rooms; finishing the game task in the room is the only way to unlock the door to the next room.</p>
+
+            <h4>Modular Design</h4>
+            <p>8 game modules based on 5 major aspects of spatial visualizations skills, with levels of graudual progression. The game system was designed so that game modules can be added or removed easily by communicating through documented API, maze map can be modified through a single JSON file.</p>
+
+            <h4>Behavior Data Collection</h4>
+            <p>Platform collects in-game behavior in detail to infer a player's problem-solving strategy and react by adjusting game difficulty or repeating failed challenges.</p>
+        </div>
         <div class="col">
-		<h3>The Platform</h3>
-
-		<h4>Game Setting</h4>
-		The player is trapped in a dungeon maze. To escape, the player needs to navigate through the maze and unlock all the rooms; finishing the game task in the room is the only way to unlock the door to the next room.
-
-		<h4>Modular Design</h4>
-		8 game modules based on 5 major aspects of spatial visualizations skills, with levels of graudual progression. The game system was designed so that game modules can be added or removed easily by communicating through documented API, maze map can be modified through a single JSON file.
-
-		<h4>Behavior Data Collection</h4>
-		Platform collects in-game behavior in detail to infer a player's problem-solving strategy and react by adjusting game difficulty or repeating failed challenges.
-        </div>
-		<div class="col">
-		<img src="/assets/images/maze.png">
-        </div> 
-    </div>
-
-	<div class="row">
-		<div class="col">
-		<img src="/assets/images/cubicles.png">
-        </div> 
-		<div class="col">
-		<table class="table table-sm">
-  <thead>
-    <tr>
-      <th scope="col">Game Module</th>
-      <th scope="col">Gameplay</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Block Builder</td>
-      <td>Building model from its corresponding orthographic views</td>
-    </tr>
-    <tr>
-      <td>Constructive Solid Geometry</td>
-      <td>Constructing 3D model from given primitive objects</td>
-    </tr>
-    <tr>
-      <td>Plane Exploration</td>
-	  <td>Navigating on a 3D landscape with only orthographic views of the landscape</td>
-    </tr>
-	<tr>
-      <td>View Point</td>
-	  <td>Determining the View Point from 2D map</td>
-    </tr>
-	<tr>
-      <td>Shape Revolving</td>
-	  <td>Drawing the revolving axis for a 2D shape to form 3D object</td>
-    </tr>
-	<tr>
-      <td>Flat Pattern</td>
-	  <td>Unfolding a 3D object to a target 2D pattern</td>
-    </tr>
-	<tr>
-      <td>Transformation Limitation</td>
-	  <td>Manipulating a 3D objec to match the target within limited steps</td>
-    </tr>
-	<tr>
-      <td>Cube Shift</td>
-	  <td>Keeping track of a series of cube shifting and identifying the missing emoji</td>
-    </tr>
-  </tbody>
-</table>
+            <img src="/assets/images/maze.png">
         </div>
     </div>
-
 </div>
+
+<div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="/assets/images/cubicles.png">
+            </div>
+            <div class="col">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Game Module</th>
+                            <th scope="col">Gameplay</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Block Builder</td>
+                            <td>Building model from its corresponding orthographic views</td>
+                        </tr>
+                        <tr>
+                            <td>Constructive Solid Geometry</td>
+                            <td>Constructing 3D model from given primitive objects</td>
+                        </tr>
+                        <tr>
+                            <td>Plane Exploration</td>
+                            <td>Navigating on a 3D landscape with only orthographic views of the landscape</td>
+                        </tr>
+                        <tr>
+                            <td>View Point</td>
+                            <td>Determining the View Point from 2D map</td>
+                        </tr>
+                        <tr>
+                            <td>Shape Revolving</td>
+                            <td>Drawing the revolving axis for a 2D shape to form 3D object</td>
+                        </tr>
+                        <tr>
+                            <td>Flat Pattern</td>
+                            <td>Unfolding a 3D object to a target 2D pattern</td>
+                        </tr>
+                        <tr>
+                            <td>Transformation Limitation</td>
+                            <td>Manipulating a 3D objec to match the target within limited steps</td>
+                        </tr>
+                        <tr>
+                            <td>Cube Shift</td>
+                            <td>Keeping track of a series of cube shifting and identifying the missing emoji</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
 
 * * *
 
@@ -171,8 +173,8 @@ Spatial visualization skills (the ability to understand the visual and spatial r
 </div>
 <div class="col">
 <h5>Gameplay</h5>
-The player is faced with a labyrinth on the plane, his goal is to look at a 2D map of his target, memorize the map, and finally go inside the labyrinth to look for the targets. Once player reaches the right position, the target will appear.
-The game requires students to:
+<p>The player is faced with a labyrinth on the plane, his goal is to look at a 2D map of his target, memorize the map, and finally go inside the labyrinth to look for the targets. Once player reaches the right position, the target will appear.</p>
+<p>The game requires students to:</p>
 <p>
 <li>Navigate in a 3D space </li>
 <li>keep the memory of target position on a 2D map</li>
@@ -181,7 +183,7 @@ The game requires students to:
 <h5>User Testing</h5>
 <p>Our team met with a group of testers weekly. According to their opinions and misunderstanding while using the prototype, we made adjustment on the prototypes.</p>
 
-In the iteration, this game design was thought of as too difficult, due to the heavy load on memory. But the ideas were later inherited by the design of the dungeon and by ideation 2.
+<p>In the iteration, this game design was thought of as too difficult, due to the heavy load on memory. But the ideas were later inherited by the design of the dungeon and by ideation 2.</p>
 </div>
 	</div>
 	<hr>
@@ -199,7 +201,7 @@ In the iteration, this game design was thought of as too difficult, due to the h
 
 		<img src="/assets/images/nback.jpeg">
 
-		Still, the game, even at the easiest level, was considered too complex to follow the instruction by some users. 
+		<p>Still, the game, even at the easiest level, was considered too complex to follow the instruction by some users. </p>
 
 		</div>
 	</div>
@@ -279,7 +281,7 @@ The focus of our analysis was
     <div class="row">
         <div class="col">
 		<h4>Gender difference on Spatial Visualization Skills</h4>
-		t=2.41(p<0.05). Males significantly score higher than females.
+		<p>t=2.41(p<0.05). Males significantly score higher than females.</p>
 		</div>
 		<div class="col">
 		<table class="table table-sm">
@@ -306,7 +308,7 @@ The focus of our analysis was
     <div class="row">
 		<div class="col">
 		<h4>SV Skills and Game Performance</h4>
-Pearson's correlation test is used here.
+<p>Pearson's correlation test is used here.</p>
 		</div>
         <div class="col">
 		<table class="table table-sm">
@@ -337,7 +339,7 @@ Pearson's correlation test is used here.
 	<div class="row">
 		<div class="col">
 		<h4>Players' Impressions</h4>
-		Survey results (on a 5-point Likert scale) indicates a great potential for the gaming platform to be deployed on a larger scale.
+		<p>Survey results (on a 5-point Likert scale) indicates a great potential for the gaming platform to be deployed on a larger scale.</p>
 		</div>
         <div class="col">
 		<table class="table table-sm">
@@ -374,9 +376,9 @@ Pearson's correlation test is used here.
 
 <h4>Development</h4>
 
-Zeya Peng / <a href="https://renhanfei.com">Hanfei Ren</a> / <a href="https://raynezhang.github.io">Rayne Zhang</a> / <a href="https://shiliangzuo.github.io">Shiliang Zuo</a>
+<p>Zeya Peng / <a href="https://renhanfei.com">Hanfei Ren</a> / <a href="https://raynezhang.github.io">Rayne Zhang</a> / <a href="https://shiliangzuo.github.io">Shiliang Zuo</a></p>
    
 <h4>Ideation & Testing</h4>
 		
-Helen Wauck / Ziang Xiao / Yuqi Yao
+<p>Helen Wauck / Ziang Xiao / Yuqi Yao</p>
      

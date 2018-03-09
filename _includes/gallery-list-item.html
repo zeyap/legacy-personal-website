@@ -1,21 +1,26 @@
-<div class="item col-lg-4 col-sm-6" data-tags="{{ post.tags | join: " " }}">
-    {% if post.coverpic %}
-    <div class="item-image thumbnail">
-        <img src="{{ post.coverpic| relative_url }}" alt="" />
-    </div>
-    
-    {% endif %}
-    <a class="item-inner" href="{{ post.url | relative_url }}" data-date="{{ post.date | date: "%m-%d"  }}">
-        <div class="item-title"> {{ post.title | escape }} </div>
-        {% if post.description %}
-        <div class="item-description">{{ post.description }}</div>
-        {% endif %}
+<div class="gallery-item">
+   
+    <a href="{{ post.url | relative_url }}" data-date="{{ post.date | date: "%m-%d"  }}">
+        <div class="item-text-container">
+            <p class="item-meta">
+                {{ post.client }}
+            </p>
+            <h4 class="item-title"> {{ post.title | escape }} </h4>
+            {% if post.description %}
+            <p class="item-description">{{ post.description }}</p>
+            {% endif %}
+            {% if post.skills %}
+            <p class="item-meta-2">{{ post.skills }}</p>
+            {% endif %}
 
-        <div class="item-meta">
-            {{ post.date | date: "%B %-d, %Y" }}
+            
+            {% if post.coverpic %}
+            </div>
+            <div class="item-image">
+                <img src="{{ post.coverpic| relative_url }}" alt="" />
+            </div>
 
-        </div>
-
-    </a>
-
+            {% endif %}
+</a>
 </div>
+

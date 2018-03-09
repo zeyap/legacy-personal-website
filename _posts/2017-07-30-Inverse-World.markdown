@@ -8,11 +8,13 @@ coverpic: "/assets/images/coverpics/iw.jpg"
 description: "A story-driven AR game" 
 slider: "yes"
 permalink: /inverse-world/
+gallery: left
 
 meta-banner: "yes"
 client: "Computer Game Programming capstone project"
-skills: "Concept Design, Graphic Design, Unity 3D"
+skills: "Graphic Design, Unity 3D"
 duration: "April - July 2017"
+
 
 ---
 
@@ -78,9 +80,9 @@ duration: "April - July 2017"
 
 <h2>Conception</h2>
 
-We were required to develop an Augmented Reality game. After brainstorming on the game design, we decided to create a life simulation & virtual social experience on mobile devices.
+<p>We were required to develop an Augmented Reality game. After brainstorming on the game design, we decided to create a life simulation & virtual social experience on mobile devices.</p>
 
-Due to thr group's love for engaging stories and role-playing interactive novels, we decided to make a story-driven simulation game. There are already a number of impressive and non-AR predesessors. 
+<p>Due to thr group's love for engaging stories and role-playing interactive novels, we decided to make a story-driven simulation game. There are already a number of impressive and non-AR predesessors. </p>
 
 <h2>Gameplay</h2>
 
@@ -96,11 +98,11 @@ Due to thr group's love for engaging stories and role-playing interactive novels
 		<div class="col">
 		<h3>Stat balance</h3>
 
-<ul>Since it would be no fun given the progress super-easy and resources unlimited, both the chance for dialogues and fragments-pairing are restricted by a energy parameter.</ul>
+<p>Since it would be no fun given the progress super-easy and resources unlimited, both the chance for dialogues and fragments-pairing are restricted by a energy parameter.</p>
 
-<ul>To replenish energy of the character, players can feed the character in mini-game.</ul>
+<p>To replenish energy of the character, players can feed the character in mini-game.</p>
 
-<ul>For mini-game design, we brainstormed about the likely ability of magicians to properly match the role of players, and finally decided on a shooting game (that would look like magic spelling).</ul>
+<p>For mini-game design, we brainstormed about the likely ability of magicians to properly match the role of players, and finally decided on a shooting game (that would look like magic spelling).</p>
 		</div>
 	</div>
 </div>
@@ -110,23 +112,20 @@ Due to thr group's love for engaging stories and role-playing interactive novels
 
 * * *
 
+<h3>The Group</h3>
+
 <div class="container">
     <div class="row">
         <div class="col">
 		<h4>Development</h4>
-		<center>
-		Mengdi Xu / Jiayi Ruan / Xinyang Guan / Biyun Zhang / Yibing Mei / Ya Gao
-		</center>
+		<p>Mengdi Xu / Jiayi Ruan / Xinyang Guan / Biyun Zhang / Yibing Mei / Ya Gao</p>
 		</div>
 		<div class="col">
 		<h4>Design</h4>
-		<center>
-		Zeya Peng - 2D Assets / Yiwen Hu - 3D Assets
-		</center>
+		<p>Zeya Peng - 2D Assets / Yiwen Hu - 3D Assets</p>
 		</div>
 	</div>
 </div>
-<h3>The Group</h3>
 
 
 

@@ -12,7 +12,7 @@ permalink: /ggj/
 
 Global Game Jam is an annually-held 48-hour-hackathon for games.
 
-<h2>Time Wave</h2>
+<h3>Time Wave</h3>
 
 <center><a href="https://globalgamejam.org/2017/games/%E6%97%B6%E9%97%B4%E6%B3%A2" class="button button-pill button-tiny button-highlight">Game Page @ GGJ'17 "WAVE"</a></center>
 
@@ -22,7 +22,7 @@ I co-designed a puzzle game where the player is framed for a murder, and thus ar
 
 Our game was featured on the organizer's ("Taptap") official media site.
 
-<h2>Dating Starts!</h2>
+<h3>Dating Starts!</h3>
 
 <center><a href="https://globalgamejam.org/2018/games/dating-starts" class="button button-pill button-tiny button-highlight">Game Page @ GGJ'18 "TRANSMISSION"</a></center>
 

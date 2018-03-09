@@ -4,55 +4,66 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu|Ubuntu+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono');
 
+html{
+    font-family: 'Roboto Condensed', sans-serif;
+}
 body {
   color: $content-color;
   background-color: $background-color;
-  //font-size: font-size();
-  font-size: 1.1em;
   font-weight: 300;
   font-kerning: normal;
-  border-top: 50px solid lighten($main-color,15%);
+  font-size: 1.4em;
 }
 
 a, a:hover, a:visited {
-  @include scut-link-unstyled;
+    text-decoration:inherit;
 }
 
 img { max-width: 100%; }
 
+.header{
+    
+}
 h1, h2, h3, h4, h5, h6, p {
   display: block;
 }
 
-h1 { font-family: 'Ubuntu Condensed', cursive; color: #fff; font-weight: bold; font-size: 3.0em; }
-h2 { font-family: 'Ubuntu Condensed', cursive; color: $main-color;font-weight: bold; font-size: 2.0em; }//color: lighten($title-color,0.2); font-weight: bolder;
-h3 { font-family: 'Ubuntu Condensed', sans-serif; font-weight: bold; font-size: 1.5em;}
-h4 { font-weight: bolder; font-size:1.5em;}
-h5 { font-weight: bolder; }
+.site-title{
+    text-transform:uppercase;
+    margin-left: 3px;
+}
 
+h1 { font-family: 'Ubuntu Condensed', cursive; color: $main-color; font-size: 2.0em; }
+h2 { font-family: 'Ubuntu Condensed', cursive; color: $main-color; font-size: 2.0em; }//color: lighten($title-color,0.2); font-weight: bolder;
+h3 { font-family: 'Ubuntu Condensed', sans-serif; color: $main-color; text-transform:lowercase; font-size: 1.2em;}
+h4 { font-family: 'Roboto Condensed', sans-serif; text-transform:capitalize; font-weight: bolder; font-size:1.0em;}
+h5 { font-family: 'Roboto Condensed', sans-serif; text-transform:capitalize; font-size:0.9em }
+p  { font-family: 'Roboto Condensed', sans-serif; font-size:0.8em}
 highlight
 {
     //background-color:#fff
 }
 
 article {
-
+    font-family: 'Roboto Condensed', sans-serif;
   h2, h3, h4, h5, h6 {
     &::before {
       display: inline-block;
-      text-align: center;
-      margin-left: font-size(0.5);
-      margin-right: font-size(0.5);
+      padding-top: font-size(1.5);
+     padding-bottom: font-size(1.0);
+      
     }
   }
 
   p {
     hanging-punctuation: allow-end; // no browser supports this rule
+
   }
 
   table,th,td{
      color:$main-color;
-     
+     font-size: 0.9em;
+     text-align:left;
   }
 
   .aside, .sidenote, .side-note {
@@ -69,6 +80,7 @@ article {
 
   a, a:hover, a:visited {
     border-bottom: 1px dotted currentColor;
+    color:$content-color;
   }
 
   img.half-size, img.retina2x {
@@ -81,10 +93,12 @@ article {
   ul ul { list-style-type: circle; }
   ul ul ul { list-style-type: square;  }
   ol { list-style-type: decimal; }
-  
+
+  li{
+      font-size:0.8em;
+  }
 
   blockquote {
-     font-family: 'Ubuntu Mono', monospace;
 
   }
 
@@ -123,96 +137,6 @@ article {
   }
 }
 
-.site-title, .site-title:hover, .site-title:visited {
-  color:$background-color;
-  display: inline-block;
-  font-variant-caps: all-petite-caps;
-  font-size: 2.0em;
-  @include font-serif;
-  border-bottom: none;
-  white-space: nowrap;
-}
-
-.site-nav {
-  color: lighten($main-color, 50%);
-  font-size: 1.0em;
-  font-variant-caps: all-petite-caps;
-  letter-spacing: 0.1em;
-}
-
-.page-link {
-  transition: color 0.2s ease-in;
-}
-
-.site-nav:hover {
-  color: $main-color;
-  .page-link:hover {
-    color: $main-color;
-  }
-}
-
-.post-title {
-   color: $title-color;
-  word-break: keep-all;
-  margin-top: -0.5 * $font-size;
-}
-
-.post-cover {
-  position: relative;
-  width: 100vw;
-  max-height: 40vh;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  overflow-y: hidden;
-
-  .post-cover-wrapper {
-    max-height: inherit;
-    position: relative;
-    transform: translateY(50%);
-  }
-
-  img {
-    width: 100%;
-    margin: 0 !important;
-    transform: translateY(-50%);
-  }
-}
-
-.post-footer {
-  color: lighten($main-color, 50%);
-  font-size: 0.875em;
-  @include scut-clearfix;
-
-  .post-meta { float: left; }
-  .post-tags { float: right; }
-
-  .post-tags {
-    &::before { content: 'Tags: ' }
-    @include scut-list-punctuated(" / ");
-    .tag-link {
-      transition: color 0.2s ease-out;
-      &:hover { color: lighten($main-color, 20%); }
-    }
-  }
-}
-
-.social-link, .social-links {
-  color:$main-color;
-  $size: 2em;
-  display: inline-block;
-  width: $size;
-  height: $size;
-  line-height: $size;
-  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.social-link:hover {
-  transform: translateY(-0.25em);
-  &.social-github { color: #333; }
-  &.social-heart { color: #00c1ff; }
-  &.social-steam { color: #1899db; }
-}
-
 .credits {
   color: $light-grey;
   font-size: 0.68em;
@@ -223,83 +147,31 @@ article {
   font-size: 0.90em;
 }
 
-.post-list {
-  @include scut-list-unstyled;
-}
+.gallery-item{
 
-.post-item-link {
-    border-bottom: 1px dotted currentColor;
-  font-size: 1.5em;
 }
-
-.post-description {
-  font-size: 0.9em;
-}
-
-.post-item-meta {
-  font-variant-caps: all-petite-caps;
-  color: lighten($content-color, 40%);
-  font-size: 0.9em;
-}
-
-.cover-meta {
-  font-family: "Press Start 2P", cursive;
-  font-variant-caps: all-petite-caps;
-  font-size: 0.4em;
-  color: #fff;
-}
-
-//gallery
-
-.gallery div.item .item-inner {
-}
-
-.gallery div.item .item-title {
-  font-size: 1.5em;
-  color: white;
-}
-
-.gallery div.item .item-description {
-  font-size: 0.9em;
-  color: lighten($content-color, 90%);
-}
-
-.gallery div.item .item-meta {
-  font-variant-caps: all-petite-caps;
-  color: lighten($content-color, 90%);
-  font-size: 0.9em;
-}
-////
-
-.site-title, .site-title:visited, .site-title:hover {
-  margin-left: 3px;
-}
-
-[lang^="zh"] {
-  .post-item-link {
-    margin-left: -2px;
-  }
-  h1 { margin-left: -1px; }
-  h2 { margin-left: -2px; }
-  h3 { margin-left: -2px; }
-}
-
-.navbar-default {
-  background-color: lighten($main-color,15%);
-}
-.navbar-default .navbar-brand {
-    color: $background-color;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-    color: $background-color;
-}
-/* Link */
-.navbar-default .navbar-nav > li > a {
-    color: $background-color;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.item-title{
     color: $main-color;
-    background-color:$background-color;
+}
+.item-description {
+  color: lighten($main-color, 20%);
+  
+}
+
+.item-meta {
+  text-transform:uppercase;
+  color:$light-grey;
+  font-size: 0.8em;
+}
+.item-meta-2{
+  text-transform:capitalize;
+  color:$main-color;
+  font-size: 0.7em;
+}
+
+.side-filter-hover:hover{
+    color:#fff;
+    background: #22c1c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

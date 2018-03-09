@@ -1,26 +1,52 @@
+
 ---
 layout: blank
 ---
 
 <body>
+    <h3 class="site-title"><a class="fas fa-bars"></a> ZEYA PENG</h3>
+    <div>
+        <table>
+            <tr>
+                <td id="navbar">
+                    <div class="side-nav">
+                        <a href="/"><h3 class="side-filter side-filter-hover">all</h3></a>
+                        <a href="/development"><h3 class="side-filter side-filter-hover">development</h3></a>
+                        <a href="/research"><h3 class="side-filter side-filter-hover">research</h3></a>
+                        <a href="/design"><h3 class="side-filter side-filter-hover">design</h3></a>
+                        <a href="/posts"><h3 class="side-filter side-filter-line-above">blog</h3></a>
+                        <a href="/about"><h3 class="side-filter side-filter-line-above">about</h3></a>
 
-  <main class="page-content" aria-label="Content">
+                    </div>
+                    <script type="text/javascript" src="/assets/js/side-nav.js"></script>
+                </td>
+                <td>
+                <td width="20%">
+                    <div class="meta-banner">
+                    {% if page.meta-banner %}
+                    {% include meta-banner.html %}
+                    {% endif %}
 
-      <div class="wrapper">
-          {% include bootstrap_nav.html %}
-          {% include header.html %}
-      </div>
+                    {% if page.timeline %}
+                    {% include timeline.html %}
+                    {% endif %}
+                    </div>
+                </td>
+                <td width="60%">
+                    <div class="wrapper">
+                        <h1 class="header">{{ page.title | escape }}</h1>
+                        {{ content }}
+                        {% include footer.html %}
+                    </div>
+                </td>
+                <td width="20%"></td>
 
-      {% if page.layout=='gallery' %}
-      <div class="wrapper-gallery">
-       {% else %}
-      <div class="wrapper">
-       {% endif %}
-        {{ content }}
-      </div>
-      {% include retina-image.html %}
- </main>
+                </td>
+            </tr>
+        </table>
+    </div>
 
-  {% include footer.html %}
+
+
 
 </body>

@@ -12,9 +12,9 @@
 }
 
 @mixin font-serif($font-family-fallback: serif) {
-  font-family: Calibri, $font-family-fallback, "Kagami Emoji";
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 @mixin font-monospace($font-family-fallback: monospace) {
-  font-family: Calibri, $font-family-fallback;
+  font-family: 'Roboto Condensed', sans-serif;
 }

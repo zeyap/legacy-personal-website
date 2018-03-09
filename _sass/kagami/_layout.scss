@@ -1,99 +1,107 @@
-$spacing-unit: 0.025 * $content-width;
-$content-padding: $spacing-unit / 2;
-$post-margin-width: 2 * $spacing-unit;
+$spacing-unit: 0.005 * $content-width;
+$content-padding: 0.02* $content-width;
+$post-margin-width: 4 * $spacing-unit;
 $post-header-spacing: 2 * $spacing-unit;
 $post-footer-spacing: 3 * $spacing-unit;
 
 html {
-  height: 100%;
-  overflow-x: hidden;
+
 }
 
 body {
-   //background-image: url(grids.png);
-  min-height: 100%;
+  height:100%;
   width: 100%;
-  overflow: hidden; // fixes margin-collapsing of body
+  overflow:auto;
+}
+
+img{
+    vertical-align:central;
+}
+
+.site-title{
+    float:left;
+    padding-left: $content-padding;
+    padding-bottom: $content-padding;
+    width:100%;
+}
+
+.side-nav{
+  float: left;
+  padding: $content-padding;
+  display:inline-block;
+  border-top:1px solid $light-grey;
+}
+
+.side-filter-line-above{
+    border-top:1px solid $light-grey;
+    margin-top:$content-padding;
+    padding-top:$content-padding;
+}
+
+.meta-banner{
+    float: left;
+   padding: $content-padding;
+}
+
+.meta-banner-title{
+    padding-top:1.0em;
+}
+
+.timeline{
+
+}
+
+.timeline-children{
+    padding-left:2em;
 }
 
 .wrapper {
-    
-  width: 100%;
-  max-width: $content-width;
-  margin: 0 auto;
-  padding-left: $content-padding;
-  padding-right: $content-padding;
-  @media screen and (min-width: $content-width) {
-    padding-left: $content-padding + $post-margin-width;
-    padding-right: $content-padding + $post-margin-width;
-  }
-
+  padding: $content-padding;
+  //margin: 0 auto;//margin:0 auto居中要配合固定Width才生效
 }
 
-.wrapper-gallery {
-  width: 100%;
-  max-width: $gallery-width;
-  margin: 0 auto;
-  padding-left: $content-padding;
-  padding-right: $content-padding;
-  @media screen and (min-width: $content-width) {
-    padding-left: $content-padding + $post-margin-width;
-    padding-right: $content-padding + $post-margin-width;
-  }
+table{
+    display:inline-block;
+}
+tr{
+    vertical-align:top;
 }
 
+$vspacing: $spacing-unit;
+$hspacing: $spacing-unit / 2;
+
+h1, h2, h3, h4, h5, h6 {
+    //text-align:center;
+    padding-top:2.0*$vspacing;
+    margin-bottom:1.5*$vspacing;
+}
 
 article {
     
   background-color: $background-color-article;
   position: relative;
-  //box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  height: 100%;
   display: inline-block;
   width: 100%;
-  margin: 0 0 20px 0; //t/r/b/l
-  padding: 20px 50px 20px 50px;
   line-height:0.5;
 
-  $vspacing: $spacing-unit;
-  $hspacing: $spacing-unit / 2;
-
-  h1, h2, h3, h4, h5, h6, p, ul, ol, pre, hr, blockquote, img:only-child {
+  h1, h2, h3, h4, h5, h6, p, ul, ol, pre, hr, blockquote {
       
     display: block;
     margin: $vspacing auto;
   }
 
-  h2{
-      text-align:center;
-  }
-  h1, h2, h3, h4, h5, h6, img:only-child, img {
-    //text-align:center;
-    padding-top:$vspacing;
-    margin-bottom:$vspacing/2;
-  }
-
 
   li > ul, li > ol {
-      text-align:left;
+    text-align:left;
     margin-top: 0;
     margin-bottom: 0;
   }
 
   .highlight {
     position: relative;
-    overflow: hidden;
 
     code {
       display: block;
-      overflow-x: auto;
-    }
-
-    @include exdent-horizontally($hspacing);
-    @include exdent-vertically(0.5 * $vspacing);
-
-    @media screen and (min-width: $content-width) {
-      @include exdent-horizontally(2 * $hspacing);
     }
   }
 
@@ -117,22 +125,6 @@ article {
     padding: 30px;
   }
 
-  @media screen and (max-width: $content-width) {
-    h2, h3, h4, h5, h6 {
-      &::before { color: rgba(0,0,0,0); }
-    }
-    .aside, .sidenote, .side-note {
-      display: none;
-    }
-  }
-
-  @media screen and (min-width: $content-width) {
-    .hero-unit {
-      margin-left: -$post-margin-width;
-      margin-right: -$post-margin-width;
-    }
-  }
-
   h1, h2, h3, h4, h5, h6 { // reduce spacing after headings
     & + *,
     & + .aside + *,
@@ -141,53 +133,17 @@ article {
 	
 }
 
-.post-header {
-  margin-top: $post-header-spacing*3/4;
-  margin-bottom: $post-header-spacing/4;
-  div.sub-nav{
-    a{
-        color:$main-color;
-        font-size: 1.0em;
-    }
-    
-}
-}
-
-.post-cover {
-  margin-top: $spacing-unit;
-  margin-bottom: -$spacing-unit;
-  //margin-top: 30px;
-  //box-shadow: rgba(0, 0, 0, 0.4) 10px 15px inset;
-}
-
-.post-footer, #disqus_thread {
-  //margin-top: $post-footer-spacing;
-  //margin-bottom: $post-footer-spacing;
-}
-
-.site-nav {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-  margin-left: $content-padding;
-  margin-right: $content-padding;
-  justify-content: flex-end;
-}
-
 .page-link {
   display: block;
   padding: 0.5em;
 }
 
 .site-footer {
-  //padding-top: $spacing-unit;
   padding-bottom: $spacing-unit;
-
+  padding-top: 2*$spacing-unit;
 }
 
 .site-footer .wrapper {
-    
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -195,92 +151,55 @@ article {
   
 }
 
-.social-links {
-  text-align: center;
-  margin: 1em (-$content-padding);
-  padding: 0 0.3em;
-  white-space: nowrap;
-}
-
 .credits {
-  margin-left: -0.256em;
+    float:left;
   white-space: nowrap;
+  border-top:1px solid $light-grey;
 }
 
 .footer-email {
-  margin-left: -0.256em;
+  float:left;
   white-space: nowrap;
-}
-
-.post-list-item {
-  margin-top: $spacing-unit;
-  margin-bottom: $spacing-unit;
-}
-
-.post-description {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.cover-meta {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 4px 8px;
-  p { margin: 0; padding: 0; }
+  
 }
 
 //gallery
-.gallery div.item {
-  background-color: $gallery-block-color;
-  position: relative;
-  display: inline-flex;
-
+.gallery-col{
+    width:50%;
 }
-
-.gallery div.item .item-inner {
-  display: block;
-  padding: 60px;
-  margin-bottom: 20px;
-  position:absolute;
-  opacity:0;
-}
-
-.gallery div.item:hover {
-    .item-inner {
-        opacity: 1.0;
-    }
-    .item-image{
-        filter: brightness(0.5);
-    }
+.gallery-item{
+    margin: 5% 5% 0 0;
+    border: 1px solid $light-grey;
     
 }
-.gallery div.item .item-image {
-}
-.gallery div.item .item-title {
-    margin-bottom:20px;
-}
-.gallery div.item .item-meta {
-  text-align: left;
-  position: relative;
-  bottom: 0;
-  right: 0;
-  margin: 0px 0px 20px;
-  p { margin: 0; padding: 0; }
-}
-.gallery div.item .item-description {
-  text-align: left;
+.gallery-item:hover{
+    box-shadow: 5px 5px 20px $light-grey;
 }
 
-@media (max-width: 700px) {
-  .gallery div.item {
-    width: 300px;
-  }
+.item-title{
+    margin-bottom: $spacing-unit;
 }
-@media (max-width: 980px) and (min-width: 770px) {
-  .item-name {
-    font-size: 0.8em;
-  }
+.item-description {
+  
+}
+
+.item-meta {
+    margin-bottom: $spacing-unit;
+    width:100%;
+    float:right;
+}
+
+.item-meta-2{
+    margin-top: $spacing-unit;
+}
+
+.item-text-container{
+    padding: 3% 3% 3% 3%;
+}
+
+.item-image{
+    width:100%;
+    height:100%;
 }
 
 .container-fluid{
@@ -293,4 +212,24 @@ article {
         padding-top:20px;
         font-size:30px;
     }
+}
+
+.container{
+    width:100%;
+    
+    .row{
+        display:flex;
+        margin-bottom:2em;
+    }
+    .col{
+        width:50%;
+        float:left;
+        padding-right:2em;
+        display:inline-block;
+    }
+}
+
+.button-group, .button{
+    margin-top:2em;
+    margin-bottom:2em;
 }

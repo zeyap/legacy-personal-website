@@ -13,10 +13,11 @@ publication: "Published in International Journal of HCI '17"
 icon: hand-paper-o
 slider: "yes"
 permalink: /gestures/
+gallery: left
 
 meta-banner: "yes"
 client: "Summer Session Research"
-skills: "Psychometrics, Experiment design, MATLAB Programming"
+skills: "Experiment design, MATLAB Programming"
 director: "Gao Zaifeng"
 duration: "JUL - DEC 2015"
 
@@ -28,9 +29,9 @@ duration: "JUL - DEC 2015"
 
 **Is body gesture interaction *natural* at all?**
 
-Gestures in HCI at present are unnatural and are difficult to learn and memorize, according to our direct experience of playing Kinect games for a whole week, observations and literature review.
+<p>Gestures in HCI at present are unnatural and are difficult to learn and memorize, according to our direct experience of playing Kinect games for a whole week, observations and literature review.</p>
 
-The bad compatibility between gestures and commands can be an issue since its design process. The distinct mental models of interactions between users and designers separate their gesture preferences and result in user unfriendly gesture design.
+<p>The bad compatibility between gestures and commands can be an issue since its design process. The distinct mental models of interactions between users and designers separate their gesture preferences and result in user unfriendly gesture design.</p>
 
  <h2>Procedure</h2>
 
@@ -39,7 +40,7 @@ The bad compatibility between gestures and commands can be an issue since its de
 		<div class="col">
 		<h3>Command Set Selection</h3>
 
-The most important 15 commands were selected step-by-step
+<p>The most important 15 commands were selected step-by-step</p>
 
 <li>Listed all commands used in past 3D gestural studies</li>
 
@@ -63,11 +64,11 @@ The most important 15 commands were selected step-by-step
 
 <h4>Participant</h4>
 
-Undergraduates (12 male, 10 female) from Zhejiang University were recruited, aged 20.73 on average (SD=1.42).
-11 of them had never used kinect before, and the remaining participants had experience of no more than 14 hrs.
+<p>Undergraduates (12 male, 10 female) from Zhejiang University were recruited, aged 20.73 on average (SD=1.42).
+11 of them had never used kinect before, and the remaining participants had experience of no more than 14 hrs.</p>
 
 <h4>User-defined approach</h4>
-First proposed by Wobbrock et al.(2009), it was effective for generating gestures that fit users' mental models. It involves 2 phase:
+<p>First proposed by Wobbrock et al.(2009), it was effective for generating gestures that fit users' mental models. It involves 2 phase:</p>
 <div>
     <div id="canvas"></div>
 </div>
@@ -86,9 +87,9 @@ First proposed by Wobbrock et al.(2009), it was effective for generating gesture
         
         <div class="col">
 		<h3>STEP 1. Identify Gestures</h3>
-This is to group gestures that are essentially identical, among 701 gestures proposed by different participants. Then we obtain our initial gesture set.
+<p>This is to group gestures that are essentially identical, among 701 gestures proposed by different participants. Then we obtain our initial gesture set.</p>
 
-We used a theoretical taxonomy (Wobbrock 2009) to achieve this. Gestures identical along all 4 dimensions on taxonomy are considered one same gesture.
+<p>We used a theoretical taxonomy (Wobbrock 2009) to achieve this. Gestures identical along all 4 dimensions on taxonomy are considered one same gesture.</p>
 <h4>Identify by Taxonomy</h4>
             <table class="table table-sm">
 			  <tbody>
@@ -146,7 +147,7 @@ We used a theoretical taxonomy (Wobbrock 2009) to achieve this. Gestures identic
         <div class="col">
 		<h3>STEP 2. Score gesture set</h3>
 
-To indicate the best gestures, 3 aspects were involved, based on past research.
+<p>To indicate the best gestures, 3 aspects were involved, based on past research.</p>
 
 <table class="table table-sm">
   <tbody>
@@ -170,7 +171,7 @@ To indicate the best gestures, 3 aspects were involved, based on past research.
   </tbody>
 </table>
 
-An overall command-gesture score was calculated by summng 7 varaibles. The highest-scored gesture was proposed for each command. See the paper for more detail on the gesture set and scores.
+<p>An overall command-gesture score was calculated by summng 7 varaibles. The highest-scored gesture was proposed for each command. See the paper for more detail on the gesture set and scores.</p>
         </div>
 		<div class="col">
 		<div id="container2" style="width:100%; height:500px;"></div>
@@ -185,12 +186,12 @@ An overall command-gesture score was calculated by summng 7 varaibles. The highe
     <div class="row">
         <div class="col">
 		<h3>STEP 3. Gesture Re-check</h3>
-Although intuitional and match mental model, we have to resolve an issue of user-defined method, that participants may have not fully understood the possibilities within design space. Showing many gestures in advance is an effective solution in previous studies.
+<p>Although intuitional and match mental model, we have to resolve an issue of user-defined method, that participants may have not fully understood the possibilities within design space. Showing many gestures in advance is an effective solution in previous studies.</p>
 
 Subjective score was thus the focus, while REBA score was left out, and no Kinect skeletal recording was done.
 <wbr>
 <h4>Participant</h4>
-Undergraduates (11 male, 14 female) from Zhejiang University were recruited, aged 22.83 on average (SD=1.43).None of them had experience with gestural interaction.
+<p>Undergraduates (11 male, 14 female) from Zhejiang University were recruited, aged 22.83 on average (SD=1.43).None of them had experience with gestural interaction.</p>
 <div>
     <div id="canvas3"></div>
 </div>
@@ -211,7 +212,7 @@ Undergraduates (11 male, 14 female) from Zhejiang University were recruited, age
 	</div>
 	<div class="col">
 	<h5>Generate Final Gesture Set</h5>
-	User-defined method could have only partially reflected the preferences/requirements of users. For those command with conflict we propose a gesture for each by considering recognition accuracy, natural language principles, the mental models of the users, and the taxonomy distribution.
+	<p>User-defined method could have only partially reflected the preferences/requirements of users. For those command with conflict we propose a gesture for each by considering recognition accuracy, natural language principles, the mental models of the users, and the taxonomy distribution.</p>
 	</div>
 	</div>
 </div>
