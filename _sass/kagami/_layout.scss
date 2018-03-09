@@ -38,6 +38,10 @@ img{
     padding-top:$content-padding;
 }
 
+.side-filter-children{
+    padding-left:1em;
+}
+
 .meta-banner{
     float: left;
    padding: $content-padding;
@@ -48,11 +52,21 @@ img{
 }
 
 .timeline{
-
+    border-left:2px solid $light-grey;
 }
 
 .timeline-children{
-    padding-left:2em;
+    padding-left:1.5em;
+    td{
+        padding-right:1em;
+    }
+    
+}
+.timeline-title{
+    margin-left:-0.2em;
+    padding-left:0em;
+    padding-top:1.0em;
+    list-style:circle;
 }
 
 .wrapper {
@@ -232,4 +246,8 @@ article {
 .button-group, .button{
     margin-top:2em;
     margin-bottom:2em;
+}
+
+wbr{
+    
 }

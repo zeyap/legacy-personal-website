@@ -14,7 +14,7 @@ Global Game Jam is an annually-held 48-hour-hackathon for games.
 
 <h3>Time Wave</h3>
 
-<center><a href="https://globalgamejam.org/2017/games/%E6%97%B6%E9%97%B4%E6%B3%A2" class="button button-pill button-tiny button-highlight">Game Page @ GGJ'17 "WAVE"</a></center>
+<a href="https://globalgamejam.org/2017/games/%E6%97%B6%E9%97%B4%E6%B3%A2" class="button button-pill button-tiny button-highlight">Game Page @ GGJ'17 "WAVE"</a>
 
 For the first time being a game jammer I was an art designer in the group.
 
@@ -24,7 +24,7 @@ Our game was featured on the organizer's ("Taptap") official media site.
 
 <h3>Dating Starts!</h3>
 
-<center><a href="https://globalgamejam.org/2018/games/dating-starts" class="button button-pill button-tiny button-highlight">Game Page @ GGJ'18 "TRANSMISSION"</a></center>
+<a href="https://globalgamejam.org/2018/games/dating-starts" class="button button-pill button-tiny button-highlight">Game Page @ GGJ'18 "TRANSMISSION"</a>
 
 Acted as the leading programmer on my team. We used Unity3D for the development work.
 

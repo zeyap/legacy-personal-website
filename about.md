@@ -31,8 +31,6 @@ currently studying Digital Media Technology</p>
 
         <a href="https://github.com/zeyap" class="button button-circle"><i class="fab fa-github-alt"></i></a>
 
-        <a href="/assets/files/resume.pdf" class="button button-pill">Resume</a>
-
 		</div>
 	</div>
 </div>
