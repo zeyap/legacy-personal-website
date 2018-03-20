@@ -3,9 +3,17 @@ layout: blank
 ---
 
 <body>
-    <h3 class="site-title"><a class="fas fa-bars"></a> ZEYA PENG</h3>
-    <div>
+    
+
         <table>
+            <tr>
+                <td><h3 class="site-title"><a class="fas fa-bars"></a> ZEYA PENG</h3></td>
+                <td id="higher-banner"></td>
+                {% if page.timeline %}
+                <td id="higher-banner"><h4><a href="mailto:zeyapeng@outlook.com" class="button button-circle"><i class="fas fa-envelope-open"></i></a>
+                <a href="https://github.com/zeyap" class="button button-circle"><i class="fab fa-github-alt"></i></a><a id="shiftlang"> English / CN</a></h4></td>
+                {% endif %}
+            </tr>
             <tr>
                 <td id="navbar">
                     <div class="side-nav">
@@ -15,37 +23,38 @@ layout: blank
                             <h5 class="side-filter side-filter-hover side-filter-children" id="design">design</h5>
                             <a href="/posts"><h3 class="side-filter side-filter-line-above">blog</h3></a>
                             <a href="/about"><h3 class="side-filter side-filter-line-above">about</h3></a>
-</div>
+                </div>
                     
                 </td>
-                <td>
-                <td width="20%">
+                <td width="15%">
                     <div class="meta-banner">
-                    {% if page.meta-banner %}
-                    {% include meta-banner.html %}
-                    {% endif %}
+                        {% if page.meta-banner %}
+                        {% include meta-banner.html %}
+                        {% endif %}
 
-                    {% if page.timeline %}
-                    {% include timeline.html %}
-                    {% endif %}
+                        {% if page.timeline %}
+                        {% include timeline.html %}
+                        {% endif %}
                     </div>
                 </td>
-                <td width="60%">
+                <td max-width="800px">
                     <div class="wrapper">
-                        <h1 class="header">{{ page.title | escape }}</h1>
                         {{ content }}
                         {% include footer.html %}
                     </div>
                 </td>
-                <td width="20%"></td>
-
-                </td>
+                {% if page.timeline %}
+                <td width="0%"></td>
+                {% else %}
+                <td width="15%"></td>
+                {% endif %}
             </tr>
         </table>
         <script type="text/javascript" src="/assets/js/side-nav.js"></script>
-    </div>
 
 
-
+    {% if page.timeline %}
+    <script src="/assets/js/resume.js"></script>
+    {% endif %}
 
 </body>

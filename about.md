@@ -12,25 +12,21 @@ timeline: 1
 
 ---
 
-<div class="container">
-    <div class="row">
-        <div class="col">
-		<img src="/assets/images/selfies_sm.png" class="float-left">
-		</div>
-		<div class="col">
+<div class="container" id="resume-container">
 
-        Welcome!
-    <br>
-<p>I am a senior Psychology major at <a href="http://www.zju.edu.cn/english/">Zhejiang University</a>
-<br>
-currently studying Digital Media Technology</p>
-    <p>Seeking to create user interfaces that are intelligent, informative & fun</p>
+<table>
 
-        <a href="mailto:zeyapeng@outlook.com" class="button button-circle"><i class="fas fa-envelope-open"></i></a>
+<tr><td id="exp1"></td><td id="exp2"></td><td id="exp3"></td></tr>
+<tr><td width="33%" id="col-1">
+</td>
+<td width="33%" id="col-2">
+</td>
+<td width="33%" id="col-3">
+</td></tr>
 
+</table>
+		
+		
 
-        <a href="https://github.com/zeyap" class="button button-circle"><i class="fab fa-github-alt"></i></a>
-
-		</div>
-	</div>
+	
 </div>

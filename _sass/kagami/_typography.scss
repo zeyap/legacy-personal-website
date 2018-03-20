@@ -61,9 +61,10 @@ article {
   }
 
   table,th,td{
-     color:$main-color;
-     font-size: 0.9em;
      text-align:left;
+  }
+  .bulletpoint{
+      color:$main-color;
   }
 
   .aside, .sidenote, .side-note {
@@ -184,5 +185,9 @@ article {
     a{
         color: $main-color;
     }
+    
+}
+
+#higher-banner{
     
 }
