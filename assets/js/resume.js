@@ -1,5 +1,26 @@
-﻿var json={
-    "titles":["Education","Skills","Experience","Projects"],
+﻿var skills = {
+    "technical": ["C/C++", "Unity3D with C#", "HTML/CSS", "JavaScript", "SQL", "Maya", "Photoshop"],
+    "research": ["MATLAB & Psychtoolbox", "SPSS"],
+    "language": ["English (TOEFL iBT 108)", "Chinese Mandarin (Native)"],
+};
+
+var publications = [
+        {
+            "title": "Cubicle: An Adaptive Educational Gaming Platform for Training Spatial Visualization Skills",
+            "journal": "ACM Intelligent User Interfaces",
+            "issue":"2018",
+            "link": "/cubicles/"
+        },
+        {
+            "title": "User-Defined Gestures for Gestural Interaction: Extending from Hands to Other Body Parts.",
+            "journal": "International Journal of Human-Computer Interaction",
+            "issue": "2017.7, 1-13",
+            "link": "/gestures/"
+        },
+];
+
+var json = {
+    "titles":["Education","Skills","Experience","Projects","Development","Related Coursework","Languages","Publications"],
     "contact": {
         "email": "zeyapeng@outlook.com",
         "address": "| 148 Tianmushan Road, Hangzhou, PRC, 310000",
@@ -22,25 +43,6 @@
             "duration": "August 2014",
         },
     ],
-    "publications": [
-        {
-            "title": "Cubicle",
-            "link": "/cubicles/"
-        },
-        {
-            "title": "User-Defined Gestures for Gestural Interaction",
-            "link": "/gestures/"
-        },
-        {
-            "title": "Comprehension of Safety Briefing Card",
-            "link": "/safety-card/"
-        },
-    ],
-    "skills": {
-        "technical": [ "C/C++", "Unity3D with C#", "HTML/CSS", "JavaScript", "SQL", "Maya", "Photoshop" ],
-        "research": [ "MATLAB & Psychtoolbox", "SPSS" ],
-        "language": [ "English (Proficient)", "Chinese Mandarin (Native)" ],
-    },
     "experiences": [[
         {
             "title": "Global Game Jam - Game Dev Hackathon",
@@ -107,7 +109,7 @@
 };
 
 var json_cn = {
-    "titles":["教育背景","技能/证书","工作&学术经历","相关项目"],
+    "titles":["教育背景","技能/证书","工作&学术经历","相关项目","擅长技术","相关课程","语言能力","论文发表"],
     "contact": {
         "email": "zeyapeng@outlook.com",
         "address": "杭州市西湖区浙江大学西溪校区北园",
@@ -130,26 +132,19 @@ var json_cn = {
             "duration": "2014年8月 - 2014年9月",
         },
     ],
-    "publications": [
-        {
-            "title": "Cubicle",
-            "link": "/cubicles/"
-        },
-        {
-            "title": "User-Defined Gestures for Gestural Interaction",
-            "link": "/gestures/"
-        },
-        {
-            "title": "Comprehension of Safety Briefing Card",
-            "link": "/safety-card/"
-        },
-    ],
-    "skills": {
-        "technical": ["C/C++", "Unity3D with C#", "HTML/CSS", "JavaScript", "SQL", "Maya", "Photoshop"],
-        "research": ["MATLAB & Psychtoolbox", "SPSS"],
-        "language": ["English (Proficient)", "Chinese Mandarin (Native)"],
-    },
+    
     "experiences": [[
+        {
+            "title": "Global Game Jam",
+            "role": "游戏主程",
+            "institute": "椰岛游戏",
+            "city": "上海",
+            "country": "",
+            "duration": "2018年2月 - 2018年2月",
+            "bulletpoints": [
+                "和组员共同设计并用Unity3D制作了约会模拟游戏 <a href='https://globalgamejam.org/2018/games/dating-starts'>Dating Starts</a>，游戏中实现了丰富的交互操作与视觉反馈。最终作品被承办方（CiGa）公众号收录",
+            ]
+        },
         {
             "title": "伊利诺伊香槟分校暑期科研",
             "role": "游戏开发",
@@ -162,17 +157,7 @@ var json_cn = {
                 "在10名学生中进行测试，游戏模块记录的结果支持了被试在标准化测试中显示的空间想象能力和游戏表现有着0.9左右的相关，该成果发表于ACM IUI'18会议",
             ],
         },
-        {
-            "title": "Global Game Jam",
-            "role": "游戏主程",
-            "institute": "椰岛游戏",
-            "city": "上海",
-            "country": "",
-            "duration": "2018年2月 - 2018年2月",
-            "bulletpoints": [
-                "和组员共同设计并用Unity3D制作了约会模拟游戏，游戏中实现了丰富的交互操作与视觉反馈（https://globalgamejam.org/2018/games/dating-starts）。最终作品被承办方（CiGa）公众号收录",
-            ]
-        },
+        
 
     ], [
         {
@@ -230,29 +215,31 @@ function outputInTimeline(jsonObj) {
     }
     titletxt = titles[1];
     timeline = timeline + '<li class="timeline-title">' + titletxt + '</li>';
-    var skills =jsonObj["skills"];
-    for (var i = 0; i < 3; i++) {
-        timeline += '<div class="timeline-children">'
+    timeline += '<div class="timeline-children">'
+    + '<tr><h4>'+titles[4]+'</h4></tr>'
+    + '<div id="container1" style="height: 200%"></div>'
+    + '<tr><h4>' + titles[5] + '</h4></tr>'
+    + '<div id="container2" style="height: 200%"></div>'
+    + '</div>';
+    
+    timeline += '<div class="timeline-children">'
         + '<table>';
-        if (i == 0)
-            for (var j = 0; j < skills["technical"].length; j++) {
-                timeline += '<tr><p>' + skills["technical"][j]+ '</p></tr>';
-            }
-        if (i == 1)
-            for (var j = 0; j < skills["research"].length; j++) {
-                timeline += '<tr><p>' + skills["research"][j] + '</p></tr>';
-            }
-        if (i == 2)
-            for (var j = 0; j < skills["language"].length; j++) {
-                timeline += '<tr><p>' + skills["language"][j] + '</p></tr>';
-            }
-        timeline+='</table>'
-        + '</div>';
+
+    timeline += '<tr><h4>' + titles[6] + '</h4></tr>';
+    for (var j = 0; j < skills["language"].length; j++) {
+        timeline += '<tr><p>' + skills["language"][j] + '</p></tr>';
     }
+
+
+    timeline += '</table>'
+    + '</div>';
+    
 
     var elem = document.getElementsByClassName("timeline-inner")[0];
     elem.innerHTML = timeline;
 }
+
+var columCapacity = 3;
 
 function formatResume(jsonObj) {
     document.getElementById("higher-banner").innerHTML = "<h3>彭 泽亚</h3>";
@@ -262,7 +249,7 @@ function formatResume(jsonObj) {
         document.getElementById("exp" +i).innerHTML = "";
     }
     document.getElementById("exp1").innerHTML = titles[2];
-    var sectitlePos=Math.ceil(exps[0].length/2)+1;
+    var sectitlePos = Math.ceil(exps[0].length / columCapacity) + 1;
     document.getElementById("exp" + sectitlePos.toString()).innerHTML = titles[3];
     var elems = {"html":["","","",""],};
 
@@ -282,13 +269,18 @@ function formatResume(jsonObj) {
             item += '</p>';
             var colNo;
             if (i == 0) {
-                colNo = Math.floor(j / 2) + 1;
+                colNo = Math.floor(j / columCapacity) + 1;
             }
             else {
-                colNo = Math.ceil(exps[i - 1].length / 2) + Math.floor(j / 2) + 1;
+                colNo = Math.ceil(exps[i - 1].length / columCapacity) + Math.floor(j / columCapacity) + 1;
             }
             elems["html"][colNo - 1] += item;
         }
+    }
+    elems["html"][0] += '<h4 class="timeline-title">' + titles[7] + '</h4>';
+    for (var i = 0; i < publications.length; i++) {
+        var pubitem = "<p>" + publications[i].title + " " + publications[i].journal + " " + publications[i].issue + "</p>";
+        elems["html"][0] += pubitem;
     }
     for (var i = 1; i <= 3; i++) {
         //console.log(elems["html"][i]);
@@ -296,20 +288,113 @@ function formatResume(jsonObj) {
     }
 }
 
+function drawDonut_other() {
+    var dom = document.getElementById("container2");
+    var myChart = echarts.init(dom);
+    var app = {};
+    option = null;
+    app.title = 'skills';
+
+    option = {
+        series: [
+            {
+                name: 'Development',
+                type: 'pie',
+                radius: ['40%', '90%'],
+                avoidLabelOverlap: false,
+                label: {
+                    normal: {
+                        position: 'inner'
+                    },
+                    emphasis: {
+                        show: true,
+                        textStyle: {
+                            fontSize: '30',
+                            fontWeight: 'regular'
+                        }
+                    }
+                },
+                labelLine: {
+                    normal: {
+                        show: false
+                    }
+                },
+                data: [
+                    { value: 20, name: 'Interaction Design' },
+                    { value: 20, name: 'Data Analysis' },
+                    { value: 20, name: 'Multimedia Processing' },
+                    { value: 20, name: 'Database' },
+                    { value: 20, name: 'Graphics' },
+                ]
+            }
+        ]
+    };
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
+}
+
+function drawDonut_tech() {
+    var dom = document.getElementById("container1");
+    var myChart = echarts.init(dom);
+    var app = {};
+    option = null;
+    app.title = 'skills2';
+
+    option = {
+        series: [
+            {
+                name: 'Development',
+                type: 'pie',
+                radius: ['40%', '90%'],
+                avoidLabelOverlap: false,
+                label: {
+                    normal: {
+                        position: 'inner'
+                    },
+                    emphasis: {
+                        show: true,
+                        textStyle: {
+                            fontSize: '30',
+                            fontWeight: 'regular'
+                        }
+                    }
+                },
+                labelLine: {
+                    normal: {
+                        show: false
+                    }
+                },
+                data: [
+                    { value: 40, name: 'C++, Qt'},
+                    { value: 30, name: 'C#, Unity 3D' },
+                    { value: 20, name: 'OpenGL' },
+                    { value: 10, name: 'JavaScript, CSS' },
+                ]
+            }
+        ]
+    };
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
+}
+
+function refresh(jsonfile) {
+    outputInTimeline(jsonfile);
+    formatResume(jsonfile);
+    drawDonut_tech();
+    drawDonut_other();
+}
 var jsonfile = json_cn;
-outputInTimeline(jsonfile);
-formatResume(jsonfile);
+refresh(jsonfile);
 document.querySelector("#shiftlang").addEventListener("click", function () {
     if (jsonfile == json) {
         jsonfile = json_cn;
-        outputInTimeline(jsonfile);
-        formatResume(jsonfile);
+        refresh(jsonfile);
     }
     else {
         jsonfile = json;
-        outputInTimeline(jsonfile);
-        formatResume(jsonfile);
+        refresh(jsonfile);
     }
     
 });
-

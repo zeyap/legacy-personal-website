@@ -17,11 +17,11 @@ timeline: 1
 <table>
 
 <tr><td id="exp1"></td><td id="exp2"></td><td id="exp3"></td></tr>
-<tr><td width="33%" id="col-1">
+<tr><td id="col-1">
 </td>
-<td width="33%" id="col-2">
+<td id="col-2">
 </td>
-<td width="33%" id="col-3">
+<td id="col-3">
 </td></tr>
 
 </table>

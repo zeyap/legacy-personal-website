@@ -53,6 +53,7 @@ img{
 
 .timeline{
     border-left:2px solid $light-grey;
+    min-width:250px;
 }
 
 .timeline-children{
@@ -252,6 +253,7 @@ article {
 
 #col-1,#col-2,#col-3,#col-4{
     padding:0 0.5em;
+    width:30%;
 }
 
 .button-group, .button{
