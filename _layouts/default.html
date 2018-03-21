@@ -4,16 +4,21 @@ layout: blank
 
 <body>
     
-
+    <table width="100%">
+        <tr>
+        <td><h3 class="site-title"><a class="fas fa-bars"></a> ZEYA PENG</h3></td>
+        <td id="higher-banner"></td>
+        {% if page.timeline %}
+        <td id="higher-banner">
+            <h4>
+                <a href="mailto:zeyapeng@outlook.com" class="button button-circle"><i class="fas fa-envelope-open"></i></a>
+                <a href="https://github.com/zeyap" class="button button-circle"><i class="fab fa-github-alt"></i></a><a id="shiftlang"> English / CN</a>
+            </h4>
+        </td>
+        {% endif %}
+        </tr>
+    </table>
         <table>
-            <tr>
-                <td><h3 class="site-title"><a class="fas fa-bars"></a> ZEYA PENG</h3></td>
-                <td id="higher-banner"></td>
-                {% if page.timeline %}
-                <td id="higher-banner"><h4><a href="mailto:zeyapeng@outlook.com" class="button button-circle"><i class="fas fa-envelope-open"></i></a>
-                <a href="https://github.com/zeyap" class="button button-circle"><i class="fab fa-github-alt"></i></a><a id="shiftlang"> English / CN</a></h4></td>
-                {% endif %}
-            </tr>
             <tr>
                 <td id="navbar">
                     <div class="side-nav">
@@ -49,7 +54,7 @@ layout: blank
                 <td width="15%"></td>
                 {% endif %}
             </tr>
-        </table>
+        </tablewidth="100%">
         <script type="text/javascript" src="/assets/js/side-nav.js"></script>
 
 
