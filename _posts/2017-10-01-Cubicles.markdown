@@ -57,7 +57,7 @@ duration: "JUL - SEP 2017"
 		<img src="{{ site.baseurl }}/assets/images/fez.png">
 		<img src="{{ site.baseurl }}/assets/images/shadowmatic.png">
 		<img src="{{ site.baseurl }}/assets/images/platie.jpeg">
-		<img src="{{ site.baseurl }}/assets/images/outfolded.jpg">
+		<img src="{{ site.baseurl }}/assets/images/Outfolded.jpg">
 
 		</div>
 
