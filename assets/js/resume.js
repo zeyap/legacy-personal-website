@@ -368,7 +368,7 @@ function refresh(jsonfile) {
     drawDonut_tech();
     drawDonut_other();
 }
-var jsonfile = json_cn;
+var jsonfile = json;
 refresh(jsonfile);
 document.querySelector("#shiftlang").addEventListener("click", function () {
     if (jsonfile == json) {
