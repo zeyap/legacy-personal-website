@@ -1,7 +1,7 @@
-<link rel="shortcut icon" href="/assets/webgl/TemplateData/favicon.ico">
-<link rel="stylesheet" href="/assets/webgl/TemplateData/style.css">
-<script src="/assets/webgl/TemplateData/UnityProgress.js"></script>
-<script src="/assets/webgl/Build/UnityLoader.js"></script>
+<link rel="shortcut icon" href="{{ site.baseurl }}/assets/webgl/TemplateData/favicon.ico">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/webgl/TemplateData/style.css">
+<script src="{{ site.baseurl }}/assets/webgl/TemplateData/UnityProgress.js"></script>
+<script src="{{ site.baseurl }}/assets/webgl/Build/UnityLoader.js"></script>
 <script>
-    var gameInstance = UnityLoader.instantiate("gameContainer", "/assets/webgl/Build/3D-Demo.json", { onProgress: UnityProgress });
+    var gameInstance = UnityLoader.instantiate("gameContainer", "{{ site.baseurl }}/assets/webgl/Build/3D-Demo.json", { onProgress: UnityProgress });
 </script>

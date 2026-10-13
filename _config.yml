@@ -6,3 +6,7 @@ email: zeyapeng@outlook.com
 color_scheme: murphy
 google_analytics: UA-110465258-1
 portfolio-filters: [development, research, design]
+# Served at zeyapeng.com/2017 through the zeyapeng-com router project on Vercel.
+url: https://zeyapeng.com
+baseurl: /2017
+exclude: [vercel.json, README.md, LICENSE.txt, CNAME, Gemfile, Gemfile.lock, vendor]

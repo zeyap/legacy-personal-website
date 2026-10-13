@@ -7,13 +7,13 @@ var publications = [
             "title": "Cubicle: An Adaptive Educational Gaming Platform for Training Spatial Visualization Skills",
             "journal": "ACM Intelligent User Interfaces",
             "issue":"2018",
-            "link": "/cubicles/"
+            "link": "../cubicles/"
         },
         {
             "title": "User-Defined Gestures for Gestural Interaction: Extending from Hands to Other Body Parts.",
             "journal": "International Journal of Human-Computer Interaction",
             "issue": "2017.7, 1-13",
-            "link": "/gestures/"
+            "link": "../gestures/"
         },
 ];
 

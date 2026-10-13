@@ -22,9 +22,9 @@ skills: "Maya Modeling"
 <center>
 <div class="button-group">
     <button type="button" class="button button-pill button-tiny button-highlight">See HD Images</button>
-	<a href="/assets/images/overview.jpg" type="button" class="button button-pill button-tiny">overview</a>
-    <a href="/assets/images/midview.jpg" type="button" class="button button-pill button-tiny">midview</a>
-    <a href="/assets/images/insideview.jpg" type="button" class="button button-pill button-tiny">close shot</a>
+	<a href="{{ site.baseurl }}/assets/images/overview.jpg" type="button" class="button button-pill button-tiny">overview</a>
+    <a href="{{ site.baseurl }}/assets/images/midview.jpg" type="button" class="button button-pill button-tiny">midview</a>
+    <a href="{{ site.baseurl }}/assets/images/insideview.jpg" type="button" class="button button-pill button-tiny">close shot</a>
   </div>
   </center>
 
@@ -32,17 +32,17 @@ skills: "Maya Modeling"
     <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1000px;margin:0px auto 56px;">
         <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
             <ul class="amazingslider-slides" style="display:none;">
-                <li><img src="/assets/slider/images/model_overview.jpg" alt="model"  title="Overview" />
+                <li><img src="{{ site.baseurl }}/assets/slider/images/model_overview.jpg" alt="model"  title="Overview" />
                 </li>
-                <li><img src="/assets/slider/images/model_midview.jpg" alt="model_midview"  title="Midview" />
+                <li><img src="{{ site.baseurl }}/assets/slider/images/model_midview.jpg" alt="model_midview"  title="Midview" />
                 </li>
-                <li><img src="/assets/slider/images/model_insideview.jpg" alt="model_insideview"  title="Close shot" />
+                <li><img src="{{ site.baseurl }}/assets/slider/images/model_insideview.jpg" alt="model_insideview"  title="Close shot" />
                 </li>
             </ul>
             <ul class="amazingslider-thumbnails" style="display:none;">
-                <li><img src="/assets/slider/images/model_overview-tn.jpg" alt="model" title="Overview" /></li>
-                <li><img src="/assets/slider/images/model_midview-tn.jpg" alt="model_midview" title="Midview" /></li>
-                <li><img src="/assets/slider/images/model_insideview-tn.jpg" alt="model_insideview" title="Close shot" /></li>
+                <li><img src="{{ site.baseurl }}/assets/slider/images/model_overview-tn.jpg" alt="model" title="Overview" /></li>
+                <li><img src="{{ site.baseurl }}/assets/slider/images/model_midview-tn.jpg" alt="model_midview" title="Midview" /></li>
+                <li><img src="{{ site.baseurl }}/assets/slider/images/model_insideview-tn.jpg" alt="model_insideview" title="Close shot" /></li>
             </ul>
         <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive jQuery Image Slideshow">Responsive jQuery Image Slideshow</a></div>
         </div>
