@@ -7,34 +7,34 @@
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
   {% assign v = site.time | date: "%Y%m%d%H%M%S" %}
-  <link rel="shortcut icon" href="/assets/styles/avatar.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/styles/avatar.ico" type="image/x-icon" />
   <link rel="stylesheet" href="{{ "/assets/styles/core.css?v=" | append: v | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/styles/fontello.css?v=" | append: v | relative_url }}">
   <link rel="stylesheet" href="{{ page.color_scheme | default: site.color_scheme | default: "default" | prepend: "/assets/styles/highlighting/" | append: ".css?v=" | append: v | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/styles/buttons.css?v=" | append: v | relative_url }}">
-    <script defer src="/assets/js/fontawesome.js"></script>
-    <link href="/assets/font/roboto-condensed/roboto-condensed.css" rel="stylesheet">
+    <script defer src="{{ site.baseurl }}/assets/js/fontawesome.js"></script>
+    <link href="{{ site.baseurl }}/assets/font/roboto-condensed/roboto-condensed.css" rel="stylesheet">
     
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
   {% if page.mathjax or site.mathjax %}
-  <script src="/assets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  <script src="{{ site.baseurl }}/assets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
   <style>.MathJax_ExBox { font-family: serif; }</style>
   {% endif %}
 
     {% if page.flowchart %}
-    <script src="/assets/js/raphael.min.js"></script>
-    <script src="/assets/js/flowchart-latest.js"></script>
-    <script src="/assets/js/drawflowchart.js"></script>
-    <script src="/assets/js/charts_in_post/{{page.flowchart}}.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/raphael.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/flowchart-latest.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/drawflowchart.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/charts_in_post/{{page.flowchart}}.js"></script>
     {% endif %}
 
     {% if page.highchart %}
-    <script src="/assets/highcharts/highcharts.js"></script>
-    <script src="/assets/highcharts/modules/exporting.js"></script>
-    <script src="/assets/highcharts/jquery-1.8.3.min.js"></script>
-    <script src="/assets/highcharts/modules/drilldown.js"></script>
+    <script src="{{ site.baseurl }}/assets/highcharts/highcharts.js"></script>
+    <script src="{{ site.baseurl }}/assets/highcharts/modules/exporting.js"></script>
+    <script src="{{ site.baseurl }}/assets/highcharts/jquery-1.8.3.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/highcharts/modules/drilldown.js"></script>
     
     {% endif %}
 
@@ -42,7 +42,7 @@
   {% include google-analytics.html %}
   {% endif %}
 
-    <script src="/assets/slider/sliderengine/jquery.js"></script>
+    <script src="{{ site.baseurl }}/assets/slider/sliderengine/jquery.js"></script>
     {% if page.slider %}
     {% include slider-engine.html %}
     {% endif %}

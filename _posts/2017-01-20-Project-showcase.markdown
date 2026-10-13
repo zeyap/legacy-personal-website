@@ -39,9 +39,9 @@ duration: "Nov 2017 - Jan 2018"
 
 </div>
 		<div class="col">
-           <img src="/assets/images/mf_2.gif">
+           <img src="{{ site.baseurl }}/assets/images/mf_2.gif">
 
-		   <img src="/assets/images/mf_1.png">
+		   <img src="{{ site.baseurl }}/assets/images/mf_1.png">
         </div> 
 </div>
 
@@ -50,7 +50,7 @@ duration: "Nov 2017 - Jan 2018"
 <div class="container">
     <div class="row">
         <div class="col">
-		 <img src="/assets/images/ik.gif">
+		 <img src="{{ site.baseurl }}/assets/images/ik.gif">
         </div>
 		<div class="col">
 		 <h3>UFO Catcher</h3>

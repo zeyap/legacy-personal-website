@@ -1,9 +1,9 @@
 ﻿[lang^="en"]      { line-height: 1.3; @include font-serif; }
-@import url('/assets/font/supermercado-one/supermercado-one.css');
-@import url('/assets/font/open-sans/open-sans.css');
-@import url('/assets/font/ubuntu/ubuntu.css');
-@import url('/assets/font/ubuntu-condensed/ubuntu-condensed.css');
-@import url('/assets/font/ubuntu-mono/ubuntu-mono.css');
+@import url('../font/supermercado-one/supermercado-one.css');
+@import url('../font/open-sans/open-sans.css');
+@import url('../font/ubuntu/ubuntu.css');
+@import url('../font/ubuntu-condensed/ubuntu-condensed.css');
+@import url('../font/ubuntu-mono/ubuntu-mono.css');
 
 html{
     font-family: 'Roboto Condensed', sans-serif;

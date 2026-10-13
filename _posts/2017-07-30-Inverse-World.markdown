@@ -28,8 +28,8 @@ duration: "April - July 2017"
 <center>
 <div>
 <video width="900" height="563" controls="controls">
-  <source src="/assets/videos/inverse_world.mp4" type="video/mp4">
-  <track src="/assets/videos/inverse_world.vtt" kind="subtitles" srclang="en" label="English"/>
+  <source src="{{ site.baseurl }}/assets/videos/inverse_world.mp4" type="video/mp4">
+  <track src="{{ site.baseurl }}/assets/videos/inverse_world.vtt" kind="subtitles" srclang="en" label="English"/>
 </video>
 </div>
 </center>
@@ -40,38 +40,38 @@ duration: "April - July 2017"
     <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1000px;margin:0px auto 56px;">
         <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
             <ul class="amazingslider-slides" style="display:none;">
-                <li><img src="/assets/slider/images/inverseWorld.png" alt="Inverse World!"  title="Inverse World!" />
+                <li><img src="{{ site.baseurl }}/assets/slider/images/inverseWorld.png" alt="Inverse World!"  title="Inverse World!" />
                 </li>
-                <li><img src="/assets/slider/images/23.png" alt="Transition animation snapshot"  title="Transition animation snapshot" />
+                <li><img src="{{ site.baseurl }}/assets/slider/images/23.png" alt="Transition animation snapshot"  title="Transition animation snapshot" />
                 </li>
-                <li><img src="/assets/slider/images/scene1_1.png" alt="Transition animation snapshot"  title="Transition animation snapshot" />
+                <li><img src="{{ site.baseurl }}/assets/slider/images/scene1_1.png" alt="Transition animation snapshot"  title="Transition animation snapshot" />
                 </li>
-                <li><img src="/assets/slider/images/prototype.png" alt="Early prototype"  title="Early prototype" />
+                <li><img src="{{ site.baseurl }}/assets/slider/images/prototype.png" alt="Early prototype"  title="Early prototype" />
                 </li>
-                <li><img src="/assets/slider/images/main.png" alt="Main scene"  title="Main scene" />
+                <li><img src="{{ site.baseurl }}/assets/slider/images/main.png" alt="Main scene"  title="Main scene" />
                 </li>
-                <li><img src="/assets/slider/images/notebook_0.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels."  title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." />
+                <li><img src="{{ site.baseurl }}/assets/slider/images/notebook_0.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels."  title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." />
                 </li>
-                <li><img src="/assets/slider/images/notebook_1.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels."  title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." />
+                <li><img src="{{ site.baseurl }}/assets/slider/images/notebook_1.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels."  title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." />
                 </li>
-                <li><img src="/assets/slider/images/notebook_2.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels."  title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." />
+                <li><img src="{{ site.baseurl }}/assets/slider/images/notebook_2.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels."  title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." />
                 </li>
-                <li><img src="/assets/slider/images/notebook_3.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels."  title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." />
+                <li><img src="{{ site.baseurl }}/assets/slider/images/notebook_3.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels."  title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." />
                 </li>
-                <li><img src="/assets/slider/images/shoot.png" alt="buttons in mini-game scenes"  title="buttons in mini-game scenes" />
+                <li><img src="{{ site.baseurl }}/assets/slider/images/shoot.png" alt="buttons in mini-game scenes"  title="buttons in mini-game scenes" />
                 </li>
             </ul>
             <ul class="amazingslider-thumbnails" style="display:none;">
-                <li><img src="/assets/slider/images/inverseWorld-tn.png" alt="Inverse World!" title="Inverse World!" /></li>
-                <li><img src="/assets/slider/images/23-tn.png" alt="Transition animation snapshot" title="Transition animation snapshot" /></li>
-                <li><img src="/assets/slider/images/scene1_1-tn.png" alt="Transition animation snapshot" title="Transition animation snapshot" /></li>
-                <li><img src="/assets/slider/images/prototype-tn.png" alt="Early prototype" title="Early prototype" /></li>
-                <li><img src="/assets/slider/images/main-tn.png" alt="Main scene" title="Main scene" /></li>
-                <li><img src="/assets/slider/images/notebook_0-tn.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." /></li>
-                <li><img src="/assets/slider/images/notebook_1-tn.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." /></li>
-                <li><img src="/assets/slider/images/notebook_2-tn.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." /></li>
-                <li><img src="/assets/slider/images/notebook_3-tn.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." /></li>
-                <li><img src="/assets/slider/images/shoot-tn.png" alt="buttons in mini-game scenes" title="buttons in mini-game scenes" /></li>
+                <li><img src="{{ site.baseurl }}/assets/slider/images/inverseWorld-tn.png" alt="Inverse World!" title="Inverse World!" /></li>
+                <li><img src="{{ site.baseurl }}/assets/slider/images/23-tn.png" alt="Transition animation snapshot" title="Transition animation snapshot" /></li>
+                <li><img src="{{ site.baseurl }}/assets/slider/images/scene1_1-tn.png" alt="Transition animation snapshot" title="Transition animation snapshot" /></li>
+                <li><img src="{{ site.baseurl }}/assets/slider/images/prototype-tn.png" alt="Early prototype" title="Early prototype" /></li>
+                <li><img src="{{ site.baseurl }}/assets/slider/images/main-tn.png" alt="Main scene" title="Main scene" /></li>
+                <li><img src="{{ site.baseurl }}/assets/slider/images/notebook_0-tn.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." /></li>
+                <li><img src="{{ site.baseurl }}/assets/slider/images/notebook_1-tn.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." /></li>
+                <li><img src="{{ site.baseurl }}/assets/slider/images/notebook_2-tn.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." /></li>
+                <li><img src="{{ site.baseurl }}/assets/slider/images/notebook_3-tn.png" alt="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." title="Inference scene. User SCROLL horizontally to see clues(hexagons with illustration) in other levels." /></li>
+                <li><img src="{{ site.baseurl }}/assets/slider/images/shoot-tn.png" alt="buttons in mini-game scenes" title="buttons in mini-game scenes" /></li>
             </ul>
         <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive JavaScript Image Slideshow">Responsive JavaScript Image Slideshow</a></div>
         </div>

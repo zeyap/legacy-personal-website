@@ -24,7 +24,7 @@ duration: "MAR - JUN 2016"
 >**Safety briefing cards with real photos and cartoon pictures, which is more effective for comprehension?**
 >We investigate this by combining the eye-tracking technique and a simulated manipulation task. The work has been accepted by Chinese Journal of Applied Psychology '17.
 
- <a href="/assets/files/safety_card.pdf" class="button button-pill button-tiny button-highlight">Full paper</a> <a href="/assets/files/safety_card_translation.pdf" class="button button-pill button-tiny">Translated version</a>
+ <a href="{{ site.baseurl }}/assets/files/safety_card.pdf" class="button button-pill button-tiny button-highlight">Full paper</a> <a href="{{ site.baseurl }}/assets/files/safety_card_translation.pdf" class="button button-pill button-tiny">Translated version</a>
 
 <h2>Literature review</h2>
 
@@ -62,7 +62,7 @@ It is of great significance to improve the comprehensibility of airline safety b
 </table>
         </div>
 		<div class="col">
-		<img src="/assets/images/safetycards.png"/>
+		<img src="{{ site.baseurl }}/assets/images/safetycards.png"/>
         </div> 
     </div>
 </div>
@@ -95,7 +95,7 @@ It is of great significance to improve the comprehensibility of airline safety b
 		 
         </div>
 		<div class="col">
-		<img src="/assets/images/safetycards2.png">
+		<img src="{{ site.baseurl }}/assets/images/safetycards2.png">
 		 <div class="container">
     <div class="row">
         <div class="col">
@@ -120,7 +120,7 @@ It is of great significance to improve the comprehensibility of airline safety b
 
 <h3>Procedure</h3>
 
- ![](/assets/images/safetycards3.png)
+ ![]({{ site.baseurl }}/assets/images/safetycards3.png)
 
   <div class="container">
     <div class="row">
@@ -155,7 +155,7 @@ It is of great significance to improve the comprehensibility of airline safety b
 <div class="container">
     <div class="row">
         <div class="col">
-		 <img src="/assets/images/air jacket.png">
+		 <img src="{{ site.baseurl }}/assets/images/air jacket.png">
         </div>
 		<div class="col">
 		<p>40 participants (20 male/ 20 female) were recruited from Zhejiang University, 4 were screened out for eye-movement data loss</p>
@@ -205,7 +205,7 @@ It is of great significance to improve the comprehensibility of airline safety b
 		<h4>Result</h4>
 		<li>In mixture group, both FD & FC ratios are significantly than other 2 groups, based on statistical result and heat maps</li>
 <li>Bolstered our hypothesis that mixture design improves the comprehensibility by reducing irrelevant & attention-distractive details in background</li>
-		<img src="/assets/images/safetycards4.png"/>
+		<img src="{{ site.baseurl }}/assets/images/safetycards4.png"/>
 
         </div> 
     </div>
@@ -216,7 +216,7 @@ It is of great significance to improve the comprehensibility of airline safety b
 <div class="container">
     <div class="row">
         <div class="col">
-		 <img src="/assets/images/safetycards5.png">
+		 <img src="{{ site.baseurl }}/assets/images/safetycards5.png">
         </div>
 		<div class="col">
 		<h3>Subjective ratings & interview analysis</h3>

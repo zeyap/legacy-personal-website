@@ -33,7 +33,7 @@ This game aims to present a dating experience. In the process, players can contr
 <center>
 <div>
 <video width="900" height="563" controls="controls">
-  <source src="/assets/videos/ggj_group16.mp4" type="video/mp4">
+  <source src="{{ site.baseurl }}/assets/videos/ggj_group16.mp4" type="video/mp4">
 </video>
 </div>
 </center>

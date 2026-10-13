@@ -51,7 +51,7 @@ duration: "JUL - DEC 2015"
 <li>Surveyed online to select among the remaining commands by importance (M = 3.53, SD = 1.42)</li>
 		</div>
 		<div class="col">
-		<img src="/assets/images/questionaire.jpg">
+		<img src="{{ site.baseurl }}/assets/images/questionaire.jpg">
 		</div>
 </div>
 
@@ -74,7 +74,7 @@ duration: "JUL - DEC 2015"
 </div>
 		</div> 
 		<div class="col">
-		<img src="/assets/images/gesture_1.png">
+		<img src="{{ site.baseurl }}/assets/images/gesture_1.png">
         </div>
     </div>
 </div>
@@ -114,7 +114,7 @@ duration: "JUL - DEC 2015"
 
         </div>
 		<div class="col">
-		<script src="/assets/js/charts_in_post/highchart1_1.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/charts_in_post/highchart1_1.js"></script>
 						Taxonomy Dimension - 
 			<select id="taxodropdown" onchange="selectInput(this)">
 				<option  value="Binding">Binding</option>
@@ -127,7 +127,7 @@ duration: "JUL - DEC 2015"
 	   </div>
 	   <div class="row">
 	   <div class="col">
-	   <img src="/assets/images/mental model.jpg">
+	   <img src="{{ site.baseurl }}/assets/images/mental model.jpg">
 	   </div>
 	   <div class="col">
 	   <h4>Mental Model Observations</h4>
@@ -175,7 +175,7 @@ duration: "JUL - DEC 2015"
         </div>
 		<div class="col">
 		<div id="container2" style="width:100%; height:500px;"></div>
-		<script src="/assets/js/charts_in_post/highchart1_2.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/charts_in_post/highchart1_2.js"></script>
 	   </div>
 	</div>
 </div>
@@ -208,7 +208,7 @@ Subjective score was thus the focus, while REBA score was left out, and no Kinec
 	</div>
 	<div class="row">
 	<div class="col">
-	<img src="/assets/images/gesture_2.png">
+	<img src="{{ site.baseurl }}/assets/images/gesture_2.png">
 	</div>
 	<div class="col">
 	<h5>Generate Final Gesture Set</h5>
@@ -227,17 +227,17 @@ Subjective score was thus the focus, while REBA score was left out, and no Kinec
     <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:800px;margin:0px auto 56px;">
         <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
             <ul class="amazingslider-slides" style="display:none;">
-                <li><img src="/assets/slider/images/kinect_group.jpg" alt="kinect_group"  title="kinect_group" />
+                <li><img src="{{ site.baseurl }}/assets/slider/images/kinect_group.jpg" alt="kinect_group"  title="kinect_group" />
                 </li>
-                <li><img src="/assets/slider/images/gesture_exp2.jpg" alt="gesture_exp2"  title="gesture_exp2" />
+                <li><img src="{{ site.baseurl }}/assets/slider/images/gesture_exp2.jpg" alt="gesture_exp2"  title="gesture_exp2" />
                 </li>
-                <li><img src="/assets/slider/images/gesture_exp1.jpg" alt="gesture_exp1"  title="gesture_exp1" />
+                <li><img src="{{ site.baseurl }}/assets/slider/images/gesture_exp1.jpg" alt="gesture_exp1"  title="gesture_exp1" />
                 </li>
             </ul>
             <ul class="amazingslider-thumbnails" style="display:none;">
-                <li><img src="/assets/slider/images/kinect_group-tn.jpg" alt="kinect_group" title="kinect_group" /></li>
-                <li><img src="/assets/slider/images/gesture_exp2-tn.jpg" alt="gesture_exp2" title="gesture_exp2" /></li>
-                <li><img src="/assets/slider/images/gesture_exp1-tn.jpg" alt="gesture_exp1" title="gesture_exp1" /></li>
+                <li><img src="{{ site.baseurl }}/assets/slider/images/kinect_group-tn.jpg" alt="kinect_group" title="kinect_group" /></li>
+                <li><img src="{{ site.baseurl }}/assets/slider/images/gesture_exp2-tn.jpg" alt="gesture_exp2" title="gesture_exp2" /></li>
+                <li><img src="{{ site.baseurl }}/assets/slider/images/gesture_exp1-tn.jpg" alt="gesture_exp1" title="gesture_exp1" /></li>
             </ul>
         <div class="amazingslider-engine"><a href="http://amazingslider.com" title="jQuery Image Slideshow">jQuery Image Slideshow</a></div>
         </div>

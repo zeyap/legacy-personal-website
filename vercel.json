@@ -1,0 +1,7 @@
+{
+  "framework": "jekyll",
+  "installCommand": "bundle install",
+  "buildCommand": "bundle exec jekyll build",
+  "outputDirectory": "_site",
+  "rewrites": [{ "source": "/2017/(.*)", "destination": "/$1" }]
+}

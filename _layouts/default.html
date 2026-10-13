@@ -22,12 +22,12 @@ layout: blank
             <tr>
                 <td id="navbar">
                     <div class="side-nav">
-                        <a href="/"><h3 class="side-filter side-filter-hover" id="all">portfolio</h3></a>
+                        <a href="{{ site.baseurl }}/"><h3 class="side-filter side-filter-hover" id="all">portfolio</h3></a>
                             <h5 class="side-filter side-filter-hover side-filter-children" id="development">development</h5>
                             <h5 class="side-filter side-filter-hover side-filter-children" id="research">research</h5>
                             <h5 class="side-filter side-filter-hover side-filter-children" id="design">design</h5>
-                            <a href="/posts"><h3 class="side-filter side-filter-line-above">blog</h3></a>
-                            <a href="/about"><h3 class="side-filter side-filter-line-above">about</h3></a>
+                            <a href="{{ site.baseurl }}/posts"><h3 class="side-filter side-filter-line-above">blog</h3></a>
+                            <a href="{{ site.baseurl }}/about"><h3 class="side-filter side-filter-line-above">about</h3></a>
                 </div>
                     
                 </td>
@@ -55,11 +55,11 @@ layout: blank
                 {% endif %}
             </tr>
         </tablewidth="100%">
-        <script type="text/javascript" src="/assets/js/side-nav.js"></script>
+        <script type="text/javascript" src="{{ site.baseurl }}/assets/js/side-nav.js"></script>
 
 
     {% if page.timeline %}
-    <script src="/assets/js/resume.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/resume.js"></script>
     {% endif %}
 
 </body>

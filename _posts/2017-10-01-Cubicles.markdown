@@ -20,13 +20,13 @@ duration: "JUL - SEP 2017"
 
 ---
 
->'Cubicles' is a game aimed to motivate students to engage in spatial visualization skill training. The work has been accepted by ACM IUI (intelligent user interface) 2018. [See full paper here.](/assets/files/cubicle.pdf)
+>'Cubicles' is a game aimed to motivate students to engage in spatial visualization skill training. The work has been accepted by ACM IUI (intelligent user interface) 2018. [See full paper here.]({{ site.baseurl }}/assets/files/cubicle.pdf)
 
  <center>
   <div class="button-group">
-    <a href="/assets/files/Cubicles_Mac_0929.app.zip" class="button button-pill button-highlight button-tiny">Mac</a>
-    <a href="/assets/files/Cubicles_Win32_0929.zip" class="button button-pill button-highlight button-tiny">Win32</a>
-    <a href="/assets/files/Cubicles_Win64_0929.zip" class="button button-pill button-highlight button-tiny">Win64</a>
+    <a href="{{ site.baseurl }}/assets/files/Cubicles_Mac_0929.app.zip" class="button button-pill button-highlight button-tiny">Mac</a>
+    <a href="{{ site.baseurl }}/assets/files/Cubicles_Win32_0929.zip" class="button button-pill button-highlight button-tiny">Win32</a>
+    <a href="{{ site.baseurl }}/assets/files/Cubicles_Win64_0929.zip" class="button button-pill button-highlight button-tiny">Win64</a>
 	<a href="https://github.com/zeyap/3D-Demo" class="button button-pill button-tiny">Project repository</a>
   </div>
 </center> 
@@ -46,18 +46,18 @@ duration: "JUL - SEP 2017"
     <div class="row">
 		<div class="col">
 		<h4>Exercise Materials</h4>
-		<img src="/assets/images/sorby.jpg">
+		<img src="{{ site.baseurl }}/assets/images/sorby.jpg">
 		</div>
         <div class="col">
 		<h4>Educational Applications</h4>
-		<img src="/assets/images/spatialVis.png">
+		<img src="{{ site.baseurl }}/assets/images/spatialVis.png">
 		</div>
 		<div class="col">
 		<h4>Commercial Games</h4>
-		<img src="/assets/images/fez.png">
-		<img src="/assets/images/shadowmatic.png">
-		<img src="/assets/images/platie.jpeg">
-		<img src="/assets/images/outfolded.jpg">
+		<img src="{{ site.baseurl }}/assets/images/fez.png">
+		<img src="{{ site.baseurl }}/assets/images/shadowmatic.png">
+		<img src="{{ site.baseurl }}/assets/images/platie.jpeg">
+		<img src="{{ site.baseurl }}/assets/images/Outfolded.jpg">
 
 		</div>
 
@@ -97,7 +97,7 @@ duration: "JUL - SEP 2017"
             <p>Platform collects in-game behavior in detail to infer a player's problem-solving strategy and react by adjusting game difficulty or repeating failed challenges.</p>
         </div>
         <div class="col">
-            <img src="/assets/images/maze.png">
+            <img src="{{ site.baseurl }}/assets/images/maze.png">
         </div>
     </div>
 </div>
@@ -105,7 +105,7 @@ duration: "JUL - SEP 2017"
 <div class="container">
         <div class="row">
             <div class="col">
-                <img src="/assets/images/cubicles.png">
+                <img src="{{ site.baseurl }}/assets/images/cubicles.png">
             </div>
             <div class="col">
                 <table>
@@ -167,7 +167,7 @@ duration: "JUL - SEP 2017"
 	<div class="row">
 	<div class="col">
 	<h4>Ideation 1: Navigation in a labyrinth</h4>
-	<img src="/assets/images/dungeon_prototype.gif"> 
+	<img src="{{ site.baseurl }}/assets/images/dungeon_prototype.gif"> 
 	<i>Mid-Fi prototype made with Unity 3D</i>
 
 </div>
@@ -190,7 +190,7 @@ duration: "JUL - SEP 2017"
 	<div class="row">
 		<div class="col">
 		<h4>Ideation 2: Cube Shift V1.0</h4>
-		<img src="/assets/images/cubeshift_prototype.gif"> 
+		<img src="{{ site.baseurl }}/assets/images/cubeshift_prototype.gif"> 
 		<i>Mid-Fi prototype made with Unity 3D</i>
 		</div>
 		<div class="col">
@@ -199,7 +199,7 @@ duration: "JUL - SEP 2017"
  
 		<p>The game requires students to direct their attention to the image on the cubes regardless of the distraction of shifting movement, and to retain memory of previous configurations of the cube.It resembles the n-back tasks by Wayne Kirchner, and Dot Memory task that tap into STM.</p>
 
-		<img src="/assets/images/nback.jpeg">
+		<img src="{{ site.baseurl }}/assets/images/nback.jpeg">
 
 		<p>Still, the game, even at the easiest level, was considered too complex to follow the instruction by some users. </p>
 
@@ -213,14 +213,14 @@ duration: "JUL - SEP 2017"
 		<li>Clarified the expressions of in-game instructions; a detailed explanation(as right illustration shows) could be accessed at any time</li>
 		</div>
 		<div class="col">
-		<img src="/assets/images/cubeshift_example.png">
+		<img src="{{ site.baseurl }}/assets/images/cubeshift_example.png">
 		</div>
 		</div>
 </div>
 
 <center>
 		<video width="900" height="563" controls="controls">
-		  <source src="/assets/videos/cube_shift.mp4" type="video/mp4" />
+		  <source src="{{ site.baseurl }}/assets/videos/cube_shift.mp4" type="video/mp4" />
 		</video>
 </center>
 
@@ -231,7 +231,7 @@ duration: "JUL - SEP 2017"
         <div class="col">
 		 <h3>Shape Revolving </h3>
 		 <h4>Ideation</h4>
-		 <img src="/assets/images/revolvingsolid.gif">
+		 <img src="{{ site.baseurl }}/assets/images/revolvingsolid.gif">
 
         </div>
 		<div class="col">
@@ -241,7 +241,7 @@ duration: "JUL - SEP 2017"
 		<li>Draw a line on the shape to indicate the revolving axis</li>
 		</p>
 		<p>The second game is a gamified adaptation of <i>Rotation of Objects about Axes</i> on previous online platform. It aims to improve players' understanding of surfaces and solids from revolution. To succeed in the game, players have to mentally revolve a 2D shape about an axis and visualize the created 3D model.</p>
-<img src="/assets/images/shape revolving1.png">
+<img src="{{ site.baseurl }}/assets/images/shape revolving1.png">
         </div> 
     </div>
 	<h4>Design Decisions</h4>
@@ -249,12 +249,12 @@ duration: "JUL - SEP 2017"
 	<div class="col">
 	<p>
 	<li>Lower the difficulty of introductory levels</li>
-	<img src="/assets/images/rs_t.png">
+	<img src="{{ site.baseurl }}/assets/images/rs_t.png">
 	</p>
 	</div>
 	<div class="col">
 	<li>Tutorials becomes adaptive: if the player make more than a certain amount of errors, the game will indicate the right answer by animation</li>
-	<img src="/assets/images/rs_intro.gif">
+	<img src="{{ site.baseurl }}/assets/images/rs_intro.gif">
 	</div>
 	
 	</div>
@@ -262,7 +262,7 @@ duration: "JUL - SEP 2017"
 
 <center>
 <video width="900" height="563" controls="controls">
-  <source src="/assets/videos/revolve.mp4" type="video/mp4" />
+  <source src="{{ site.baseurl }}/assets/videos/revolve.mp4" type="video/mp4" />
 </video>
 </center>
 
